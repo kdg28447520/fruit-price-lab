@@ -39,7 +39,7 @@
 <section id="varietySection" class="box" hidden><span class="step">STEP 02 · 품종 선택</span><div class="bread" id="bread"></div><h2 id="varietyHeading">품종 선택</h2><p class="sub">홍로·후지처럼 공식 데이터에 등록된 실제 품종만 표시합니다.</p><div id="varietyGrid" class="variety-grid"></div></section>
 <section id="detailSection" class="box" hidden><span class="step">STEP 03 · 실측 가격 확인</span>
 <div class="detail-top"><div><div class="bread" id="detailBread"></div><div class="detail-name" id="detailName"></div><p class="sub" id="detailNote"></p></div><img class="detail-image" id="detailImage" alt="" loading="lazy"></div>
-<div class="compare"><div class="metric"><div class="label">🏷 중도매 1kg 환산가격</div><div class="number" id="wholesaleValue">—</div><div class="extra" id="wholesaleCount"></div></div><div class="metric retail"><div class="label">🛒 소매 1kg 환산가격</div><div class="number" id="retailValue">—</div><div class="extra" id="retailCount"></div></div></div>
+<div class="compare"><div id="specialMetric" class="metric" hidden><div id="specialLabel" class="label"></div><div class="number" id="specialValue"></div><div class="extra" id="specialCount"></div></div><div class="metric"><div class="label">🏷 중도매 1kg 환산가격</div><div class="number" id="wholesaleValue">—</div><div class="extra" id="wholesaleCount"></div></div><div class="metric retail"><div class="label">🛒 소매 1kg 환산가격</div><div class="number" id="retailValue">—</div><div class="extra" id="retailCount"></div></div></div>
 <div class="headrow"><h2 style="margin:0">지역·시장별 조사 가격</h2><label class="hint">지역 <select id="regionSelect" style="padding:9px;border:1px solid #d9e7dd;border-radius:9px;background:white"></select></label></div>
 <div class="tablewrap"><table><thead><tr><th>지역·시장</th><th>구분</th><th>등급·거래단위</th><th>1kg 환산</th><th>조사일</th></tr></thead><tbody id="priceRows"></tbody></table></div>
 <div class="chartbox"><div class="charthead"><div><h2 style="margin:0">최근 가격 추이</h2><p class="sub">최근 10일 중 실제 조사일만 표시 · 품종/유형별 kg 환산 중간값</p></div><div style="display:flex;gap:8px;flex-wrap:wrap"><select id="periodSelect" aria-label="가격 추이 기간"><option value="7">7일</option><option value="30">30일</option><option value="90">90일</option><option value="365" selected>1년</option></select><select id="kindSelect" aria-label="가격 추이 구분"><option value="중도매">중도매</option><option value="소매">소매</option></select></div></div><svg id="trendChart" class="chart" viewBox="0 0 650 205" role="img" aria-label="최근 공식 시세 추이"></svg><div id="trendInfo" class="legend"></div></div>
@@ -135,8 +135,8 @@ const rows=groups(fruit),all=types(rows,fruit);
 $('bread').textContent='과일 전체 > '+fruit;
 $('varietyHeading').textContent=fruit+' 품종을 선택하세요';
 $('varietyGrid').innerHTML=all.map(v=>{
-const sub=rows.filter(x=>(x.variety||'미분류')===v),mid=priceInfo(fruit,v,'중도매'),ret=priceInfo(fruit,v,'소매'),photo=VARIETY_PHOTO[fruit+'|'+v]||PHOTO[fruit],isSpecific=!!VARIETY_PHOTO[fruit+'|'+v];
-return '<button type="button" class="variety-card '+(v===variety?'active':'')+'" data-variety="'+html(v)+'"><div style="position:relative">'+pic(photo,'',v+' '+fruit)+'</div><div class="variety-copy"><div class="variety-name">'+html(v==='미분류'?fruit+' (품종 미분류)':v+fruit)+'</div><div class="hint">'+(isSpecific?'품종 사진':'품목 대표 사진')+'</div><div class="variety-price">'+(mid?fmt(mid.price)+'/kg':ret?'소매 '+fmt(ret.price)+'/kg':'가격정보 확인')+'</div><div class="hint">'+(mid?'중도매 · 조사일 '+mid.date:ret?'소매 · 조사일 '+ret.date:'')+'</div></div><div class="variety-next">›</div></button>';
+const sub=rows.filter(x=>(x.variety||'미분류')===v),mid=priceInfo(fruit,v,'중도매'),ret=priceInfo(fruit,v,'소매'),arch=yearVariety(fruit,v),otherType=Object.keys(arch?.kinds||{}).find(k=>!k.includes('중도매')&&!k.includes('소매')),other=otherType?priceInfo(fruit,v,otherType):null,chosen=mid||ret||other,chosenType=mid?'중도매':ret?'소매':otherType,photo=VARIETY_PHOTO[fruit+'|'+v]||PHOTO[fruit],isSpecific=!!VARIETY_PHOTO[fruit+'|'+v];
+return '<button type="button" class="variety-card '+(v===variety?'active':'')+'" data-variety="'+html(v)+'"><div style="position:relative">'+pic(photo,'',v+' '+fruit)+'</div><div class="variety-copy"><div class="variety-name">'+html(v==='미분류'?fruit+' (품종 미분류)':v+fruit)+'</div><div class="hint">'+(isSpecific?'품종 사진':'품목 대표 사진')+'</div><div class="variety-price">'+(chosen?fmt(chosen.price)+'/kg':'가격 확인 중')+'</div><div class="hint">'+(chosen?html(chosenType)+' · 마지막 조사일 '+chosen.date:'')+'</div></div><div class="variety-next">›</div></button>';
 }).join('');
 $('varietyGrid').querySelectorAll('[data-variety]').forEach(b=>b.onclick=()=>selectVariety(b.dataset.variety,true));
 $('detailSection').hidden=!variety;
@@ -147,7 +147,17 @@ function renderDetail(){
 if(!variety){$('detailSection').hidden=true;return}
 $('detailSection').hidden=false;
 const vName=variety==='미분류'?fruit:variety+fruit,photo=VARIETY_PHOTO[fruit+'|'+variety]||PHOTO[fruit];
-const whInfo=priceInfo(fruit,variety,'중도매'),rtInfo=priceInfo(fruit,variety,'소매');const lastDate=[whInfo?.date,rtInfo?.date].filter(Boolean).sort().at(-1);
+const whInfo=priceInfo(fruit,variety,'중도매'),rtInfo=priceInfo(fruit,variety,'소매');
+const extraTypes=[...new Set([...Object.keys(yearVariety(fruit,variety)?.kinds||{}),...relevant().map(x=>x.kind)])].filter(k=>k&&!k.includes('중도매')&&!k.includes('소매'));
+const extraType=extraTypes.sort((a,b)=>(priceInfo(fruit,variety,b)?.date||'').localeCompare(priceInfo(fruit,variety,a)?.date||''))[0];
+const extraInfo=extraType?priceInfo(fruit,variety,extraType):null;
+const lastDate=[whInfo?.date,rtInfo?.date,extraInfo?.date].filter(Boolean).sort().at(-1);
+const kinds=[...new Set([...relevant().map(x=>x.kind),...Object.keys(yearVariety(fruit,variety)?.kinds||{})])].filter(Boolean);
+const ks=kinds.filter(k=>priceInfo(fruit,variety,k));
+$('kindSelect').innerHTML=ks.map(k=>'<option value="'+html(k)+'">'+html(k)+'</option>').join('');
+$('kindSelect').value=ks.find(x=>x.includes('중도매'))||ks.find(x=>x.includes('소매'))||ks[0]||'중도매';
+$('specialMetric').hidden=!extraInfo;
+if(extraInfo){$('specialLabel').textContent='🌿 '+extraType+' 1kg 환산가격';$('specialValue').textContent=fmt(extraInfo.price);$('specialCount').textContent='마지막 조사일 '+extraInfo.date;}
 $('detailBread').textContent='과일 > '+fruit+' > '+vName;
 $('detailName').textContent=vName+' 시세';
 $('detailNote').textContent='전국 시장별 실측가 중간값 · 조사일 '+(lastDate||surveyDate)+(VARIETY_PHOTO[fruit+'|'+variety]?' · 품종 실물 사진':' · 사진은 '+fruit+' 대표 이미지');
