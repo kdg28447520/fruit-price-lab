@@ -19,6 +19,7 @@ const dom=new JSDOM(html,{url:'https://fruit-price-lab.example.test/',runScripts
    if(String(url).startsWith('/data/year-index.json'))return {ok:true,json:async()=>yearly};
    if(String(url).startsWith('/data/sourcing-history.json'))return {ok:true,json:async()=>({samples:sourcingHistory})};
    if(String(url).startsWith('/api/prices'))return {ok:true,json:async()=>({live:true,...latest,history:history.samples,varietySummaries:summaries})};
+   if(String(url).startsWith('/api/search-trends'))return {ok:true,json:async()=>({ok:true,configured:true,complete:true,period:{endDate:'2026-10-09'},items:[...new Set(latest.items.map(x=>x.name))].map(name=>({name,status:'up',change:24.5}))})};
    if(String(url).startsWith('/data/history/')){
  const code=String(url).split('/').at(-1).split('.')[0];
  try{const file=JSON.parse(fs.readFileSync('data/history/'+code+'.json','utf8'));return {ok:true,status:200,json:async()=>file}}
@@ -77,8 +78,10 @@ const wait=ms=>new Promise(resolve=>setTimeout(resolve,ms));
  pass('Sourcing TOP 10 uses observed wholesale fruits',shouldRank?tops.length===Math.min(10,seenFruit.size):tops.length===0,'ranked='+tops.length+' observed='+seenFruit.size+' staleAge='+staleAge);
  pass('Sourcing candidates show surveyed 1kg median',!shouldRank||tops.every(x=>x.textContent.includes('중도매 1kg 참고가')&&x.textContent.includes('원')));
  pass('Sourcing data source supports historical comparisons',!shouldRank||sourcingHistory.length>0&&tops.some(x=>!x.textContent.includes('비교자료 부족')));
- const signalKinds=[['all',null],['watch','watch'],['drop','drop'],['entry','entry']];
- pass('Four sourcing signal filters present',!shouldRank||doc.querySelectorAll('[data-sourcing-filter]').length===4);
+ const signalKinds=[['all',null],['watch','watch'],['drop','drop'],['entry','entry'],['opportunity','opportunity']];
+ pass('Five sourcing signal filters present',!shouldRank||doc.querySelectorAll('[data-sourcing-filter]').length===5);
+ pass('Naver relative search data shown when API responds',doc.querySelector('#searchInterestStatus')?.textContent?.includes('네이버 통합검색 상대지수'));
+ pass('Search data is explicitly not order volume',doc.querySelector('#sourcing')?.textContent?.includes('절대 검색량'));
  if(shouldRank&&tops.length){
   for(const [key,css] of signalKinds){
    const button=doc.querySelector('[data-sourcing-filter="'+key+'"]');
@@ -89,7 +92,7 @@ const wait=ms=>new Promise(resolve=>setTimeout(resolve,ms));
    pass('Sourcing signal '+key+' filters cards',button&&Number.isFinite(expected)&&displayed.length===expected&&observed,'shown='+displayed.length+' expected='+expected);
    pass('Sourcing signal '+key+' has pressed state',doc.querySelector('[data-sourcing-filter="'+key+'"]')?.getAttribute('aria-pressed')==='true');
   }
-  pass('Sourcing badges clarify signals and data caveats',doc.querySelector('#sourcing')?.textContent.includes('네이버 검색 트렌드')&&doc.querySelector('#sourcing')?.textContent.includes('쿠팡 판매 실적'));
+  pass('Sourcing badges clarify signals and data caveats',doc.querySelector('#sourcing')?.textContent.includes('상대지수')&&doc.querySelector('#sourcing')?.textContent.includes('구매량'));
  }
  if(shouldRank&&tops.length){
   tops[0].querySelector('[data-sourcing-view]')?.click();
