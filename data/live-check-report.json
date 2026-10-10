@@ -1,9 +1,9 @@
 {
-  "testedAt": "2026-10-10T08:36:44.068Z",
+  "testedAt": "2026-10-10T08:37:02.528Z",
   "base": "https://fruit-price-lab-kdg2844-8355s-projects.vercel.app",
   "total": 7,
-  "passed": 6,
-  "failed": 1,
+  "passed": 7,
+  "failed": 0,
   "tests": [
     {
       "name": "Homepage delivers HTML",
@@ -27,8 +27,8 @@
     },
     {
       "name": "Annual active-variety list is available",
-      "passed": false,
-      "error": "HTTP 200 false"
+      "passed": true,
+      "status": 200
     },
     {
       "name": "Fuji one-year historical series available",
