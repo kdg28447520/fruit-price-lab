@@ -1,0 +1,63 @@
+{
+  "testedAt": "2026-10-10T10:32:00.030Z",
+  "total": 14,
+  "passed": 14,
+  "checks": [
+    {
+      "check": "Homepage included in output",
+      "passed": true
+    },
+    {
+      "check": "Open Graph image tag",
+      "passed": true
+    },
+    {
+      "check": "OG title matches HTML title",
+      "passed": true
+    },
+    {
+      "check": "OG description matches SEO description",
+      "passed": true
+    },
+    {
+      "check": "Favicon linked",
+      "passed": true
+    },
+    {
+      "check": "Surveyed date and fetch check time code",
+      "passed": true
+    },
+    {
+      "check": "robots.txt includes sitemap",
+      "passed": true
+    },
+    {
+      "check": "Sitemap contains root once",
+      "passed": true
+    },
+    {
+      "check": "SVG favicon well-formed root",
+      "passed": true
+    },
+    {
+      "check": "OG JPEG signature and size limit",
+      "passed": true
+    },
+    {
+      "check": "OG image exactly 1200x630",
+      "passed": true
+    },
+    {
+      "check": "Apple photos remain available",
+      "passed": true
+    },
+    {
+      "check": "Historic price dataset preserved",
+      "passed": true
+    },
+    {
+      "check": "No API secrets or scripts published",
+      "passed": true
+    }
+  ]
+}
