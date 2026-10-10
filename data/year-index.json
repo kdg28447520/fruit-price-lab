@@ -3,9 +3,9 @@
   "basis": "지역/시장별 1kg 환산 실측값을 날짜·품종·거래유형 단위로 묶어 중간값 적용",
   "range": {
     "from": "20251010",
-    "to": "2026undefined10undefined10"
+    "to": "20261010"
   },
-  "generatedAt": "2026-10-10T08:33:20.619Z",
+  "generatedAt": "2026-10-10T08:34:26.619Z",
   "itemCount": 20,
   "varietyCount": 34,
   "totalObservedGroupDays": 8172,
