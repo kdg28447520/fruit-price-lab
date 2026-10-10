@@ -1,82 +1,10 @@
 {
   "itemCode": "414",
   "source": "한국농수산식품유통공사 일별 도·소매 가격정보",
-  "basis": "지역/등급 합산하지 않고 품종별·거래유형별 1kg 환산가격 중간값",
-  "from": "20251010",
-  "to": "20261010",
+  "basis": "품종·거래유형별 시장/지역 1kg 환산가격 중간값",
+  "from": "20251011",
+  "to": "20261011",
   "samples": [
-    {
-      "date": "20251010",
-      "name": "포도",
-      "variety": "거봉",
-      "kind": "소매",
-      "price": 9950,
-      "sampleCount": 38
-    },
-    {
-      "date": "20251010",
-      "name": "포도",
-      "variety": "거봉",
-      "kind": "중도매",
-      "price": 8150,
-      "sampleCount": 10
-    },
-    {
-      "date": "20251010",
-      "name": "포도",
-      "variety": "샤인머스켓",
-      "kind": "소매",
-      "price": 7200,
-      "sampleCount": 50
-    },
-    {
-      "date": "20251010",
-      "name": "포도",
-      "variety": "샤인머스켓",
-      "kind": "중도매",
-      "price": 5000,
-      "sampleCount": 10
-    },
-    {
-      "date": "20251010",
-      "name": "포도",
-      "variety": "캠벨얼리",
-      "kind": "소매",
-      "price": 7440,
-      "sampleCount": 57
-    },
-    {
-      "date": "20251010",
-      "name": "포도",
-      "variety": "캠벨얼리",
-      "kind": "중도매",
-      "price": 5800,
-      "sampleCount": 10
-    },
-    {
-      "date": "20251010",
-      "name": "포도",
-      "variety": "캠벨얼리",
-      "kind": "친환경농산물(신규)",
-      "price": 10600,
-      "sampleCount": 1
-    },
-    {
-      "date": "20251010",
-      "name": "포도",
-      "variety": "MBA",
-      "kind": "소매",
-      "price": 5660,
-      "sampleCount": 36
-    },
-    {
-      "date": "20251010",
-      "name": "포도",
-      "variety": "MBA",
-      "kind": "중도매",
-      "price": 4000,
-      "sampleCount": 10
-    },
     {
       "date": "20251013",
       "name": "포도",
