@@ -1,7 +1,7 @@
 {
-  "testedAt": "2026-10-10T14:37:15.996Z",
-  "total": 32,
-  "passed": 32,
+  "testedAt": "2026-10-10T14:38:00.650Z",
+  "total": 42,
+  "passed": 42,
   "failed": 0,
   "fruitCategories": 20,
   "variantClicks": 34,
@@ -85,6 +85,46 @@
     },
     {
       "name": "Sourcing data source supports historical comparisons",
+      "passed": true
+    },
+    {
+      "name": "Four sourcing signal filters present",
+      "passed": true
+    },
+    {
+      "name": "Sourcing signal all filters cards",
+      "passed": true
+    },
+    {
+      "name": "Sourcing signal all has pressed state",
+      "passed": true
+    },
+    {
+      "name": "Sourcing signal watch filters cards",
+      "passed": true
+    },
+    {
+      "name": "Sourcing signal watch has pressed state",
+      "passed": true
+    },
+    {
+      "name": "Sourcing signal drop filters cards",
+      "passed": true
+    },
+    {
+      "name": "Sourcing signal drop has pressed state",
+      "passed": true
+    },
+    {
+      "name": "Sourcing signal entry filters cards",
+      "passed": true
+    },
+    {
+      "name": "Sourcing signal entry has pressed state",
+      "passed": true
+    },
+    {
+      "name": "Sourcing badges clarify signals and data caveats",
       "passed": true
     },
     {
