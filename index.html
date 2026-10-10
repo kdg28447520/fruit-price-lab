@@ -42,11 +42,21 @@
 @media(max-width:820px){.fruit-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.hero-art{font-size:50px}.seo{grid-template-columns:1fr}}
 @media(max-width:620px){.wrap{width:calc(100% - 30px)}.topbar{height:64px}.brand{font-size:19px}.source-pill{padding:6px 9px;font-size:10px}.hero{padding:22px;min-height:175px}.hero-art{font-size:35px}.hero h1{font-size:24px}.box{padding:17px;border-radius:17px}.fruit-grid,.variety-grid,.compare{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.photo{height:116px}.fruit-body{padding:12px 10px 0}.fruit-title{font-size:17px}.fruit-price{font-size:17px}.variety-card{padding:9px;gap:8px}.variety-card.active{padding:8px}.variety-card img{width:58px;height:60px;flex-basis:58px}.variety-name{font-size:14px}.variety-price{font-size:15px}.variety-next{display:none}.detail-name{font-size:23px}.detail-image{width:110px;height:104px}.metric{padding:12px}.metric .number{font-size:20px}.formgrid{grid-template-columns:1fr}.months{grid-template-columns:repeat(4,1fr)}}
 @media(max-width:380px){.fruit-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.hero-art{display:none}}
+.sourcing-summary{margin-top:17px;background:#eff8f1;border:1px solid #dcecdf;padding:13px 15px;border-radius:12px;font-size:13px;color:#34634d;line-height:1.65}
+.sourcing-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-bottom:18px}
+.sourcing-card{background:white;border:1px solid #e1eae3;border-radius:19px;overflow:hidden;padding:19px;box-shadow:0 3px 13px #234b2510;min-width:0}
+.sourcing-top{display:flex;gap:13px;align-items:center}.sourcing-rank{display:grid;place-items:center;width:34px;height:34px;border-radius:11px;background:#eaf6ed;color:#167c4c;font-size:14px;font-weight:900;flex:none}
+.sourcing-card:nth-child(-n+3) .sourcing-rank{background:#e4f5b6;color:#4a620e}
+.sourcing-photo{width:79px;height:77px;border-radius:12px;background:#eef5ec;overflow:hidden;flex:none}.sourcing-photo img{width:100%;height:100%;object-fit:cover}.sourcing-title{font-size:17px;font-weight:900;color:#203e2d;letter-spacing:-.4px}.sourcing-sub{font-size:12px;color:#6f8074;margin-top:6px;line-height:1.5}
+.sourcing-facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:16px 0}.sourcing-fact{border-radius:12px;background:#f5f9f6;padding:12px 10px;min-width:0}.sourcing-fact small{display:block;color:#698271;font-size:11px;line-height:1.6}.sourcing-fact strong{display:block;color:#203f2f;font-size:17px;margin:3px 0;letter-spacing:-.5px}.sourcing-fact em{font-style:normal;color:#788679;font-size:10px}
+.sourcing-reason{font-size:12px;color:#446450;line-height:1.7;background:#f4f9f2;border-radius:11px;padding:10px 11px;margin:0 0 14px}
+.sourcing-actions{display:flex;gap:8px;flex-wrap:wrap}.sourcing-actions button{border:1px solid #cbdcce;background:#fff;color:#237a4b;border-radius:9px;font-weight:800;font-size:12px;padding:10px 11px;cursor:pointer}.sourcing-actions button:first-child{background:#169263;border-color:#169263;color:white}
+@media(max-width:620px){.sourcing-grid{grid-template-columns:1fr}.sourcing-card{padding:15px}.sourcing-photo{width:68px;height:65px}.sourcing-facts{gap:7px}}
 </style></head><body>
 <header class="top"><div class="wrap topbar"><div class="brand">🍏 제철과일 <b>시세 연구소</b></div><span class="source-pill">aT 공공데이터 연동</span></div></header>
 <main class="wrap">
 <section class="hero"><div><div class="eyebrow">매일 확인하는 전국 과일 시세</div><h1>과일을 고르고,<br><em>품종별 가격을 비교하세요.</em></h1><p>사과 → 홍로사과 → 도매·소매 가격과 추이까지</p></div><div class="hero-art" aria-hidden="true">🍎🍊</div></section>
-<nav class="tabs" aria-label="기능"><button class="on" data-tab="prices">📊 과일 시세</button><button data-tab="seller">🧮 셀러 마진</button><button data-tab="calendar">📅 제철 달력</button></nav>
+<nav class="tabs" aria-label="기능"><button class="on" data-tab="prices">📊 과일 시세</button><button data-tab="sourcing">🔥 이번 달 TOP 10</button><button data-tab="seller">🧮 셀러 마진</button><button data-tab="calendar">📅 제철 달력</button></nav>
 <section id="prices" class="panel on">
 <div class="box"><div class="headrow"><div><span class="step">STEP 01 · 과일 선택</span><h2>어떤 과일의 가격이 궁금하세요?</h2><p class="sub">실제 과일 사진을 눌러 품종별 조사 시세를 확인하세요.</p></div><div id="status" class="status"><span class="dot"></span> 공식 시세 불러오는 중…</div></div>
 <div id="fruitGrid" class="fruit-grid"><p class="sub">농산물 정보를 불러오고 있습니다.</p></div></div>
@@ -59,6 +69,14 @@
 <div class="chartbox"><div class="charthead"><div><h2 style="margin:0">최근 가격 추이</h2><p class="sub">최근 10일 중 실제 조사일만 표시 · 품종/유형별 kg 환산 중간값</p></div><div style="display:flex;gap:8px;flex-wrap:wrap"><select id="periodSelect" aria-label="가격 추이 기간"><option value="7">7일</option><option value="30">30일</option><option value="90">90일</option><option value="365" selected>1년</option></select><select id="kindSelect" aria-label="가격 추이 구분"><option value="중도매">중도매</option><option value="소매">소매</option></select></div></div><svg id="trendChart" class="chart" viewBox="0 0 650 205" role="img" aria-label="최근 공식 시세 추이"></svg><div id="trendInfo" class="legend"></div></div>
 <div class="notice">📌 표시는 공식 조사 시세이며 거래 가능한 실매입가·실판매가가 아닙니다. 품종·등급·시장·거래단위 차이를 확인하고 비교하세요.</div>
 </section></section>
+<section id="sourcing" class="panel">
+<div class="box">
+<div class="headrow"><div><span class="step">이번 달 소싱 후보 분석</span><h2>🔥 지금 살펴볼 과일 TOP 10</h2><p class="sub">월별 제철 여부 + aT 중도매 실측가 + 동일 품종의 최근 30일 가격 변화를 함께 비교합니다.</p></div><span class="status" id="sourcingDate">가격 자료 확인 중</span></div>
+<div class="sourcing-summary" id="sourcingSummary">실제 가격을 확인한 뒤 최대 10종을 선정합니다.</div>
+</div>
+<div id="sourcingGrid" class="sourcing-grid"><div class="box"><p class="sub">공식 가격 자료를 불러오고 있습니다.</p></div></div>
+<div class="box"><h2>선정 기준과 주의사항</h2><p class="sub">① 국내 월별 출하·제철 여부를 먼저 참고하고 ② 같은 품종의 현재 중도매 1kg 가격과 최근 30일 조사 중간값의 변화를 비교한 다음 ③ 확인 가능한 시장 수와 조사일의 최신성을 고려해 정렬합니다. 30일 동안 같은 품종의 과거 조사일이 3일 미만이면 변동률을 계산하지 않습니다.</p><p class="notice">이 순위는 <strong>데이터 기반 소싱 검토 순서</strong>이지 실제 판매량, 구매 수요, 이익률 예측이 아닙니다. 제철이 아닌 연중 유통 상품도 포함될 수 있어요. 조사 가격은 실제 매입원가가 아니며 품종·등급·거래처·배송비를 확인하고 최종 판매 상품을 결정하세요.</p></div>
+</section>
 <section id="seller" class="panel"><div class="box"><h2>쿠팡 과일 판매 마진 계산기</h2><p class="sub">공공 도매시세와 실제 소싱 원가는 다르므로 공급업체 견적을 직접 입력해 주세요.</p><div class="formgrid">
 <label>쿠팡 판매가(원)<input type="number" id="sale" value="19900" min="0"></label><label>매입원가(원)<input type="number" id="cost" value="11000" min="0"></label><label>배송비(원)<input type="number" id="shipping" value="3000" min="0"></label><label>포장비(원)<input type="number" id="packing" value="1000" min="0"></label><label>판매수수료(%)<input type="number" id="fee" value="10" min="0" max="99"></label><label>폐기·환불 평균손실률(%)<input type="number" id="loss" value="5" min="0" max="99"></label><label>건당 광고비(원)<input type="number" id="ads" value="0" min="0"></label><label>월 판매건수<input type="number" id="qty" value="100" min="0"></label>
 </div></div><div class="calc-result"><div>건당 예상 기여이익</div><strong id="profit">—</strong><p id="details"></p></div><p class="notice">수수료는 예시입니다. 실제 계약조건·부가세·인건비·창고비·광고비 등에 따라 수익이 달라집니다.</p></section>
@@ -79,7 +97,7 @@ const fallbackUrl=entry=>entry?'https://commons.wikimedia.org/wiki/Special:FileP
 const filePage=entry=>entry?'https://commons.wikimedia.org/wiki/File:'+encodeURIComponent(entry[0].replaceAll(' ','_')):'';
 const number=(vals)=>{const arr=vals.filter(Number.isFinite).slice().sort((a,b)=>a-b);return arr.length?arr[Math.floor(arr.length/2)]:null};
 const LABEL={사과:'🍎',배:'🍐',감귤:'🍊',포도:'🍇',딸기:'🍓',수박:'🍉',복숭아:'🍑',참외:'🍈'};
-let prices=[],history=[],annualHistory=[],annualReady=false,annualPending=false,annualCache={},yearIndex={items:[]},catalog={},variantSummaries=[],surveyDate='',fruit='',variety='',region='전체';
+let prices=[],history=[],annualHistory=[],annualReady=false,annualPending=false,annualCache={},yearIndex={items:[]},catalog={},variantSummaries=[],surveyDate='',fruit='',variety='',region='전체';let sourcingSamples=[],sourcingReady=false,sourcingError='',sourcingPartial=false;
 function pic(entry,cls,label){
  if(!entry)return '<span class="photo-fallback">해당 과일의 실물 사진 준비 중</span>';
  return '<img class="'+cls+'" src="'+fileUrl(entry)+'" data-photo-fallback="'+html(fallbackUrl(entry))+'" alt="'+html(label)+' 실물 사진" loading="lazy" decoding="async" referrerpolicy="no-referrer">';
@@ -235,6 +253,101 @@ $('seasons').innerHTML=['harvest','facility','stored'].filter(key=>record[key].l
 '<div class="season-group"><div class="season-group-title"><strong>'+SEASON_LABELS[key]+'</strong><span>'+record[key].length+'종</span></div><p class="season-group-note">'+SEASON_HINTS[key]+'</p><div class="season-items">'+record[key].map(name=>'<span class="season-item">'+html(name)+'</span>').join('')+'</div></div>'
 ).join('');
 }
+
+function dayNumber(s){
+ const m=/^(20\\d{2})(\\d{2})(\\d{2})$/.exec(String(s||''));
+ return m?Math.floor(Date.UTC(Number(m[1]),Number(m[2])-1,Number(m[3]))/86400000):NaN;
+}
+function currentKstDate(){return new Date(Date.now()+9*3600000).toISOString().slice(0,10).replaceAll('-','')}
+function seasonClass(name,v,m){
+ const data=SEASON_DATA[m-1]||{harvest:[],facility:[],stored:[]};
+ const norm=x=>String(x||'').replaceAll('머스켓','머스캣').replace(/\\s/g,'');
+ for(const group of ['harvest','facility','stored']){
+  for(const item of data[group]){
+   const label=norm(item),fruitName=norm(name),vName=norm(v);
+   if(label===fruitName||label.startsWith(fruitName+'('))return group;
+   if(fruitName==='포도'&&vName.includes('샤인머스캣')&&label.startsWith('샤인머스캣'))return group;
+  }
+ }
+ return 'none';
+}
+function sourcingCandidates(){
+ if(!/^20\\d{6}$/.test(surveyDate))return [];
+ const month=Number(surveyDate.slice(4,6)),today=dayNumber(currentKstDate()),latest=dayNumber(surveyDate);
+ if(!Number.isFinite(latest)||!Number.isFinite(today)||today-latest>7||today<latest-2)return [];
+ const wh=prices.filter(x=>String(x.kind||'').includes('중도매')&&Number(x.pricePerKg)>0&&x.date===surveyDate);
+ const grouped=new Map();
+ for(const x of wh){
+  const v=x.variety||'미분류',key=x.name+'|'+v;
+  if(!grouped.has(key))grouped.set(key,{name:x.name,variety:v,values:[],markets:new Set()});
+  const group=grouped.get(key);group.values.push(Number(x.pricePerKg));group.markets.add(String(x.region||'')+'|'+String(x.market||''));
+ }
+ const byFruit=new Map();
+ for(const g of grouped.values()){
+  const current=number(g.values),marketCount=g.markets.size;
+  const days=new Map();
+  for(const row of [...sourcingSamples,...history]){
+   if(row.name!==g.name||(row.variety||'미분류')!==g.variety||!(String(row.kind||'중도매')).includes('중도매'))continue;
+   const n=dayNumber(row.date);
+   if(!Number.isFinite(n)||n>=latest||latest-n>30||!(Number(row.price)>0))continue;
+   days.set(row.date,Number(row.price));
+  }
+  const old=[...days.values()],baseline=old.length>=3?number(old):null;
+  const change=baseline===null?null:100*(current-baseline)/baseline;
+  const category=seasonClass(g.name,g.variety,month);
+  const seasonPoints={harvest:45,facility:25,stored:12,none:0}[category];
+  const marketsPoints=Math.round(Math.min(6,marketCount)*2.5);
+  const lowerPricePoints=change===null?0:Math.round(Math.max(0,Math.min(25,-change*1.5)));
+  const score=seasonPoints+marketsPoints+lowerPricePoints+(baseline!==null?8:0)+(today-latest<=3?7:0);
+  const entry={...g,price:current,marketCount,baseline,change,category,score,historyDays:days.size};
+  const prior=byFruit.get(g.name);
+  // One product per fruit: prioritize season match, supported comparison, and surveyed markets.
+  if(!prior||entry.score>prior.score||(entry.score===prior.score&&entry.marketCount>prior.marketCount))byFruit.set(g.name,entry);
+ }
+ return [...byFruit.values()].sort((a,b)=>b.score-a.score||b.marketCount-a.marketCount||a.name.localeCompare(b.name,'ko')).slice(0,10);
+}
+function renderSourcing(){
+ const el=$('sourcingGrid'),summary=$('sourcingSummary'),label=$('sourcingDate');
+ if(!prices.length){
+  label.textContent='공식 조사 가격 대기';
+  summary.textContent=sourcingError||'공식 조사 시세를 확인한 뒤 선정합니다.';
+  el.innerHTML='<div class="box"><p class="sub">조회 가능한 중도매 가격이 확인되기 전까지 임의로 순위를 만들지 않습니다.</p></div>';return;
+ }
+ const today=dayNumber(currentKstDate()),observed=dayNumber(surveyDate),stale=!Number.isFinite(observed)||today-observed>7||today<observed-2;
+ label.textContent=stale?'최근 7일 조사 자료 없음':formatSurveyDate(surveyDate);
+ if(stale){summary.textContent='최근 7일 이내 공식 조사 시세를 확인하지 못했습니다.';el.innerHTML='<div class="box"><p class="sub">과거 가격으로 현재 판매 유망 순위를 만들지 않았습니다. 새로운 공식 조사 가격이 확보되면 표시합니다.</p></div>';return}
+ const list=sourcingCandidates();
+ const month=Number(surveyDate.slice(4,6)),seasonCount=list.filter(x=>x.category!=='none').length;
+ summary.textContent=month+'월 기준 · 실제 중도매 조사 가격이 있는 '+list.length+'개 소싱 후보 · 제철·출하 관련 '+seasonCount+'개 · '+(sourcingReady?'과거 30일 조사자료와 비교':'과거 비교자료 미확보')+(sourcingPartial?' · 일부 API 요청 누락 가능':'');
+ if(!list.length){el.innerHTML='<div class="box"><p class="sub">현재 중도매 실측값이 있는 과일 후보가 없습니다. 조사 자료가 확보될 때까지 임의 추천을 하지 않습니다.</p></div>';return}
+ const seasonLabels={harvest:'🌿 제철 출하',facility:'🏡 시설·조기 출하',stored:'📦 저장 유통',none:'🛒 기타 유통'};
+ el.innerHTML=list.map((x,i)=>{
+  const display=x.name+(x.variety==='미분류'?'':' · '+x.variety);
+  const difference=x.change===null?'비교자료 부족':Math.abs(x.change)<.05?'거의 동일':(x.change<0?'▼ ':'▲ ')+Math.abs(x.change).toFixed(1)+'%';
+  const reason=seasonLabels[x.category]+' · 조사 시장 '+x.marketCount+'곳'+(x.change===null?' · 최근 30일 같은 품종 비교자료 부족':x.change<-.05?' · 같은 품종 지난 30일 중간값보다 중도매 가격 낮음':x.change>.05?' · 지난 30일 중간값보다 중도매 가격 높음':' · 지난 30일 중간값과 큰 차이 없음');
+  const photo=PHOTO[x.name]||VARIETY_PHOTO[x.name+'|'+x.variety];
+  return '<article class="sourcing-card"><div class="sourcing-top"><span class="sourcing-rank">'+(i+1)+'</span><div class="sourcing-photo">'+pic(photo,'',display)+'</div><div style="min-width:0"><div class="sourcing-title">'+html(display)+'</div><p class="sourcing-sub">'+html(seasonLabels[x.category])+' · aT '+html(surveyDate.slice(4,6))+'월 '+html(surveyDate.slice(6,8))+'일 조사</p></div></div><div class="sourcing-facts"><div class="sourcing-fact"><small>중도매 1kg 참고가</small><strong>'+fmt(x.price)+'</strong><em>현재 조사 시장 중간값</em></div><div class="sourcing-fact"><small>동일 품종 30일 비교</small><strong>'+html(difference)+'</strong><em>'+(x.baseline===null?'실측 조사일 3일 미만':'이전 조사 '+x.historyDays+'일 · '+fmt(x.baseline))+'</em></div></div><p class="sourcing-reason">'+html(reason)+'</p><div class="sourcing-actions"><button type="button" data-sourcing-view="'+i+'">🔎 시세 자세히</button><button type="button" data-sourcing-margin="'+i+'">🧮 마진 계산</button></div></article>';
+ }).join('');
+ el.querySelectorAll('[data-sourcing-view]').forEach(b=>b.onclick=()=>{
+  const x=list[Number(b.dataset.sourcingView)];
+  document.querySelector('[data-tab="prices"]').click();selectFruit(x.name,false);selectVariety(x.variety,true);
+ });
+ el.querySelectorAll('[data-sourcing-margin]').forEach(b=>b.onclick=()=>{
+  document.querySelector('[data-tab="seller"]').click();$('cost').focus();
+ });
+}
+async function loadSourcingHistory(){
+ try{
+  const resp=await fetch('/data/sourcing-history.json',{cache:'no-store'});
+  if(!resp.ok)throw Error('지난 가격 파일 접근 실패');
+  const data=await resp.json();
+  if(!Array.isArray(data.samples))throw Error('지난 가격 자료 형식 오류');
+  sourcingSamples=data.samples.filter(x=>x&&Number(x.price)>0&&/^20\\d{6}$/.test(String(x.date||'')));
+  sourcingReady=true;
+ }catch(_){sourcingSamples=[];sourcingReady=false}
+ renderSourcing();
+}
+
 function renderCredits(){const dict=new Map([...Object.values(PHOTO),...Object.values(VARIETY_PHOTO)].map(p=>[p[0],p]));$('creditList').innerHTML='<ul>'+[...dict.values()].map(p=>'<li><a target="_blank" rel="noopener noreferrer" href="'+filePage(p)+'">'+html(p[0])+'</a> — '+html(p[1])+' · <a target="_blank" rel="noopener noreferrer" href="'+p[3]+'">'+html(p[2])+'</a></li>').join('')+'</ul>'}
 async function load(){
 const st=$('status');
@@ -243,9 +356,9 @@ try{const catalogResponse=await fetch('/data/fruit-varieties.json',{cache:'no-st
 try{const resp=await fetch('/data/year-index.json',{cache:'no-store'});if(resp.ok){const parsed=await resp.json();yearIndex=parsed&&Array.isArray(parsed.items)?parsed:{items:[]}}}catch(_){yearIndex={items:[]}}
 const r=await fetch('/api/prices',{cache:'no-store'});const data=await r.json();if(!r.ok||!data.live)throw Error(data.message||'API 요청 실패');
 prices=Array.isArray(data.items)?data.items:[];history=Array.isArray(data.history)?data.history:[];variantSummaries=Array.isArray(data.varietySummaries)?data.varietySummaries:[];surveyDate=data.date||'';if(!prices.length)throw Error('조회된 과일 시세가 없습니다');
-st.innerHTML='<span class="dot"></span><strong>'+html(formatSurveyDate(data.date))+'</strong><span class="status-time">· API 확인 '+html(formatCheckedAt(data.checkedAt))+'</span><span class="status-time">· 실측 '+prices.length+'건</span>';renderFruits();selectFruit(prices.some(x=>x.name==='사과')?'사과':prices[0].name,false);
-}catch(e){st.innerHTML='시세 수신 오류 · 잠시 후 다시 시도';$('fruitGrid').innerHTML='<p class="sub">'+html(e.message)+'<br>실제 시세가 반환되지 않아 임의의 가격은 표시하지 않습니다.</p>';}
+st.innerHTML='<span class="dot"></span><strong>'+html(formatSurveyDate(data.date))+'</strong><span class="status-time">· API 확인 '+html(formatCheckedAt(data.checkedAt))+'</span><span class="status-time">· 실측 '+prices.length+'건</span>';sourcingPartial=!!data.partial;renderFruits();selectFruit(prices.some(x=>x.name==='사과')?'사과':prices[0].name,false);renderSourcing();
+}catch(e){st.innerHTML='시세 수신 오류 · 잠시 후 다시 시도';$('fruitGrid').innerHTML='<p class="sub">'+html(e.message)+'<br>실제 시세가 반환되지 않아 임의의 가격은 표시하지 않습니다.</p>';sourcingError='공식 가격 API 확인 실패: '+e.message;renderSourcing();}
 }
-renderCalendar();renderCredits();calc();load();
+renderCalendar();renderCredits();calc();loadSourcingHistory();load();
 })();
 </script></body></html>
