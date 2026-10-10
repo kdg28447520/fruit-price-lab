@@ -1,0 +1,34 @@
+{
+  "testedAt": "2026-10-10T08:03:32.993Z",
+  "base": "https://fruit-price-lab-kdg2844-8355s-projects.vercel.app",
+  "total": 5,
+  "passed": 5,
+  "failed": 0,
+  "tests": [
+    {
+      "name": "Homepage delivers HTML",
+      "passed": true,
+      "status": 200
+    },
+    {
+      "name": "Apple photo delivers real JPEG",
+      "passed": true,
+      "status": 200
+    },
+    {
+      "name": "Pear photo delivers real JPEG",
+      "passed": true,
+      "status": 200
+    },
+    {
+      "name": "Shine Muscat variety photo delivers JPEG",
+      "passed": true,
+      "status": 200
+    },
+    {
+      "name": "Official price API returns live data",
+      "passed": true,
+      "status": 200
+    }
+  ]
+}
