@@ -63,6 +63,15 @@
 .sourcing-signal.drop{background:#e6f2ff;color:#2265a5}
 .sourcing-signal.entry{background:#e8f8ec;color:#176b3a}
 .sourcing-empty{padding:18px 20px;border:1px solid #e2eee4;background:#fff;border-radius:16px;font-size:13px;color:#52775d}
+
+.search-interest-status{margin-top:12px;padding:12px 13px;border-radius:11px;background:#f3f7ff;border:1px solid #dfebff;color:#3b5e79;font-size:12px;line-height:1.7}
+.search-interest-status.unconfigured{background:#f8f9fa;border-color:#e1e5e8;color:#65717e}
+.search-interest-status.error{background:#fff9ee;border-color:#f2e5c9;color:#836328}
+.sourcing-interest{font-size:12px;color:#285a78;line-height:1.6;padding:9px 11px;border-radius:9px;background:#f3f8ff;border:1px solid #e1edff;margin:0 0 13px}
+.sourcing-interest.ready.up{background:#f0f8ff;color:#146298}
+.sourcing-interest.ready.down{background:#fdf6f0;color:#9a6647}
+.sourcing-interest.ready.flat{background:#f5f7f6;color:#4a695d}
+.sourcing-signal.opportunity{background:#e8e9ff;color:#4340a2}
 </style></head><body>
 <header class="top"><div class="wrap topbar"><div class="brand">🍏 제철과일 <b>시세 연구소</b></div><span class="source-pill">aT 공공데이터 연동</span></div></header>
 <main class="wrap">
@@ -85,9 +94,10 @@
 <div class="headrow"><div><span class="step">이번 달 소싱 후보 분석</span><h2>🔥 지금 살펴볼 과일 TOP 10</h2><p class="sub">월별 제철 여부 + aT 중도매 실측가 + 동일 품종의 최근 30일 가격 변화를 함께 비교합니다.</p></div><span class="status" id="sourcingDate">가격 자료 확인 중</span></div>
 <div class="sourcing-summary" id="sourcingSummary">실제 가격을 확인한 뒤 최대 10종을 선정합니다.</div>
 <div id="sourcingFilters" class="sourcing-filters" role="group" aria-label="TOP 10 추천 신호 필터"></div>
+<div id="searchInterestStatus" class="search-interest-status" aria-live="polite">🔎 네이버 검색 관심 데이터 확인 중…</div>
 </div>
 <div id="sourcingGrid" class="sourcing-grid"><div class="box"><p class="sub">공식 가격 자료를 불러오고 있습니다.</p></div></div>
-<div class="box"><h2>선정 기준과 주의사항</h2><p class="sub">① <strong>🌱 제철 진입</strong>: 지난달에는 제철·시설 출하가 아니었고 이번 달부터 해당되는 품종 ② <strong>📉 가격 하락</strong>: 같은 품종의 이전 30일 조사 중간값보다 중도매 가격이 5% 이상 낮고 이전 조사일이 최소 3일인 경우 ③ <strong>📈 소싱 주목 신호</strong>: 제철 진입 또는 제철 품목의 가격 하락이 확인되고 현재 조사 시장이 3곳 이상인 경우입니다.</p><p class="notice">이 순위와 <strong>소싱 주목 신호는 내부 규칙에 따른 참고 지표</strong>입니다. '주목'은 소비자 검색량·구매량이 늘었다는 사실이 아닙니다. 네이버 검색 트렌드와 쿠팡 판매 실적은 아직 연동되지 않았습니다. 제철 달력은 국내 출하 시기 참고자료이며 aT 조사 중도매 가격은 실제 매입원가나 예상 수익이 아닙니다. 품종·등급·산지·배송비를 확인한 뒤 소싱하세요.</p></div>
+<div class="box"><h2>선정 기준과 주의사항</h2><p class="sub">① <strong>🌱 제철 진입</strong>: 지난달에는 제철·시설 출하가 아니었고 이번 달부터 해당되는 품종 ② <strong>📉 가격 하락</strong>: 같은 품종의 이전 30일 조사 중간값보다 중도매 가격이 5% 이상 낮고 이전 조사일이 최소 3일인 경우 ③ <strong>📈 소싱 주목 신호</strong>: 제철 진입 또는 제철 품목의 가격 하락이 확인되고 조사 시장이 3곳 이상인 경우 ④ <strong>🔎 검색↑·가격↓</strong>: 공식 네이버 통합검색 상대지수가 직전 7일보다 15% 이상 상승하고 동일 품종 중도매 가격이 5% 이상 하락한 경우입니다.</p><p class="notice">이 순위와 <strong>소싱 주목 신호는 내부 규칙에 따른 참고 지표</strong>입니다. 네이버 연동 완료 시 <strong>검색↑</strong>은 과일별 관련 검색어 묶음의 상대지수 변화만 뜻하며 절대 검색량·쇼핑 클릭·구매량이 아닙니다. 품종별 중도매 가격과 과일 전체 검색어 지수를 함께 참고하므로 정확히 같은 상품의 판매 수요라고 단정하지 마세요. 네이버 API 키를 등록하지 않았다면 검색 신호는 표시하지 않습니다. aT 중도매 가격도 실제 매입원가나 판매 이익이 아닙니다. <a href="https://developers.naver.com/docs/serviceapi/datalab/search/search.md" target="_blank" rel="noopener noreferrer">네이버 데이터랩 공식 설명 ↗</a></p></div>
 </section>
 <section id="seller" class="panel"><div class="box"><h2>쿠팡 과일 판매 마진 계산기</h2><p class="sub">공공 도매시세와 실제 소싱 원가는 다르므로 공급업체 견적을 직접 입력해 주세요.</p><div class="formgrid">
 <label>쿠팡 판매가(원)<input type="number" id="sale" value="19900" min="0"></label><label>매입원가(원)<input type="number" id="cost" value="11000" min="0"></label><label>배송비(원)<input type="number" id="shipping" value="3000" min="0"></label><label>포장비(원)<input type="number" id="packing" value="1000" min="0"></label><label>판매수수료(%)<input type="number" id="fee" value="10" min="0" max="99"></label><label>폐기·환불 평균손실률(%)<input type="number" id="loss" value="5" min="0" max="99"></label><label>건당 광고비(원)<input type="number" id="ads" value="0" min="0"></label><label>월 판매건수<input type="number" id="qty" value="100" min="0"></label>
@@ -110,6 +120,7 @@ const filePage=entry=>entry?'https://commons.wikimedia.org/wiki/File:'+encodeURI
 const number=(vals)=>{const arr=vals.filter(Number.isFinite).slice().sort((a,b)=>a-b);return arr.length?arr[Math.floor(arr.length/2)]:null};
 const LABEL={사과:'🍎',배:'🍐',감귤:'🍊',포도:'🍇',딸기:'🍓',수박:'🍉',복숭아:'🍑',참외:'🍈'};
 let prices=[],history=[],annualHistory=[],annualReady=false,annualPending=false,annualCache={},yearIndex={items:[]},catalog={},variantSummaries=[],surveyDate='',fruit='',variety='',region='전체';let sourcingSamples=[],sourcingReady=false,sourcingError='',sourcingPartial=false,sourcingFilter='all';
+let searchInterest={state:'loading',items:{},period:null,partial:false};
 function pic(entry,cls,label){
  if(!entry)return '<span class="photo-fallback">해당 과일의 실물 사진 준비 중</span>';
  return '<img class="'+cls+'" src="'+fileUrl(entry)+'" data-photo-fallback="'+html(fallbackUrl(entry))+'" alt="'+html(label)+' 실물 사진" loading="lazy" decoding="async" referrerpolicy="no-referrer">';
@@ -316,7 +327,7 @@ function sourcingCandidates(){
   // One product per fruit: prioritize season match, supported comparison, and surveyed markets.
   if(!prior||entry.score>prior.score||(entry.score===prior.score&&entry.marketCount>prior.marketCount))byFruit.set(g.name,entry);
  }
- return [...byFruit.values()].sort((a,b)=>b.score-a.score||b.marketCount-a.marketCount||a.name.localeCompare(b.name,'ko')).slice(0,10);
+ return [...byFruit.values()].sort((a,b)=>b.score-a.score||b.marketCount-a.marketCount||a.name.localeCompare(b.name,'ko'));
 }
 function sourcingSignals(x,m){
  const previous=seasonClass(x.name,x.variety,m===1?12:m-1);
@@ -326,8 +337,22 @@ function sourcingSignals(x,m){
  const watch=x.marketCount>=3&&(entry||((x.category==='harvest'||x.category==='facility')&&drop));
  return {watch,drop,entry};
 }
+function renderSearchInterestStatus(){
+ const el=$('searchInterestStatus');
+ const state=searchInterest.state;
+ el.className='search-interest-status'+(state==='unconfigured'?' unconfigured':state==='error'?' error':'');
+ if(state==='loading')el.textContent='🔎 네이버 데이터랩 검색 추이 확인 중…';
+ else if(state==='unconfigured')el.textContent='🔒 네이버 데이터랩 API 키 연동 전 · 검색 관심도는 표시하지 않으며 제철·공식 도매시세 기반 후보만 제공합니다.';
+ else if(state==='error')el.textContent='⚠️ 네이버 검색 추이 조회 오류 · 확인되지 않은 관심도는 임의로 표시하지 않습니다.';
+ else {
+  const count=Object.values(searchInterest.items).filter(x=>x&&Number.isFinite(x.change)).length;
+  const day=searchInterest.period?.endDate||'';
+  el.textContent='🔎 네이버 통합검색 상대지수 · 직전 7일 대비 최근 7일 · '+day+'까지 조사 · 비교 가능한 과일 '+count+'종'+(searchInterest.partial?' · 일부 검색 결과 누락':'')+' (실제 구매량 아님)';
+ }
+}
 function renderSourcing(){
  const el=$('sourcingGrid'),summary=$('sourcingSummary'),label=$('sourcingDate');
+ renderSearchInterestStatus();
  if(!prices.length){
   label.textContent='공식 조사 가격 대기';
   summary.textContent=sourcingError||'공식 조사 시세를 확인한 뒤 선정합니다.';
@@ -337,13 +362,21 @@ function renderSourcing(){
  label.textContent=stale?'최근 7일 조사 자료 없음':formatSurveyDate(surveyDate);
  if(stale){summary.textContent='최근 7일 이내 공식 조사 시세를 확인하지 못했습니다.';el.innerHTML='<div class="box"><p class="sub">과거 가격으로 현재 판매 유망 순위를 만들지 않았습니다. 새로운 공식 조사 가격이 확보되면 표시합니다.</p></div>';return}
  const month=Number(surveyDate.slice(4,6));
- const list=sourcingCandidates().map(x=>({...x,signals:sourcingSignals(x,month)}));
+ const candidates=sourcingCandidates().map(x=>{
+  const interest=searchInterest.state==='ready'?searchInterest.items[x.name]:null;
+  const signals=sourcingSignals(x,month);
+  signals.opportunity=signals.drop&&interest?.status==='up'&&Number(interest.change)>=15;
+  return {...x,signals,interest:interest||null};
+ });
+ candidates.sort((a,b)=>Number(b.signals.opportunity)-Number(a.signals.opportunity)||b.score-a.score||b.marketCount-a.marketCount||a.name.localeCompare(b.name,'ko'));
+ const list=candidates.slice(0,10);
  const seasonCount=list.filter(x=>x.category!=='none').length;
  const filters=[
   {id:'all',label:'전체',count:list.length},
   {id:'watch',label:'📈 소싱 주목 신호',count:list.filter(x=>x.signals.watch).length},
   {id:'drop',label:'📉 가격 하락',count:list.filter(x=>x.signals.drop).length},
-  {id:'entry',label:'🌱 제철 진입',count:list.filter(x=>x.signals.entry).length}
+  {id:'entry',label:'🌱 제철 진입',count:list.filter(x=>x.signals.entry).length},
+  {id:'opportunity',label:'🔎 검색↑·가격↓',count:list.filter(x=>x.signals.opportunity).length}
  ];
  if(!filters.some(x=>x.id===sourcingFilter))sourcingFilter='all';
  $('sourcingFilters').innerHTML=filters.map(x=>'<button type="button" class="sourcing-filter '+(sourcingFilter===x.id?'on':'')+'" data-sourcing-filter="'+x.id+'" aria-pressed="'+(sourcingFilter===x.id?'true':'false')+'">'+x.label+' '+x.count+'</button>').join('');
@@ -351,7 +384,10 @@ function renderSourcing(){
  const shown=list.filter(x=>sourcingFilter==='all'||x.signals[sourcingFilter]);
  summary.textContent=month+'월 기준 · 실제 중도매 조사 가격이 있는 '+list.length+'개 소싱 후보 · 제철·출하 관련 '+seasonCount+'개 · '+(sourcingReady?'과거 30일 조사자료와 비교':'과거 비교자료 미확보')+(sourcingPartial?' · 일부 API 요청 누락 가능':'');
  if(!list.length){el.innerHTML='<div class="box"><p class="sub">현재 중도매 실측값이 있는 과일 후보가 없습니다. 조사 자료가 확보될 때까지 임의 추천을 하지 않습니다.</p></div>';return}
- if(!shown.length){el.innerHTML='<div class="sourcing-empty">이번 달 TOP 10에서 이 신호가 확인된 후보는 없습니다. 다른 필터를 선택해 주세요. 실제 검색량·판매량을 임의로 추정해 표시하지 않습니다.</div>';return}
+ if(!shown.length){
+  el.innerHTML='<div class="sourcing-empty">'+(sourcingFilter==='opportunity'&&searchInterest.state!=='ready'?'네이버 검색 데이터 연동 전이거나 조회에 실패해 검색↑·가격↓ 후보를 확인할 수 없습니다. 기존 가격·제철 필터는 계속 이용할 수 있습니다.':'이번 달 TOP 10에서 이 신호가 확인된 후보는 없습니다. 다른 필터를 선택해 주세요. 실제 검색량·판매량을 임의로 추정해 표시하지 않습니다.')+'</div>';
+  return;
+ }
  const seasonLabels={harvest:'🌿 제철 출하',facility:'🏡 시설·조기 출하',stored:'📦 저장 유통',none:'🛒 기타 유통'};
  el.innerHTML=shown.map((x,i)=>{
   const display=x.name+(x.variety==='미분류'?'':' · '+x.variety);
@@ -361,9 +397,15 @@ function renderSourcing(){
   const pills=[
    x.signals.watch?'<span class="sourcing-signal watch" title="제철 진입 또는 제철 품목의 가격 하락과 조사 시장 3곳 이상. 실제 소비자 관심도 측정 아님">📈 소싱 주목 신호</span>':'',
    x.signals.drop?'<span class="sourcing-signal drop" title="같은 품종의 이전 30일 중도매 조사 가격 중간값보다 5% 이상 하락">📉 가격 하락</span>':'',
-   x.signals.entry?'<span class="sourcing-signal entry" title="지난달 대비 국내 제철·출하 달력 기준 새로 진입">🌱 제철 진입</span>':''
+   x.signals.entry?'<span class="sourcing-signal entry" title="지난달 대비 국내 제철·출하 달력 기준 새로 진입">🌱 제철 진입</span>':'',
+   x.signals.opportunity?'<span class="sourcing-signal opportunity" title="네이버 통합검색 상대지수 15% 이상 상승·동일 품종 중도매 가격 5% 이상 하락">🔎 검색↑·가격↓</span>':''
   ].join('');
-  return '<article class="sourcing-card"><div class="sourcing-top"><span class="sourcing-rank">'+(i+1)+'</span><div class="sourcing-photo">'+pic(photo,'',display)+'</div><div style="min-width:0"><div class="sourcing-title">'+html(display)+'</div><p class="sourcing-sub">'+html(seasonLabels[x.category])+' · aT '+html(surveyDate.slice(4,6))+'월 '+html(surveyDate.slice(6,8))+'일 조사</p></div></div><div class="sourcing-signals" aria-label="소싱 분석 신호">'+pills+'</div><div class="sourcing-facts"><div class="sourcing-fact"><small>중도매 1kg 참고가</small><strong>'+fmt(x.price)+'</strong><em>현재 조사 시장 중간값</em></div><div class="sourcing-fact"><small>동일 품종 30일 비교</small><strong>'+html(difference)+'</strong><em>'+(x.baseline===null?'실측 조사일 3일 미만':'이전 조사 '+x.historyDays+'일 · '+fmt(x.baseline))+'</em></div></div><p class="sourcing-reason">'+html(reason)+'</p><div class="sourcing-actions"><button type="button" data-sourcing-view="'+i+'">🔎 시세 자세히</button><button type="button" data-sourcing-margin="'+i+'">🧮 마진 계산</button></div></article>';
+  const trend=x.interest?.change;
+  const interestText=x.interest?.status==='up'||x.interest?.status==='down'||x.interest?.status==='flat'
+   ?'🔎 네이버 검색 관심 변화 '+(trend>0?'+':'')+trend.toFixed(1)+'% · 과일 관련 검색어 상대지수 (최근 7일 vs 직전 7일)'
+   :searchInterest.state==='ready'?'🔎 네이버 검색 비교자료 부족 · 임의 관심도 수치 없음':'🔎 네이버 검색 관심 데이터 연동 대기';
+  const interestClass='sourcing-interest'+(x.interest?.status?' ready '+x.interest.status:'');
+  return '<article class="sourcing-card"><div class="sourcing-top"><span class="sourcing-rank">'+(i+1)+'</span><div class="sourcing-photo">'+pic(photo,'',display)+'</div><div style="min-width:0"><div class="sourcing-title">'+html(display)+'</div><p class="sourcing-sub">'+html(seasonLabels[x.category])+' · aT '+html(surveyDate.slice(4,6))+'월 '+html(surveyDate.slice(6,8))+'일 조사</p></div></div><div class="sourcing-signals" aria-label="소싱 분석 신호">'+pills+'</div><div class="sourcing-interest'+(x.interest?.status?' ready '+x.interest.status:'')+'">'+html(interestText)+'</div><div class="sourcing-facts"><div class="sourcing-fact"><small>중도매 1kg 참고가</small><strong>'+fmt(x.price)+'</strong><em>현재 조사 시장 중간값</em></div><div class="sourcing-fact"><small>동일 품종 30일 비교</small><strong>'+html(difference)+'</strong><em>'+(x.baseline===null?'실측 조사일 3일 미만':'이전 조사 '+x.historyDays+'일 · '+fmt(x.baseline))+'</em></div></div><p class="sourcing-reason">'+html(reason)+'</p><div class="sourcing-actions"><button type="button" data-sourcing-view="'+i+'">🔎 시세 자세히</button><button type="button" data-sourcing-margin="'+i+'">🧮 마진 계산</button></div></article>';
  }).join('');
  el.querySelectorAll('[data-sourcing-view]').forEach(b=>b.onclick=()=>{
   const x=shown[Number(b.dataset.sourcingView)];
@@ -396,6 +438,20 @@ prices=Array.isArray(data.items)?data.items:[];history=Array.isArray(data.histor
 st.innerHTML='<span class="dot"></span><strong>'+html(formatSurveyDate(data.date))+'</strong><span class="status-time">· API 확인 '+html(formatCheckedAt(data.checkedAt))+'</span><span class="status-time">· 실측 '+prices.length+'건</span>';sourcingPartial=!!data.partial;renderFruits();selectFruit(prices.some(x=>x.name==='사과')?'사과':prices[0].name,false);renderSourcing();
 }catch(e){st.innerHTML='시세 수신 오류 · 잠시 후 다시 시도';$('fruitGrid').innerHTML='<p class="sub">'+html(e.message)+'<br>실제 시세가 반환되지 않아 임의의 가격은 표시하지 않습니다.</p>';sourcingError='공식 가격 API 확인 실패: '+e.message;renderSourcing();}
 }
-renderCalendar();renderCredits();calc();loadSourcingHistory();load();
+async function loadSearchInterest(){
+ try{
+  const response=await fetch('/api/search-trends',{cache:'no-store'});
+  const data=await response.json();
+  if(!response.ok||!data.ok){
+   searchInterest={state:data?.configured===false?'unconfigured':'error',items:{},period:null,partial:false};
+  }else{
+   const map={};
+   for(const x of data.items||[]){if(x?.name&&typeof x.name==='string'&&['up','down','flat','insufficient','unavailable'].includes(x.status)){map[x.name]={status:x.status,change:Number.isFinite(Number(x.change))&&x.change!==null?Number(x.change):null};}}
+   searchInterest={state:'ready',items:map,period:data.period,partial:data.complete===false};
+  }
+ }catch(_){searchInterest={state:'error',items:{},period:null,partial:false}}
+ renderSourcing();
+}
+renderCalendar();renderCredits();calc();loadSourcingHistory();loadSearchInterest();load();
 })();
 </script></body></html>
