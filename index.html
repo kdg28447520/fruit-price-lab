@@ -1,19 +1,170 @@
-<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="농산물 공식 과일 시세, 제철 달력, 쿠팡 판매 마진 계산기"><title>제철과일 시세 연구소</title><style>*{box-sizing:border-box}body{margin:0;font:15px system-ui,sans-serif;background:#f6faf8;color:#203b2e}header{background:white;border-bottom:1px solid #e0ede5;padding:19px 16px}.wrap{max-width:1080px;margin:auto;padding:0 16px}.brand{font-weight:850;font-size:21px}h1{font-size:clamp(24px,4vw,39px);line-height:1.35;margin:10px 0}h2{font-size:19px}.hero{background:linear-gradient(115deg,#dff8e9,#fff1d8);padding:32px;border-radius:22px;margin:24px 0}.green{color:#11875a}.muted{color:#647d6d;font-size:13px}.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0}.tabs button{padding:11px 15px;border:1px solid #d8e8de;border-radius:11px;background:white;cursor:pointer}.tabs .active{background:#138f60;color:white}.panel{display:none}.panel.active{display:block}.box{background:white;border:1px solid #e1ebe4;padding:20px;border-radius:16px;margin:12px 0}.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.fruit{text-align:left;cursor:pointer}.fruit.on{outline:2px solid #16a66b}.big{font-size:23px;font-weight:850}.fields{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}input{display:block;width:100%;margin-top:6px;padding:11px;border:1px solid #cbded1;border-radius:9px;font-size:16px}label{font-size:13px}.chip{background:#e7f7ec;padding:10px 13px;border-radius:22px;display:inline-block;margin:5px}.months{display:grid;grid-template-columns:repeat(6,1fr);gap:7px}.months button{padding:10px;border:0;border-radius:9px;background:#eaf3ed;cursor:pointer}.months .on{background:#169766;color:#fff}.notice{background:#fff7df;color:#795e1d;border-radius:10px;padding:12px;font-size:13px}footer{margin:35px 0;color:#738378;font-size:12px}table{width:100%;border-collapse:collapse}td,th{padding:10px;border-bottom:1px solid #e6eee7;text-align:left}#chart{width:100%;height:180px}@media(max-width:650px){.cards{grid-template-columns:repeat(2,1fr)}.months{grid-template-columns:repeat(4,1fr)}.hero{padding:22px}.fields{grid-template-columns:1fr}} .fruit img{display:block;width:100%;max-width:130px;height:115px;margin:auto;object-fit:contain}.fruit{min-width:0}.fruit .big{font-size:18px}.variety-tabs{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}.variety-tabs button{border:1px solid #d7e9db;background:#f5faf5;color:#276248;padding:9px 13px;border-radius:24px;cursor:pointer}.variety-tabs button.on{background:#158c60;color:white;border-color:#158c60}.crumbs{font-size:13px;color:#61806a;margin:10px 0}.fruit-name{font-weight:800;font-size:16px}.fruit-sub{display:block;font-size:12px;color:#64806a;margin-top:5px} </style></head><body><header><div class="wrap brand">🍎 제철과일 <span class="green">시세 연구소</span></div></header><main class="wrap"><div class="hero"><span class="green">소비자와 온라인 과일 판매자를 위한 도구</span><h1>과일은 제철에 사고,<br><span class="green">시세 보고 판매하세요.</span></h1><p class="muted">공식 도·소매 시세 · 가격추이 · 제철과일 · 쿠팡 판매 마진</p></div><nav class="tabs"><button class="active" data-tab="prices">📈 공식 시세</button><button data-tab="seller">🧮 판매 마진</button><button data-tab="calendar">📅 제철 달력</button></nav><section id="prices" class="panel active"><div class="box"><h2>오늘의 과일 가격</h2><p id="status" class="muted">공식 가격을 불러오는 중…</p><div id="cards" class="cards"></div><div id="crumbs" class="crumbs"></div><div id="varieties" class="variety-tabs"></div></div><div class="box"><h2 id="title">가격 추이</h2><div class="muted" id="historyStatus">가격 이력을 확인하는 중…</div><svg id="chart" viewBox="0 0 500 180"></svg><p class="muted">가격 그래프는 실제 수집 이력이 쌓이면 나타납니다. 가상의 가격은 사용하지 않습니다.</p></div><div class="box"><h2>가격 상세</h2><div style="overflow:auto"><table><thead><tr><th>품목</th><th>품종·등급</th><th>가격</th><th>조사일</th></tr></thead><tbody id="rows"><tr><td colspan="4">조회 중</td></tr></tbody></table></div></div></section><section id="seller" class="panel"><div class="box"><h2>쿠팡 과일 판매 마진 계산기</h2><p class="muted">공식 공공 도매가격과 실제 매입원가는 다릅니다. 실매입가를 입력하세요.</p><div class="fields"><label>판매가(원)<input id="sale" type="number" value="19900"></label><label>매입원가(원)<input id="cost" type="number" value="11000"></label><label>배송비(원)<input id="shipping" type="number" value="3000"></label><label>포장비(원)<input id="packing" type="number" value="1000"></label><label>판매수수료(%)<input id="fee" type="number" value="10"></label><label>폐기·환불 평균손실률(%)<input id="loss" type="number" value="5"></label><label>건당 광고비(원)<input id="ads" type="number" value="0"></label><label>월 판매건수<input id="qty" type="number" value="100"></label></div></div><div class="box" style="background:#e5f7ec"><p>건당 예상 기여이익</p><div class="big green" id="profit">—</div><p id="details"></p></div><div class="notice">수수료는 임의 기본값이며 실제 쿠팡 계약조건에 따라 다릅니다. 세금, 인건비, 보관비 등은 별도입니다.</div></section><section id="calendar" class="panel"><div class="box"><h2>월별 제철 달력</h2><div id="months" class="months"></div></div><div class="box"><h2 id="monthTitle"></h2><div id="seasons"></div><p class="muted">대표적인 국내 출하시기 기준. 품종·지역·기후에 따라 달라집니다.</p></div></section><div class="box"><h2>농산물 가격 읽는 법</h2><p>공식 가격은 조사 지역, 품종, 등급, 조사일, 도매·소매 구분, 거래단위에 따라 달라집니다. 판매자가 실제 구매할 수 있는 견적가격과 같지 않습니다.</p><p class="muted">출처: 한국농수산식품유통공사(aT) 공공데이터. 본 사이트는 공식기관 및 쿠팡이 운영하는 서비스가 아닙니다.</p></div><footer>© 제철과일 시세 연구소 · 데이터 오류가 발생하면 가격 대신 오류 사유를 표시합니다.</footer></main><script>const $=s=>document.getElementById(s),won=n=>Math.round(n).toLocaleString('ko-KR')+'원',esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));let items=[],selected='',selectedVariety='',priceHistory=[];document.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>{document.querySelectorAll('[data-tab]').forEach(x=>x.classList.toggle('active',x===b));document.querySelectorAll('.panel').forEach(p=>p.classList.toggle('active',p.id===b.dataset.tab))});function show(){
-const names=[...new Set(items.map(x=>x.name))];
-const images={'사과':'사과','배':'배','감귤':'감귤','딸기':'딸기','포도':'포도','복숭아':'복숭아','수박':'수박','참외':'참외','자두':'자두'};
-$('cards').innerHTML=names.slice(0,24).map(n=>{
-const all=items.filter(i=>i.name===n), x=all.find(i=>i.pricePerKg&&i.kind==='중도매')||all[0];
-const picture=images[n]||'기타'; const varieties=[...new Set(all.map(x=>x.variety||'품종 미상'))];
-return '<button class="box fruit '+(selected===n?'on':'')+'" data-fruit="'+esc(n)+'"><img loading="lazy" src="/images/'+encodeURIComponent(picture)+'.svg" alt="'+esc(n)+' 이미지"><span class="fruit-name">'+esc(n)+'</span><span class="fruit-sub">'+varieties.slice(0,3).map(esc).join(' · ')+(varieties.length>3?' 외 '+(varieties.length-3)+'종':'')+'</span><div class="big">'+won(x.price)+'</div><div class="muted">'+esc(x.pricePerKg?'kg 환산가격 · '+(x.kind||'거래구분 미상'):'원 거래단위 가격')+'</div></button>'
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>제철과일 시세 연구소 | 홍로사과·신고배 품종별 도매·소매 가격 비교</title>
+<meta name="description" content="사과부터 홍로사과·후지사과까지. 한국농수산식품유통공사 공식 조사자료로 과일 품종별 중도매·소매 가격과 가격추이를 비교하고 온라인 판매 마진도 계산해 보세요.">
+<meta name="theme-color" content="#11845b">
+<style>
+:root{--green:#10865d;--deep:#173d2f;--ink:#20342b;--muted:#718477;--line:#e4ece6;--bg:#f7faf7;font-family:system-ui,-apple-system,"Noto Sans KR",sans-serif}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink)}button,input,select{font:inherit}button{cursor:pointer}a{color:inherit}
+.wrap{width:min(1120px,calc(100% - 36px));margin:auto}.top{background:#fff;border-bottom:1px solid var(--line)}.topbar{height:72px;display:flex;align-items:center;justify-content:space-between;gap:16px}.brand{font-weight:900;font-size:22px;letter-spacing:-.7px}.brand b{color:var(--green)}.source-pill{background:#eaf8f0;color:var(--green);padding:9px 14px;font-size:12px;border-radius:99px;font-weight:750}
+.hero{margin:24px 0 22px;overflow:hidden;background:linear-gradient(110deg,#def8e9,#fff3d9);border-radius:24px;display:flex;justify-content:space-between;align-items:center;min-height:204px;padding:30px 38px;gap:18px}.eyebrow{font-size:13px;font-weight:800;color:#168659}.hero h1{font-size:clamp(24px,3.7vw,38px);letter-spacing:-1.2px;line-height:1.35;margin:13px 0}.hero em{font-style:normal;color:#0f885b}.hero p{color:#5f806b;font-size:13px;margin:0}.hero-art{font-size:66px;white-space:nowrap}
+.tabs{display:flex;gap:10px;margin:18px 0 18px;flex-wrap:wrap}.tabs button{background:#fff;border:1px solid #dee8e1;border-radius:13px;padding:12px 17px;font-weight:750;color:#466154}.tabs button.on{background:var(--green);color:#fff;border-color:var(--green);box-shadow:0 5px 14px #168d5d22}
+.panel{display:none}.panel.on{display:block}.box{background:#fff;border:1px solid var(--line);border-radius:20px;padding:23px;margin-bottom:16px}.headrow{display:flex;gap:16px;align-items:center;justify-content:space-between;flex-wrap:wrap}h2{margin:0 0 8px;font-size:21px;letter-spacing:-.7px}.sub{font-size:13px;color:var(--muted);margin:0;line-height:1.7}.hint{font-size:12px;color:var(--muted)}.status{display:inline-flex;align-items:center;gap:7px;background:#edf7ee;border-radius:30px;padding:8px 12px;font-size:12px;color:#267051;font-weight:750}.dot{background:#1dba77;width:7px;height:7px;border-radius:50%}
+.fruit-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px;margin-top:20px}
+.fruit-card{overflow:hidden;text-align:left;border:1px solid #e2eae3;background:#fff;border-radius:17px;padding:0 0 16px;transition:box-shadow .2s,border-color .2s;min-width:0}
+.fruit-card.active{border:2px solid #1cac77;box-shadow:0 5px 20px #13815713}.fruit-card:hover{box-shadow:0 5px 22px #183d2f18}
+.photo{height:145px;position:relative;background:#eff4ed;overflow:hidden}.photo img{width:100%;height:100%;object-fit:cover;display:block}.photo-fallback{height:100%;display:flex;align-items:center;justify-content:center;background:linear-gradient(120deg,#e9f2e7,#f5f5ec);color:#829486;font-size:12px}.fruit-body{padding:14px 14px 0}
+.fruit-title{font-size:19px;font-weight:900;letter-spacing:-.6px}.fruit-count{color:#728377;font-size:12px;margin:4px 0 9px}.mini{font-size:12px;color:#65796b}.fruit-price{font-size:20px;font-weight:900;letter-spacing:-.6px;margin:7px 0 1px}.small-tag{font-size:11px;color:#14835e;background:#e9f6ee;border-radius:6px;padding:4px 7px;display:inline-block}
+.bread{font-size:13px;color:#5b806b;margin:4px 0 15px}.step{display:inline-block;background:#e5f5e9;color:#16875b;padding:6px 9px;border-radius:8px;font-size:11px;font-weight:800;margin-bottom:12px}
+.variety-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:15px}
+.variety-card{display:flex;align-items:center;gap:13px;text-align:left;background:#fff;border:1px solid #e0eae1;border-radius:15px;padding:11px;min-width:0}.variety-card.active{border:2px solid #18a96b;background:#f5fff8;padding:10px}
+.variety-card img{width:78px;height:74px;flex:0 0 78px;object-fit:cover;border-radius:12px}.variety-copy{min-width:0;flex:1}.variety-name{font-size:17px;font-weight:850}.variety-price{font-size:18px;font-weight:850;margin:6px 0 0}.variety-next{font-size:24px;color:#8aa498}
+.detail-top{display:flex;gap:19px;align-items:center;justify-content:space-between}.detail-name{font-size:28px;font-weight:900;letter-spacing:-.8px}.detail-image{width:155px;height:135px;object-fit:cover;border-radius:14px}.compare{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:18px 0}.metric{background:#f3faf5;border:1px solid #e0eee4;padding:17px;border-radius:14px}.metric.retail{background:#fff9ee;border-color:#f8ead2}.metric .label{font-size:12px;color:#62776b;font-weight:800}.metric .number{font-size:26px;font-weight:900;margin:8px 0 4px;color:#157d53}.metric.retail .number{color:#b97920}.metric .extra{font-size:11px;color:#78877e}
+.tablewrap{overflow:auto}table{border-collapse:collapse;width:100%;min-width:550px;font-size:13px}th{text-align:left;color:#5a7163;background:#f8fbf8}td,th{padding:11px 10px;border-bottom:1px solid #ebf0ed;white-space:nowrap}td.num{font-weight:850;color:#164832}
+.chartbox{margin-top:18px}.charthead{display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap}.charthead select{width:auto;padding:9px 10px;border-radius:9px;border:1px solid #d9e8dd;background:white}.chart{width:100%;height:205px;display:block;margin-top:10px}.legend{font-size:12px;color:#6a8071}.legend strong{color:#15915f}
+.formgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:15px}.formgrid label{font-size:12px;color:#567060}.formgrid input{width:100%;padding:12px;margin-top:6px;border-radius:10px;border:1px solid #d3e3d8;font-size:16px}.calc-result{background:#e5f8e9;border-radius:18px;padding:23px}.calc-result strong{font-size:30px;color:#12875a}
+.months{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:9px}.months button{padding:12px 3px;background:#f0f7f2;border:0;border-radius:10px}.months button.on{background:#159264;color:#fff}.tag{display:inline-block;padding:9px 15px;margin:6px;background:#e7f8ed;color:#177c55;border-radius:30px}
+.notice{margin:13px 0 0;background:#fff8e5;color:#8b6b28;padding:11px;border-radius:9px;font-size:12px;line-height:1.7}.seo{display:grid;grid-template-columns:repeat(3,1fr);gap:13px}.seo article{background:white;border:1px solid #e1ece3;border-radius:17px;padding:20px}.seo h3{font-size:16px;margin:0 0 9px}.seo p{font-size:12px;color:#728374;line-height:1.7;margin:0}.credits{font-size:12px;color:#6c7d72;line-height:1.75}.credits a{color:#147d57}.credits ul{padding-left:20px}footer{padding:24px 0 40px;font-size:12px;color:#708175}
+@media(max-width:820px){.fruit-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.hero-art{font-size:50px}.seo{grid-template-columns:1fr}}
+@media(max-width:620px){.wrap{width:calc(100% - 30px)}.topbar{height:64px}.brand{font-size:19px}.source-pill{padding:6px 9px;font-size:10px}.hero{padding:22px;min-height:175px}.hero-art{font-size:35px}.hero h1{font-size:24px}.box{padding:17px;border-radius:17px}.fruit-grid,.variety-grid,.compare{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.photo{height:116px}.fruit-body{padding:12px 10px 0}.fruit-title{font-size:17px}.fruit-price{font-size:17px}.variety-card{padding:9px;gap:8px}.variety-card.active{padding:8px}.variety-card img{width:58px;height:60px;flex-basis:58px}.variety-name{font-size:14px}.variety-price{font-size:15px}.variety-next{display:none}.detail-name{font-size:23px}.detail-image{width:110px;height:104px}.metric{padding:12px}.metric .number{font-size:20px}.formgrid{grid-template-columns:1fr}.months{grid-template-columns:repeat(4,1fr)}}
+@media(max-width:380px){.fruit-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.hero-art{display:none}}
+</style></head><body>
+<header class="top"><div class="wrap topbar"><div class="brand">🍏 제철과일 <b>시세 연구소</b></div><span class="source-pill">aT 공공데이터 연동</span></div></header>
+<main class="wrap">
+<section class="hero"><div><div class="eyebrow">매일 확인하는 전국 과일 시세</div><h1>과일을 고르고,<br><em>품종별 가격을 비교하세요.</em></h1><p>사과 → 홍로사과 → 도매·소매 가격과 추이까지</p></div><div class="hero-art" aria-hidden="true">🍎🍊</div></section>
+<nav class="tabs" aria-label="기능"><button class="on" data-tab="prices">📊 과일 시세</button><button data-tab="seller">🧮 셀러 마진</button><button data-tab="calendar">📅 제철 달력</button></nav>
+<section id="prices" class="panel on">
+<div class="box"><div class="headrow"><div><span class="step">STEP 01 · 과일 선택</span><h2>어떤 과일의 가격이 궁금하세요?</h2><p class="sub">실제 과일 사진을 눌러 품종별 조사 시세를 확인하세요.</p></div><div id="status" class="status"><span class="dot"></span> 공식 시세 불러오는 중…</div></div>
+<div id="fruitGrid" class="fruit-grid"><p class="sub">농산물 정보를 불러오고 있습니다.</p></div></div>
+<section id="varietySection" class="box" hidden><span class="step">STEP 02 · 품종 선택</span><div class="bread" id="bread"></div><h2 id="varietyHeading">품종 선택</h2><p class="sub">홍로·후지처럼 공식 데이터에 등록된 실제 품종만 표시합니다.</p><div id="varietyGrid" class="variety-grid"></div></section>
+<section id="detailSection" class="box" hidden><span class="step">STEP 03 · 실측 가격 확인</span>
+<div class="detail-top"><div><div class="bread" id="detailBread"></div><div class="detail-name" id="detailName"></div><p class="sub" id="detailNote"></p></div><img class="detail-image" id="detailImage" alt="" loading="lazy"></div>
+<div class="compare"><div class="metric"><div class="label">🏷 중도매 1kg 환산가격</div><div class="number" id="wholesaleValue">—</div><div class="extra" id="wholesaleCount"></div></div><div class="metric retail"><div class="label">🛒 소매 1kg 환산가격</div><div class="number" id="retailValue">—</div><div class="extra" id="retailCount"></div></div></div>
+<div class="headrow"><h2 style="margin:0">지역·시장별 조사 가격</h2><label class="hint">지역 <select id="regionSelect" style="padding:9px;border:1px solid #d9e7dd;border-radius:9px;background:white"></select></label></div>
+<div class="tablewrap"><table><thead><tr><th>지역·시장</th><th>구분</th><th>등급·거래단위</th><th>1kg 환산</th><th>조사일</th></tr></thead><tbody id="priceRows"></tbody></table></div>
+<div class="chartbox"><div class="charthead"><div><h2 style="margin:0">최근 가격 추이</h2><p class="sub">최근 10일 중 실제 조사일만 표시 · 품종/유형별 kg 환산 중간값</p></div><select id="kindSelect" aria-label="가격 추이 구분"><option value="중도매">중도매</option><option value="소매">소매</option></select></div><svg id="trendChart" class="chart" viewBox="0 0 650 205" role="img" aria-label="최근 공식 시세 추이"></svg><div id="trendInfo" class="legend"></div></div>
+<div class="notice">📌 표시는 공식 조사 시세이며 거래 가능한 실매입가·실판매가가 아닙니다. 품종·등급·시장·거래단위 차이를 확인하고 비교하세요.</div>
+</section></section>
+<section id="seller" class="panel"><div class="box"><h2>쿠팡 과일 판매 마진 계산기</h2><p class="sub">공공 도매시세와 실제 소싱 원가는 다르므로 공급업체 견적을 직접 입력해 주세요.</p><div class="formgrid">
+<label>쿠팡 판매가(원)<input type="number" id="sale" value="19900" min="0"></label><label>매입원가(원)<input type="number" id="cost" value="11000" min="0"></label><label>배송비(원)<input type="number" id="shipping" value="3000" min="0"></label><label>포장비(원)<input type="number" id="packing" value="1000" min="0"></label><label>판매수수료(%)<input type="number" id="fee" value="10" min="0" max="99"></label><label>폐기·환불 평균손실률(%)<input type="number" id="loss" value="5" min="0" max="99"></label><label>건당 광고비(원)<input type="number" id="ads" value="0" min="0"></label><label>월 판매건수<input type="number" id="qty" value="100" min="0"></label>
+</div></div><div class="calc-result"><div>건당 예상 기여이익</div><strong id="profit">—</strong><p id="details"></p></div><p class="notice">수수료는 예시입니다. 실제 계약조건·부가세·인건비·창고비·광고비 등에 따라 수익이 달라집니다.</p></section>
+<section id="calendar" class="panel"><div class="box"><h2>월별 제철 달력</h2><p class="sub">품종·재배방식 및 지역에 따라 출하시기가 달라질 수 있습니다.</p><div id="months" class="months" style="margin-top:17px"></div></div><div class="box"><h2 id="monthTitle"></h2><div id="seasons"></div></div></section>
+<div class="seo"><article><h3>🍎 과일 품종별 시세</h3><p>사과는 홍로·후지, 포도는 캠벨얼리·거봉처럼 품종을 구분하고 시장 및 등급별 가격을 비교하세요.</p></article><article><h3>📉 일별 가격변동</h3><p>중도매와 소매를 구분해 동일 품종의 1kg 환산가격 추이를 확인할 수 있습니다.</p></article><article><h3>📦 셀러 소싱 도구</h3><p>공공가격을 참고하되 실제 원가와 플랫폼 수수료를 넣어 판매 예상 이익을 계산해 보세요.</p></article></div>
+<details class="box credits" style="margin-top:16px"><summary style="cursor:pointer;font-weight:800">실제 과일 사진 출처·저작권 보기</summary><p>품목 대표 사진은 위키미디어 공용의 실제 사진입니다. 사진은 특정 품종·등급·현재 판매 상품을 보증하지 않으며 품종별 검증사진이 있는 경우에만 별도 적용했습니다. 각 사진은 원저작자의 라이선스에 따라 표기합니다.</p><div id="creditList"></div></details>
+<footer>가격 출처: 한국농수산식품유통공사(aT) 공공데이터 · 본 사이트는 한국농수산식품유통공사나 쿠팡이 운영하는 공식 서비스가 아닙니다.</footer>
+</main>
+<script>
+(function(){
+const $=id=>document.getElementById(id);
+const fmt=n=>Math.round(n).toLocaleString('ko-KR')+'원';
+const html=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const PHOTO={
+'사과':['Fresh red apple closeup.jpg','Shixart1985','CC BY 2.0','https://creativecommons.org/licenses/by/2.0/'],
+'배':['Korean pear (Pyrus pyrifolia).jpg','국립국어원','CC BY-SA 2.0 KR','https://creativecommons.org/licenses/by-sa/2.0/kr/'],
+'감귤':['Tangerines fruit citrus reticulata.jpg','Darren Paquette','Public Domain','https://creativecommons.org/publicdomain/mark/1.0/'],
+'포도':['Fresh purple grapes.jpg','공개 이미지','Public Domain','https://creativecommons.org/publicdomain/mark/1.0/'],
+'딸기':['Strawberry fruit.jpg','Paolo Neo','Public Domain','https://creativecommons.org/publicdomain/mark/1.0/'],
+'복숭아':['Peach fruits.jpg','Prianxi','CC BY-SA 4.0','https://creativecommons.org/licenses/by-sa/4.0/'],
+'수박':['Watermelon fruit image.jpg','Waran R Samay','CC BY 4.0','https://creativecommons.org/licenses/by/4.0/'],
+'참외':['Korean melon1.jpg','randychiu','CC BY 2.0','https://creativecommons.org/licenses/by/2.0/'],
+'자두':['Plum Fruit.jpg','Gaurav Dhwaj Khadka','CC BY-SA','https://commons.wikimedia.org/wiki/File:Plum_Fruit.jpg'],
+'바나나':['Banana Fruit.JPG','ZooFari','Public Domain','https://creativecommons.org/publicdomain/mark/1.0/'],
+'파인애플':['Pineapple fruit.jpg','Mibrahim74','CC BY 3.0','https://creativecommons.org/licenses/by/3.0/'],
+'오렌지':['Orange fruit.jpg','Nirajan_pant','CC BY-SA 3.0','https://creativecommons.org/licenses/by-sa/3.0/'],
+'레몬':['Lemon fruits.jpg','브린다 수브라마니','CC BY-SA 4.0','https://creativecommons.org/licenses/by-sa/4.0/'],
+'키위':['Kiwifruitlg.jpg','KQ','Public Domain','https://creativecommons.org/publicdomain/mark/1.0/'],
+'체리':['Cherry cherries fruit.jpg','Jon Sullivan','Public Domain','https://creativecommons.org/publicdomain/mark/1.0/'],
+'블루베리':['Blueberries (1).jpg','Rosendahl','Public Domain','https://creativecommons.org/publicdomain/mark/1.0/'],
+'단감':['A Persimmon Fruit (1).JPG','Haydnaston','Public Domain','https://creativecommons.org/publicdomain/mark/1.0/'],
+'감':['A Persimmon Fruit (1).JPG','Haydnaston','Public Domain','https://creativecommons.org/publicdomain/mark/1.0/'],
+'무화과':['A Fig Fruit.jpg','MarvinBikolano','CC BY-SA 4.0','https://creativecommons.org/licenses/by-sa/4.0/'],
+'망고':['Mango fruit in illorin.jpg','Eunice Ameh','CC0','https://creativecommons.org/publicdomain/zero/1.0/']
+};
+const VARIETY_PHOTO={
+'사과|후지':['Fuji apple.jpg','USDA ARS','Public Domain','https://creativecommons.org/publicdomain/mark/1.0/'],
+'포도|샤인머스캣':['Shine muscat grapes (20240913).jpg','Fumikas Sagisavas','CC0','https://creativecommons.org/publicdomain/zero/1.0/'],
+'포도|캠벨얼리':['Campbell Early.jpg','Tae Hun Kim','CC0','https://creativecommons.org/publicdomain/zero/1.0/']
+};
+const fileUrl=entry=>entry?'https://commons.wikimedia.org/wiki/Special:FilePath/'+encodeURIComponent(entry[0])+'?width=560':'';
+const filePage=entry=>entry?'https://commons.wikimedia.org/wiki/File:'+encodeURIComponent(entry[0].replaceAll(' ','_')):'';
+const number=(vals)=>{const arr=vals.filter(Number.isFinite).slice().sort((a,b)=>a-b);return arr.length?arr[Math.floor(arr.length/2)]:null};
+const LABEL={사과:'🍎',배:'🍐',감귤:'🍊',포도:'🍇',딸기:'🍓',수박:'🍉',복숭아:'🍑',참외:'🍈'};
+let prices=[],history=[],fruit='',variety='',region='전체';
+function pic(entry,cls,label){return entry?'<img class="'+cls+'" src="'+fileUrl(entry)+'" alt="'+html(label)+' 실제 과일 사진" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display=\'none\';this.parentElement.classList.add(\'image-missing\')">':'<span class="photo-fallback">사진 준비 중</span>';}
+function groups(name){return prices.filter(x=>x.name===name)}
+function types(rows){return [...new Set(rows.map(x=>x.variety||'미분류'))].sort((a,b)=>a.localeCompare(b,'ko'))}
+function figure(rows,kind){return number(rows.filter(x=>(x.kind||'').includes(kind)).map(x=>Number(x.pricePerKg)).filter(x=>x>0))}
+function selectFruit(name,scroll){fruit=name;variety='';region='전체';renderFruits();renderVarieties();if(scroll)$('varietySection').scrollIntoView({behavior:'smooth',block:'start'})}
+function renderFruits(){
+const names=[...new Set(prices.map(x=>x.name))];
+const priority=['사과','배','감귤','포도','딸기','복숭아','수박','참외','자두','바나나','파인애플','오렌지','레몬','키위','체리','블루베리','단감','망고'];
+names.sort((a,b)=>{let aa=priority.indexOf(a),bb=priority.indexOf(b);return (aa<0?999:aa)-(bb<0?999:bb)||a.localeCompare(b,'ko')});
+$('fruitGrid').innerHTML=names.map(name=>{
+const rows=groups(name),mid=figure(rows,'중도매'),photo=PHOTO[name];
+return '<button type="button" class="fruit-card '+(fruit===name?'active':'')+'" data-fruit="'+html(name)+'"><div class="photo">'+pic(photo,'',name)+'</div><div class="fruit-body"><div class="fruit-title">'+html(name)+'</div><p class="fruit-count">조사 품종 '+types(rows).length+'종</p><div class="small-tag">품종 선택하기 →</div><div class="fruit-price">'+(mid===null?'조사 가격 확인':'중도매 '+fmt(mid))+'</div><div class="mini">'+(mid===null?'해당 구분 시세 없음':'1kg 환산 중간값')+'</div></div></button>';
+}).join('')||'<p>조회 가능한 품목이 없습니다.</p>';
+$('fruitGrid').querySelectorAll('[data-fruit]').forEach(b=>b.onclick=()=>selectFruit(b.dataset.fruit,true))
+}
+function renderVarieties(){
+$('varietySection').hidden=!fruit;
+if(!fruit)return;
+const rows=groups(fruit),all=types(rows);
+$('bread').textContent='과일 전체 > '+fruit;
+$('varietyHeading').textContent=fruit+' 품종을 선택하세요';
+$('varietyGrid').innerHTML=all.map(v=>{
+const sub=rows.filter(x=>(x.variety||'미분류')===v),mid=figure(sub,'중도매'),ret=figure(sub,'소매'),photo=VARIETY_PHOTO[fruit+'|'+v]||PHOTO[fruit],isSpecific=!!VARIETY_PHOTO[fruit+'|'+v];
+return '<button type="button" class="variety-card '+(v===variety?'active':'')+'" data-variety="'+html(v)+'"><div style="position:relative">'+pic(photo,'',v+' '+fruit)+'</div><div class="variety-copy"><div class="variety-name">'+html(v==='미분류'?fruit+' (품종 미분류)':v+fruit)+'</div><div class="hint">'+(isSpecific?'품종 사진':'품목 대표 사진')+'</div><div class="variety-price">'+(mid!==null?fmt(mid)+'/kg':ret!==null?'소매 '+fmt(ret)+'/kg':'가격정보 확인')+'</div><div class="hint">'+(mid!==null?'중도매':ret!==null?'소매':'')+' · 최근 조사일</div></div><div class="variety-next">›</div></button>';
 }).join('');
-document.querySelectorAll('[data-fruit]').forEach(x=>x.onclick=()=>{selected=x.dataset.fruit;selectedVariety='';show()});
-const varieties=[...new Set(items.filter(x=>x.name===selected).map(x=>x.variety||'품종 미상'))].sort((a,b)=>a.localeCompare(b,'ko'));
-if(!selectedVariety||!varieties.includes(selectedVariety))selectedVariety=varieties[0]||'';
-$('crumbs').textContent='과일 > '+selected+(selectedVariety?' > '+selectedVariety+' '+selected:'');
-$('varieties').innerHTML=varieties.map(v=>'<button class="'+(v===selectedVariety?'on':'')+'" data-variety="'+esc(v)+'">'+esc(v)+' '+esc(selected)+'</button>').join('');
-document.querySelectorAll('[data-variety]').forEach(b=>b.onclick=()=>{selectedVariety=b.dataset.variety;show()});
-$('title').textContent=selected+' · '+selectedVariety+' 가격 추이';
-const matched=items.filter(x=>x.name===selected&&(!selectedVariety||(x.variety||'품종 미상')===selectedVariety));
-$('rows').innerHTML=matched.slice(0,100).map(x=>'<tr><td>'+esc(x.name)+'</td><td>'+esc([x.variety,x.grade,x.kind,x.region,x.market,x.unit].filter(Boolean).join(' / '))+'</td><td>'+won(x.price)+'</td><td>'+esc(x.date)+'</td></tr>').join('')||'<tr><td colspan="4">해당 품종의 조사 시세가 없습니다.</td></tr>';
-drawChart()
-};async function load(){try{const r=await fetch('/api/prices');const j=await r.json();if(!r.ok||!j.live)throw Error(j.message||'API 오류');items=j.items||[];if(!items.length)throw Error('현재 조회할 가격이 없습니다');$('status').textContent='공식 API '+items.length+'건 · 기준 조사일 '+j.date+(j.partial?' · 일부 항목 페이지 제한':'');selected=items[0].name;selectedVariety='';priceHistory=Array.isArray(j.history)?j.history:[];show();$('historyStatus').textContent=priceHistory.length?'공식 조사일별 가격 이력 '+priceHistory.length+'건 · 동일 품목 및 거래구분별 kg 환산가격 중간값':'과거 조사일 데이터가 부족합니다'}catch(e){$('status').textContent='가격 조회 실패: '+e.message;$('rows').innerHTML='<tr><td colspan="4">정상 가격 데이터가 확인될 때 표시됩니다.</td></tr>'; $('chart').innerHTML=''}}function calc(){let v=s=>Math.max(0,Number($(s).value)||0),s=v('sale'),f=Math.min(.99,v('fee')/100),l=Math.min(.99,v('loss')/100),expense=v('cost')/(1-l)+v('shipping')+v('packing')+v('ads'),profit=s*(1-f)-expense;$('profit').textContent=won(profit);$('details').textContent='판매가 대비 '+(s?((profit/s)*100).toFixed(1):0)+'% · 손익분기 판매가 '+won(expense/(1-f))+' · 월 예상 '+won(profit*v('qty'))}document.querySelectorAll('input').forEach(x=>x.addEventListener('input',calc));const seasons=[['딸기','감귤'],['딸기','천혜향'],['딸기','한라봉'],['딸기','참외'],['참외','매실'],['복숭아','자두','수박'],['복숭아','수박'],['포도','무화과'],['사과','배','포도'],['사과','감','배'],['감귤','유자'],['딸기','감귤']];let month=new Date().getMonth()+1;function cal(){$('months').innerHTML=Array.from({length:12},(_,i)=>'<button class="'+(month===i+1?'on':'')+'" data-month="'+(i+1)+'">'+(i+1)+'월</button>').join('');document.querySelectorAll('[data-month]').forEach(x=>x.onclick=()=>{month=+x.dataset.month;cal()});$('monthTitle').textContent=month+'월 대표 제철과일';$('seasons').innerHTML=seasons[month-1].map(x=>'<span class="chip">'+x+'</span>').join('')}async function readHistory(){try{const r=await fetch('/data/history.json?ts='+Date.now());const j=await r.json();if(!r.ok)throw Error('이력 조회 실패');priceHistory=Array.isArray(j.samples)?j.samples:[];$('historyStatus').textContent=priceHistory.length?'실제 가격 이력 '+priceHistory.length+'건 저장됨':'첫 자동 수집 후 가격 이력이 표시됩니다';drawChart()}catch(e){$('historyStatus').textContent='가격 이력 조회 일시 중단';}}function drawChart(){const available=priceHistory.filter(x=>x.name===selected&&(!selectedVariety||x.variety===selectedVariety));const kind=available.some(x=>x.kind==='중도매')?'중도매':available[0]?.kind;const rows=available.filter(x=>x.kind===kind).sort((a,b)=>a.date.localeCompare(b.date));const daily=[...new Map(rows.map(x=>[x.date,x])).values()].slice(-10);if(daily.length<2){$('chart').innerHTML='<text x="250" y="95" text-anchor="middle" fill="#7b9285">실제 가격 이력이 2일 이상 쌓이면 표시됩니다.</text>';return}const vv=daily.map(x=>+x.price),min=Math.min(...vv),max=Math.max(...vv),range=max-min||1;const pts=daily.map((x,i)=>[25+i*450/(daily.length-1),155-115*(x.price-min)/range]);$('chart').innerHTML='<polyline fill="none" stroke="#139867" stroke-width="3" points="'+pts.map(p=>p.join(',')).join(' ')+'"/>'+pts.map((p,i)=>'<circle cx="'+p[0]+'" cy="'+p[1]+'" r="4" fill="#138f60"><title>'+daily[i].date+' '+won(daily[i].price)+'/kg</title></circle>').join('')+'<text x="20" y="173" font-size="11" fill="#718578">'+daily[0].date+'</text><text x="390" y="173" font-size="11" fill="#718578">'+daily[daily.length-1].date+'</text>';$('historyStatus').textContent=selected+' · '+kind+' · 최근 조사일 '+daily.length+'개 · kg 환산가격 중간값';}cal();calc();load();</script></body></html>
+$('varietyGrid').querySelectorAll('[data-variety]').forEach(b=>b.onclick=()=>selectVariety(b.dataset.variety,true));
+$('detailSection').hidden=!variety;
+}
+function selectVariety(v,scroll){variety=v;region='전체';renderVarieties();renderDetail();if(scroll)$('detailSection').scrollIntoView({behavior:'smooth',block:'start'})}
+function relevant(){return prices.filter(x=>x.name===fruit&&(x.variety||'미분류')===variety)}
+function renderDetail(){
+if(!variety){$('detailSection').hidden=true;return}
+$('detailSection').hidden=false;
+const vName=variety==='미분류'?fruit:variety+fruit,photo=VARIETY_PHOTO[fruit+'|'+variety]||PHOTO[fruit];
+$('detailBread').textContent='과일 > '+fruit+' > '+vName;
+$('detailName').textContent=vName+' 시세';
+$('detailNote').textContent='전국 시장별 실측가 중간값 · 공식 조사일 '+(prices[0]?.date||'')+(VARIETY_PHOTO[fruit+'|'+variety]?' · 품종 실물 사진':' · 사진은 '+fruit+' 대표 이미지');
+const image=$('detailImage');image.hidden=!photo;if(photo){image.src=fileUrl(photo);image.alt=vName+' 관련 실제 과일 사진'}
+const rows=relevant(),wh=rows.filter(x=>x.kind.includes('중도매')&&Number(x.pricePerKg)>0),rt=rows.filter(x=>x.kind.includes('소매')&&Number(x.pricePerKg)>0);
+$('wholesaleValue').textContent=wh.length?fmt(number(wh.map(x=>+x.pricePerKg))):'정보 없음';
+$('wholesaleCount').textContent=wh.length?'조사 항목 '+wh.length+'건 · kg 기준':'공식 조사 자료 없음';
+$('retailValue').textContent=rt.length?fmt(number(rt.map(x=>+x.pricePerKg))):'정보 없음';
+$('retailCount').textContent=rt.length?'조사 항목 '+rt.length+'건 · kg 기준':'공식 조사 자료 없음';
+const regions=['전체',...new Set(rows.map(x=>x.region).filter(Boolean))].sort((a,b)=>a==='전체'?-1:b==='전체'?1:a.localeCompare(b,'ko'));
+$('regionSelect').innerHTML=regions.map(r=>'<option value="'+html(r)+'" '+(r===region?'selected':'')+'>'+html(r)+'</option>').join('');
+renderRows();drawTrend()
+}
+function renderRows(){const rows=relevant().filter(x=>region==='전체'||x.region===region);
+$('priceRows').innerHTML=rows.slice().sort((a,b)=>a.kind.localeCompare(b.kind)||a.region.localeCompare(b.region)).slice(0,160).map(x=>'<tr><td>'+html([x.region,x.market].filter(Boolean).join(' · '))+'</td><td>'+html(x.kind)+'</td><td>'+html([x.grade,x.unit].filter(Boolean).join(' / '))+'</td><td class="num">'+(x.pricePerKg?fmt(x.pricePerKg):'—')+'</td><td>'+html(x.date)+'</td></tr>').join('')||'<tr><td colspan="5">해당 지역에서 조사된 가격이 없습니다.</td></tr>';
+}
+function drawTrend(){
+const kind=$('kindSelect').value,points=history.filter(x=>x.name===fruit&&(x.variety||'미분류')===variety&&(x.kind||'').includes(kind)).sort((a,b)=>a.date.localeCompare(b.date)).slice(-10),svg=$('trendChart');
+if(points.length<2){svg.innerHTML='<text x="325" y="107" fill="#82948a" font-size="16" text-anchor="middle">선택 품종의 과거 조사일 데이터가 부족합니다.</text>';$('trendInfo').textContent='측정된 날짜만 표시합니다. 충분한 데이터가 없으면 임의로 채우지 않습니다.';return}
+const nums=points.map(x=>Number(x.price)),min=Math.min(...nums),max=Math.max(...nums),range=max-min||1,coords=points.map((p,i)=>[40+i*(565/(points.length-1)),156-118*(p.price-min)/range]);
+svg.innerHTML=[45,92,140,166].map(y=>'<line x1="38" x2="605" y1="'+y+'" y2="'+y+'" stroke="#e0ebe3" stroke-dasharray="4 5"/>').join('')+'<polyline fill="none" stroke="#159264" stroke-width="3.5" stroke-linejoin="round" points="'+coords.map(a=>a.join(',')).join(' ')+'"/>'+coords.map((p,i)=>'<circle cx="'+p[0]+'" cy="'+p[1]+'" r="4.5" fill="#0f8b60"><title>'+points[i].date+' '+fmt(points[i].price)+'/kg</title></circle>').join('')+'<text x="38" y="194" font-size="11" fill="#718676">'+points[0].date.slice(4)+'</text><text x="555" y="194" font-size="11" fill="#718676">'+points[points.length-1].date.slice(4)+'</text>';
+const diff=(nums.at(-1)-nums[0])/nums[0]*100;
+$('trendInfo').textContent='실제 조사일 '+points.length+'개 · 첫날 대비 '+(diff>=0?'+':'')+diff.toFixed(1)+'% · 품종/거래구분별 1kg 환산 중간값';
+}
+function calc(){const v=id=>Math.max(0,Number($(id).value)||0),sale=v('sale'),fee=Math.min(.99,v('fee')/100),loss=Math.min(.99,v('loss')/100),exp=v('cost')/(1-loss)+v('shipping')+v('packing')+v('ads'),profit=sale*(1-fee)-exp;$('profit').textContent=fmt(profit);$('profit').style.color=profit>=0?'#12875a':'#bd4b38';$('details').textContent='매출 대비 '+(sale?(profit/sale*100).toFixed(1):'0')+'% · 손익분기 판매가 '+fmt(exp/(1-fee))+' · 월 예상 '+fmt(profit*v('qty'))}
+document.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>{document.querySelectorAll('[data-tab]').forEach(x=>x.classList.toggle('on',x===b));document.querySelectorAll('.panel').forEach(p=>p.classList.toggle('on',p.id===b.dataset.tab))});
+document.querySelectorAll('#seller input').forEach(x=>x.addEventListener('input',calc));
+$('regionSelect').addEventListener('change',e=>{region=e.target.value;renderRows()});
+$('kindSelect').addEventListener('change',drawTrend);
+const season=[['딸기','감귤'],['딸기','천혜향'],['딸기','한라봉'],['딸기','참외'],['참외','매실'],['복숭아','자두','수박'],['복숭아','수박'],['포도','무화과'],['사과','배','포도'],['사과','배','감'],['감귤','유자'],['감귤','딸기']];
+let month=new Date(new Date().toLocaleString('en-US',{timeZone:'Asia/Seoul'})).getMonth()+1;
+function renderCalendar(){$('months').innerHTML=Array.from({length:12},(_,i)=>'<button class="'+(month===i+1?'on':'')+'" data-month="'+(i+1)+'">'+(i+1)+'월</button>').join('');$('months').querySelectorAll('button').forEach(b=>b.onclick=()=>{month=Number(b.dataset.month);renderCalendar()});$('monthTitle').textContent=month+'월 대표 제철과일';$('seasons').innerHTML=season[month-1].map(x=>'<span class="tag">'+html(x)+'</span>').join('')}
+function renderCredits(){const dict=new Map([...Object.values(PHOTO),...Object.values(VARIETY_PHOTO)].map(p=>[p[0],p]));$('creditList').innerHTML='<ul>'+[...dict.values()].map(p=>'<li><a target="_blank" rel="noopener noreferrer" href="'+filePage(p)+'">'+html(p[0])+'</a> — '+html(p[1])+' · <a target="_blank" rel="noopener noreferrer" href="'+p[3]+'">'+html(p[2])+'</a></li>').join('')+'</ul>'}
+async function load(){
+const st=$('status');
+try{
+const r=await fetch('/api/prices',{cache:'no-store'});const data=await r.json();if(!r.ok||!data.live)throw Error(data.message||'API 요청 실패');
+prices=Array.isArray(data.items)?data.items:[];history=Array.isArray(data.history)?data.history:[];if(!prices.length)throw Error('조회된 과일 시세가 없습니다');
+st.innerHTML='<span class="dot"></span> 기준 조사일 '+html(data.date)+' · 실측 '+prices.length+'건';renderFruits();selectFruit(prices.some(x=>x.name==='사과')?'사과':prices[0].name,false);
+}catch(e){st.innerHTML='시세 수신 오류 · 잠시 후 다시 시도';$('fruitGrid').innerHTML='<p class="sub">'+html(e.message)+'<br>실제 시세가 반환되지 않아 임의의 가격은 표시하지 않습니다.</p>';}
+}
+renderCalendar();renderCredits();calc();load();
+})();
+</script></body></html>
