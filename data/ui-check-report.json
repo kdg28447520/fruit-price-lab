@@ -1,8 +1,8 @@
 {
-  "testedAt": "2026-10-10T08:18:05.157Z",
+  "testedAt": "2026-10-10T08:30:17.783Z",
   "total": 22,
-  "passed": 22,
-  "failed": 0,
+  "passed": 21,
+  "failed": 1,
   "fruitCategories": 13,
   "variantClicks": 16,
   "photoAssets": 26,
@@ -17,7 +17,8 @@
     },
     {
       "name": "Official price status",
-      "passed": true
+      "passed": false,
+      "detail": "status= 기준 조사일 20261008 · 최근 862건 / 1년간 가격 관측 품종 16종"
     },
     {
       "name": "Photo credits visible",
