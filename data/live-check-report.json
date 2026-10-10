@@ -1,9 +1,9 @@
 {
-  "testedAt": "2026-10-10T08:03:32.993Z",
+  "testedAt": "2026-10-10T08:36:44.068Z",
   "base": "https://fruit-price-lab-kdg2844-8355s-projects.vercel.app",
-  "total": 5,
-  "passed": 5,
-  "failed": 0,
+  "total": 7,
+  "passed": 6,
+  "failed": 1,
   "tests": [
     {
       "name": "Homepage delivers HTML",
@@ -22,6 +22,16 @@
     },
     {
       "name": "Shine Muscat variety photo delivers JPEG",
+      "passed": true,
+      "status": 200
+    },
+    {
+      "name": "Annual active-variety list is available",
+      "passed": false,
+      "error": "HTTP 200 false"
+    },
+    {
+      "name": "Fuji one-year historical series available",
       "passed": true,
       "status": 200
     },
