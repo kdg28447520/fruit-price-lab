@@ -1,0 +1,83 @@
+{
+  "testedAt": "2026-10-10T08:01:46.172Z",
+  "total": 18,
+  "passed": 18,
+  "failed": 0,
+  "fruitCategories": 23,
+  "variantClicks": 49,
+  "photoAssets": 26,
+  "checks": [
+    {
+      "name": "Initial API price cards",
+      "passed": true
+    },
+    {
+      "name": "Official price status",
+      "passed": true
+    },
+    {
+      "name": "Photo credits visible",
+      "passed": true
+    },
+    {
+      "name": "All category and subtype buttons",
+      "passed": true
+    },
+    {
+      "name": "Apple variety codes",
+      "passed": true
+    },
+    {
+      "name": "Hongro shows official prices",
+      "passed": true
+    },
+    {
+      "name": "Region selector initialized",
+      "passed": true
+    },
+    {
+      "name": "Region switch filters rows",
+      "passed": true
+    },
+    {
+      "name": "Wholesaler/retail chart switch",
+      "passed": true
+    },
+    {
+      "name": "prices menu tab",
+      "passed": true
+    },
+    {
+      "name": "seller menu tab",
+      "passed": true
+    },
+    {
+      "name": "calendar menu tab",
+      "passed": true
+    },
+    {
+      "name": "Profit margin calculator",
+      "passed": true
+    },
+    {
+      "name": "12 calendar months",
+      "passed": true
+    },
+    {
+      "name": "Calendar month navigation",
+      "passed": true
+    },
+    {
+      "name": "All 26 verified photos local",
+      "passed": true
+    },
+    {
+      "name": "Photo sources match category, not unrelated clipart",
+      "passed": true
+    },
+    {
+      "name": "No runtime console errors",
+      "passed": true
+    }
+  ]
+}
