@@ -1,8 +1,8 @@
 {
-  "testedAt": "2026-10-10T08:35:27.430Z",
+  "testedAt": "2026-10-10T10:25:30.538Z",
   "total": 25,
-  "passed": 25,
-  "failed": 0,
+  "passed": 24,
+  "failed": 1,
   "fruitCategories": 20,
   "variantClicks": 34,
   "photoAssets": 26,
@@ -17,7 +17,8 @@
     },
     {
       "name": "Official price status",
-      "passed": true
+      "passed": false,
+      "detail": "status=10월 8일 기준· API 확인 10. 10. 16:18· 실측 862건"
     },
     {
       "name": "Photo credits visible",
