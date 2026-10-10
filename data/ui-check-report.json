@@ -1,7 +1,7 @@
 {
-  "testedAt": "2026-10-10T14:05:53.423Z",
-  "total": 26,
-  "passed": 26,
+  "testedAt": "2026-10-10T14:08:00.159Z",
+  "total": 32,
+  "passed": 32,
   "failed": 0,
   "fruitCategories": 20,
   "variantClicks": 34,
@@ -64,11 +64,35 @@
       "passed": true
     },
     {
+      "name": "sourcing menu tab",
+      "passed": true
+    },
+    {
       "name": "seller menu tab",
       "passed": true
     },
     {
       "name": "calendar menu tab",
+      "passed": true
+    },
+    {
+      "name": "Sourcing TOP 10 uses observed wholesale fruits",
+      "passed": true
+    },
+    {
+      "name": "Sourcing candidates show surveyed 1kg median",
+      "passed": true
+    },
+    {
+      "name": "Sourcing data source supports historical comparisons",
+      "passed": true
+    },
+    {
+      "name": "Sourcing opens actual fruit variety price details",
+      "passed": true
+    },
+    {
+      "name": "Sourcing margin button opens calculator",
       "passed": true
     },
     {
