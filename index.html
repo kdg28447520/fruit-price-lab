@@ -52,6 +52,17 @@
 .sourcing-reason{font-size:12px;color:#446450;line-height:1.7;background:#f4f9f2;border-radius:11px;padding:10px 11px;margin:0 0 14px}
 .sourcing-actions{display:flex;gap:8px;flex-wrap:wrap}.sourcing-actions button{border:1px solid #cbdcce;background:#fff;color:#237a4b;border-radius:9px;font-weight:800;font-size:12px;padding:10px 11px;cursor:pointer}.sourcing-actions button:first-child{background:#169263;border-color:#169263;color:white}
 @media(max-width:620px){.sourcing-grid{grid-template-columns:1fr}.sourcing-card{padding:15px}.sourcing-photo{width:68px;height:65px}.sourcing-facts{gap:7px}}
+
+.sourcing-filters{display:flex;gap:8px;flex-wrap:wrap;margin-top:13px}
+.sourcing-filter{border:1px solid #cfe2d1;background:#fff;border-radius:999px;padding:9px 13px;color:#41614e;font-size:12px;font-weight:800;cursor:pointer}
+.sourcing-filter.on{background:#167f53;border-color:#167f53;color:#fff}
+.sourcing-filter:focus-visible,.sourcing-actions button:focus-visible{outline:3px solid #8ad8ae;outline-offset:2px}
+.sourcing-signals{display:flex;gap:6px;flex-wrap:wrap;margin:14px 0 0}
+.sourcing-signal{font-size:11px;font-weight:850;padding:6px 9px;border-radius:7px;line-height:1.35}
+.sourcing-signal.watch{background:#fef1cc;color:#795c0f}
+.sourcing-signal.drop{background:#e6f2ff;color:#2265a5}
+.sourcing-signal.entry{background:#e8f8ec;color:#176b3a}
+.sourcing-empty{padding:18px 20px;border:1px solid #e2eee4;background:#fff;border-radius:16px;font-size:13px;color:#52775d}
 </style></head><body>
 <header class="top"><div class="wrap topbar"><div class="brand">🍏 제철과일 <b>시세 연구소</b></div><span class="source-pill">aT 공공데이터 연동</span></div></header>
 <main class="wrap">
@@ -73,9 +84,10 @@
 <div class="box">
 <div class="headrow"><div><span class="step">이번 달 소싱 후보 분석</span><h2>🔥 지금 살펴볼 과일 TOP 10</h2><p class="sub">월별 제철 여부 + aT 중도매 실측가 + 동일 품종의 최근 30일 가격 변화를 함께 비교합니다.</p></div><span class="status" id="sourcingDate">가격 자료 확인 중</span></div>
 <div class="sourcing-summary" id="sourcingSummary">실제 가격을 확인한 뒤 최대 10종을 선정합니다.</div>
+<div id="sourcingFilters" class="sourcing-filters" role="group" aria-label="TOP 10 추천 신호 필터"></div>
 </div>
 <div id="sourcingGrid" class="sourcing-grid"><div class="box"><p class="sub">공식 가격 자료를 불러오고 있습니다.</p></div></div>
-<div class="box"><h2>선정 기준과 주의사항</h2><p class="sub">① 국내 월별 출하·제철 여부를 먼저 참고하고 ② 같은 품종의 현재 중도매 1kg 가격과 최근 30일 조사 중간값의 변화를 비교한 다음 ③ 확인 가능한 시장 수와 조사일의 최신성을 고려해 정렬합니다. 30일 동안 같은 품종의 과거 조사일이 3일 미만이면 변동률을 계산하지 않습니다.</p><p class="notice">이 순위는 <strong>데이터 기반 소싱 검토 순서</strong>이지 실제 판매량, 구매 수요, 이익률 예측이 아닙니다. 제철이 아닌 연중 유통 상품도 포함될 수 있어요. 조사 가격은 실제 매입원가가 아니며 품종·등급·거래처·배송비를 확인하고 최종 판매 상품을 결정하세요.</p></div>
+<div class="box"><h2>선정 기준과 주의사항</h2><p class="sub">① <strong>🌱 제철 진입</strong>: 지난달에는 제철·시설 출하가 아니었고 이번 달부터 해당되는 품종 ② <strong>📉 가격 하락</strong>: 같은 품종의 이전 30일 조사 중간값보다 중도매 가격이 5% 이상 낮고 이전 조사일이 최소 3일인 경우 ③ <strong>📈 소싱 주목 신호</strong>: 제철 진입 또는 제철 품목의 가격 하락이 확인되고 현재 조사 시장이 3곳 이상인 경우입니다.</p><p class="notice">이 순위와 <strong>소싱 주목 신호는 내부 규칙에 따른 참고 지표</strong>입니다. '주목'은 소비자 검색량·구매량이 늘었다는 사실이 아닙니다. 네이버 검색 트렌드와 쿠팡 판매 실적은 아직 연동되지 않았습니다. 제철 달력은 국내 출하 시기 참고자료이며 aT 조사 중도매 가격은 실제 매입원가나 예상 수익이 아닙니다. 품종·등급·산지·배송비를 확인한 뒤 소싱하세요.</p></div>
 </section>
 <section id="seller" class="panel"><div class="box"><h2>쿠팡 과일 판매 마진 계산기</h2><p class="sub">공공 도매시세와 실제 소싱 원가는 다르므로 공급업체 견적을 직접 입력해 주세요.</p><div class="formgrid">
 <label>쿠팡 판매가(원)<input type="number" id="sale" value="19900" min="0"></label><label>매입원가(원)<input type="number" id="cost" value="11000" min="0"></label><label>배송비(원)<input type="number" id="shipping" value="3000" min="0"></label><label>포장비(원)<input type="number" id="packing" value="1000" min="0"></label><label>판매수수료(%)<input type="number" id="fee" value="10" min="0" max="99"></label><label>폐기·환불 평균손실률(%)<input type="number" id="loss" value="5" min="0" max="99"></label><label>건당 광고비(원)<input type="number" id="ads" value="0" min="0"></label><label>월 판매건수<input type="number" id="qty" value="100" min="0"></label>
@@ -97,7 +109,7 @@ const fallbackUrl=entry=>entry?'https://commons.wikimedia.org/wiki/Special:FileP
 const filePage=entry=>entry?'https://commons.wikimedia.org/wiki/File:'+encodeURIComponent(entry[0].replaceAll(' ','_')):'';
 const number=(vals)=>{const arr=vals.filter(Number.isFinite).slice().sort((a,b)=>a-b);return arr.length?arr[Math.floor(arr.length/2)]:null};
 const LABEL={사과:'🍎',배:'🍐',감귤:'🍊',포도:'🍇',딸기:'🍓',수박:'🍉',복숭아:'🍑',참외:'🍈'};
-let prices=[],history=[],annualHistory=[],annualReady=false,annualPending=false,annualCache={},yearIndex={items:[]},catalog={},variantSummaries=[],surveyDate='',fruit='',variety='',region='전체';let sourcingSamples=[],sourcingReady=false,sourcingError='',sourcingPartial=false;
+let prices=[],history=[],annualHistory=[],annualReady=false,annualPending=false,annualCache={},yearIndex={items:[]},catalog={},variantSummaries=[],surveyDate='',fruit='',variety='',region='전체';let sourcingSamples=[],sourcingReady=false,sourcingError='',sourcingPartial=false,sourcingFilter='all';
 function pic(entry,cls,label){
  if(!entry)return '<span class="photo-fallback">해당 과일의 실물 사진 준비 중</span>';
  return '<img class="'+cls+'" src="'+fileUrl(entry)+'" data-photo-fallback="'+html(fallbackUrl(entry))+'" alt="'+html(label)+' 실물 사진" loading="lazy" decoding="async" referrerpolicy="no-referrer">';
@@ -306,6 +318,14 @@ function sourcingCandidates(){
  }
  return [...byFruit.values()].sort((a,b)=>b.score-a.score||b.marketCount-a.marketCount||a.name.localeCompare(b.name,'ko')).slice(0,10);
 }
+function sourcingSignals(x,m){
+ const previous=seasonClass(x.name,x.variety,m===1?12:m-1);
+ const entry=(x.category==='harvest'||x.category==='facility')&&previous!=='harvest'&&previous!=='facility';
+ const drop=x.baseline!==null&&x.historyDays>=3&&x.change<=-5;
+ // Heuristic: not real search volume or market demand.
+ const watch=x.marketCount>=3&&(entry||((x.category==='harvest'||x.category==='facility')&&drop));
+ return {watch,drop,entry};
+}
 function renderSourcing(){
  const el=$('sourcingGrid'),summary=$('sourcingSummary'),label=$('sourcingDate');
  if(!prices.length){
@@ -316,20 +336,37 @@ function renderSourcing(){
  const today=dayNumber(currentKstDate()),observed=dayNumber(surveyDate),stale=!Number.isFinite(observed)||today-observed>7||today<observed-2;
  label.textContent=stale?'최근 7일 조사 자료 없음':formatSurveyDate(surveyDate);
  if(stale){summary.textContent='최근 7일 이내 공식 조사 시세를 확인하지 못했습니다.';el.innerHTML='<div class="box"><p class="sub">과거 가격으로 현재 판매 유망 순위를 만들지 않았습니다. 새로운 공식 조사 가격이 확보되면 표시합니다.</p></div>';return}
- const list=sourcingCandidates();
- const month=Number(surveyDate.slice(4,6)),seasonCount=list.filter(x=>x.category!=='none').length;
+ const month=Number(surveyDate.slice(4,6));
+ const list=sourcingCandidates().map(x=>({...x,signals:sourcingSignals(x,month)}));
+ const seasonCount=list.filter(x=>x.category!=='none').length;
+ const filters=[
+  {id:'all',label:'전체',count:list.length},
+  {id:'watch',label:'📈 소싱 주목 신호',count:list.filter(x=>x.signals.watch).length},
+  {id:'drop',label:'📉 가격 하락',count:list.filter(x=>x.signals.drop).length},
+  {id:'entry',label:'🌱 제철 진입',count:list.filter(x=>x.signals.entry).length}
+ ];
+ if(!filters.some(x=>x.id===sourcingFilter))sourcingFilter='all';
+ $('sourcingFilters').innerHTML=filters.map(x=>'<button type="button" class="sourcing-filter '+(sourcingFilter===x.id?'on':'')+'" data-sourcing-filter="'+x.id+'" aria-pressed="'+(sourcingFilter===x.id?'true':'false')+'">'+x.label+' '+x.count+'</button>').join('');
+ $('sourcingFilters').querySelectorAll('button').forEach(b=>b.onclick=()=>{sourcingFilter=b.dataset.sourcingFilter;renderSourcing()});
+ const shown=list.filter(x=>sourcingFilter==='all'||x.signals[sourcingFilter]);
  summary.textContent=month+'월 기준 · 실제 중도매 조사 가격이 있는 '+list.length+'개 소싱 후보 · 제철·출하 관련 '+seasonCount+'개 · '+(sourcingReady?'과거 30일 조사자료와 비교':'과거 비교자료 미확보')+(sourcingPartial?' · 일부 API 요청 누락 가능':'');
  if(!list.length){el.innerHTML='<div class="box"><p class="sub">현재 중도매 실측값이 있는 과일 후보가 없습니다. 조사 자료가 확보될 때까지 임의 추천을 하지 않습니다.</p></div>';return}
+ if(!shown.length){el.innerHTML='<div class="sourcing-empty">이번 달 TOP 10에서 이 신호가 확인된 후보는 없습니다. 다른 필터를 선택해 주세요. 실제 검색량·판매량을 임의로 추정해 표시하지 않습니다.</div>';return}
  const seasonLabels={harvest:'🌿 제철 출하',facility:'🏡 시설·조기 출하',stored:'📦 저장 유통',none:'🛒 기타 유통'};
- el.innerHTML=list.map((x,i)=>{
+ el.innerHTML=shown.map((x,i)=>{
   const display=x.name+(x.variety==='미분류'?'':' · '+x.variety);
   const difference=x.change===null?'비교자료 부족':Math.abs(x.change)<.05?'거의 동일':(x.change<0?'▼ ':'▲ ')+Math.abs(x.change).toFixed(1)+'%';
   const reason=seasonLabels[x.category]+' · 조사 시장 '+x.marketCount+'곳'+(x.change===null?' · 최근 30일 같은 품종 비교자료 부족':x.change<-.05?' · 같은 품종 지난 30일 중간값보다 중도매 가격 낮음':x.change>.05?' · 지난 30일 중간값보다 중도매 가격 높음':' · 지난 30일 중간값과 큰 차이 없음');
-  const photo=PHOTO[x.name]||VARIETY_PHOTO[x.name+'|'+x.variety];
-  return '<article class="sourcing-card"><div class="sourcing-top"><span class="sourcing-rank">'+(i+1)+'</span><div class="sourcing-photo">'+pic(photo,'',display)+'</div><div style="min-width:0"><div class="sourcing-title">'+html(display)+'</div><p class="sourcing-sub">'+html(seasonLabels[x.category])+' · aT '+html(surveyDate.slice(4,6))+'월 '+html(surveyDate.slice(6,8))+'일 조사</p></div></div><div class="sourcing-facts"><div class="sourcing-fact"><small>중도매 1kg 참고가</small><strong>'+fmt(x.price)+'</strong><em>현재 조사 시장 중간값</em></div><div class="sourcing-fact"><small>동일 품종 30일 비교</small><strong>'+html(difference)+'</strong><em>'+(x.baseline===null?'실측 조사일 3일 미만':'이전 조사 '+x.historyDays+'일 · '+fmt(x.baseline))+'</em></div></div><p class="sourcing-reason">'+html(reason)+'</p><div class="sourcing-actions"><button type="button" data-sourcing-view="'+i+'">🔎 시세 자세히</button><button type="button" data-sourcing-margin="'+i+'">🧮 마진 계산</button></div></article>';
+  const photo=VARIETY_PHOTO[x.name+'|'+x.variety]||PHOTO[x.name];
+  const pills=[
+   x.signals.watch?'<span class="sourcing-signal watch" title="제철 진입 또는 제철 품목의 가격 하락과 조사 시장 3곳 이상. 실제 소비자 관심도 측정 아님">📈 소싱 주목 신호</span>':'',
+   x.signals.drop?'<span class="sourcing-signal drop" title="같은 품종의 이전 30일 중도매 조사 가격 중간값보다 5% 이상 하락">📉 가격 하락</span>':'',
+   x.signals.entry?'<span class="sourcing-signal entry" title="지난달 대비 국내 제철·출하 달력 기준 새로 진입">🌱 제철 진입</span>':''
+  ].join('');
+  return '<article class="sourcing-card"><div class="sourcing-top"><span class="sourcing-rank">'+(i+1)+'</span><div class="sourcing-photo">'+pic(photo,'',display)+'</div><div style="min-width:0"><div class="sourcing-title">'+html(display)+'</div><p class="sourcing-sub">'+html(seasonLabels[x.category])+' · aT '+html(surveyDate.slice(4,6))+'월 '+html(surveyDate.slice(6,8))+'일 조사</p></div></div><div class="sourcing-signals" aria-label="소싱 분석 신호">'+pills+'</div><div class="sourcing-facts"><div class="sourcing-fact"><small>중도매 1kg 참고가</small><strong>'+fmt(x.price)+'</strong><em>현재 조사 시장 중간값</em></div><div class="sourcing-fact"><small>동일 품종 30일 비교</small><strong>'+html(difference)+'</strong><em>'+(x.baseline===null?'실측 조사일 3일 미만':'이전 조사 '+x.historyDays+'일 · '+fmt(x.baseline))+'</em></div></div><p class="sourcing-reason">'+html(reason)+'</p><div class="sourcing-actions"><button type="button" data-sourcing-view="'+i+'">🔎 시세 자세히</button><button type="button" data-sourcing-margin="'+i+'">🧮 마진 계산</button></div></article>';
  }).join('');
  el.querySelectorAll('[data-sourcing-view]').forEach(b=>b.onclick=()=>{
-  const x=list[Number(b.dataset.sourcingView)];
+  const x=shown[Number(b.dataset.sourcingView)];
   document.querySelector('[data-tab="prices"]').click();selectFruit(x.name,false);selectVariety(x.variety,true);
  });
  el.querySelectorAll('[data-sourcing-margin]').forEach(b=>b.onclick=()=>{
