@@ -1,0 +1,359 @@
+{
+  "source": "(참고)일별 도,소매 가격정보_코드.xlsx, 한국농수산식품유통공사 공공데이터 공식 품목·품종 코드",
+  "note": "코드표 등록은 조사 가격이 존재한다는 뜻이 아닙니다. 품종별 최신 실측값을 별도로 확인해야 합니다.",
+  "items": {
+    "221": {
+      "category": "200",
+      "name": "수박",
+      "varieties": [
+        {
+          "code": "00",
+          "name": "수박"
+        }
+      ],
+      "itemCode": "221"
+    },
+    "222": {
+      "category": "200",
+      "name": "참외",
+      "varieties": [
+        {
+          "code": "00",
+          "name": "참외"
+        }
+      ],
+      "itemCode": "222"
+    },
+    "226": {
+      "category": "200",
+      "name": "딸기",
+      "varieties": [
+        {
+          "code": "00",
+          "name": "딸기"
+        }
+      ],
+      "itemCode": "226"
+    },
+    "257": {
+      "category": "200",
+      "name": "멜론",
+      "varieties": [
+        {
+          "code": "00",
+          "name": "멜론"
+        }
+      ],
+      "itemCode": "257"
+    },
+    "411": {
+      "category": "400",
+      "name": "사과",
+      "varieties": [
+        {
+          "code": "01",
+          "name": "홍옥"
+        },
+        {
+          "code": "05",
+          "name": "후지"
+        },
+        {
+          "code": "06",
+          "name": "쓰가루(아오리)"
+        },
+        {
+          "code": "07",
+          "name": "홍로"
+        }
+      ],
+      "itemCode": "411"
+    },
+    "412": {
+      "category": "400",
+      "name": "배",
+      "varieties": [
+        {
+          "code": "01",
+          "name": "신고"
+        },
+        {
+          "code": "02",
+          "name": "만삼길"
+        },
+        {
+          "code": "03",
+          "name": "장십랑"
+        },
+        {
+          "code": "04",
+          "name": "원황"
+        }
+      ],
+      "itemCode": "412"
+    },
+    "413": {
+      "category": "400",
+      "name": "복숭아",
+      "varieties": [
+        {
+          "code": "01",
+          "name": "백도"
+        },
+        {
+          "code": "04",
+          "name": "창방조생"
+        },
+        {
+          "code": "05",
+          "name": "유명"
+        }
+      ],
+      "itemCode": "413"
+    },
+    "414": {
+      "category": "400",
+      "name": "포도",
+      "varieties": [
+        {
+          "code": "01",
+          "name": "캠벨얼리"
+        },
+        {
+          "code": "02",
+          "name": "거봉"
+        },
+        {
+          "code": "03",
+          "name": "델라웨어"
+        },
+        {
+          "code": "06",
+          "name": "MBA"
+        },
+        {
+          "code": "07",
+          "name": "수입"
+        },
+        {
+          "code": "08",
+          "name": "레드글로브 칠레(~23.5)"
+        },
+        {
+          "code": "09",
+          "name": "레드글로브 페루(~23.5)"
+        },
+        {
+          "code": "10",
+          "name": "톰슨 미국(~23.5)"
+        },
+        {
+          "code": "11",
+          "name": "톰슨 호주(~23.5)"
+        },
+        {
+          "code": "12",
+          "name": "샤인머스켓"
+        }
+      ],
+      "itemCode": "414"
+    },
+    "415": {
+      "category": "400",
+      "name": "감귤",
+      "varieties": [
+        {
+          "code": "00",
+          "name": "감귤"
+        },
+        {
+          "code": "01",
+          "name": "노지"
+        },
+        {
+          "code": "02",
+          "name": "시설"
+        }
+      ],
+      "itemCode": "415"
+    },
+    "416": {
+      "category": "400",
+      "name": "단감",
+      "varieties": [
+        {
+          "code": "00",
+          "name": "단감"
+        }
+      ],
+      "itemCode": "416"
+    },
+    "418": {
+      "category": "400",
+      "name": "바나나",
+      "varieties": [
+        {
+          "code": "02",
+          "name": "수입"
+        }
+      ],
+      "itemCode": "418"
+    },
+    "419": {
+      "category": "400",
+      "name": "참다래",
+      "varieties": [
+        {
+          "code": "01",
+          "name": "국산"
+        },
+        {
+          "code": "02",
+          "name": "그린 뉴질랜드"
+        }
+      ],
+      "itemCode": "419"
+    },
+    "420": {
+      "category": "400",
+      "name": "파인애플",
+      "varieties": [
+        {
+          "code": "02",
+          "name": "수입"
+        }
+      ],
+      "itemCode": "420"
+    },
+    "421": {
+      "category": "400",
+      "name": "오렌지",
+      "varieties": [
+        {
+          "code": "02",
+          "name": "수입"
+        },
+        {
+          "code": "03",
+          "name": "네이블 미국"
+        },
+        {
+          "code": "04",
+          "name": "발렌시아 미국"
+        },
+        {
+          "code": "05",
+          "name": "네이블 EU"
+        },
+        {
+          "code": "06",
+          "name": "네이블 호주"
+        }
+      ],
+      "itemCode": "421"
+    },
+    "422": {
+      "category": "200",
+      "name": "방울토마토",
+      "varieties": [
+        {
+          "code": "01",
+          "name": "방울토마토"
+        },
+        {
+          "code": "02",
+          "name": "대추방울토마토"
+        }
+      ],
+      "itemCode": "422"
+    },
+    "423": {
+      "category": "400",
+      "name": "자몽",
+      "varieties": [
+        {
+          "code": "00",
+          "name": "수입"
+        }
+      ],
+      "itemCode": "423"
+    },
+    "424": {
+      "category": "400",
+      "name": "레몬",
+      "varieties": [
+        {
+          "code": "00",
+          "name": "수입"
+        }
+      ],
+      "itemCode": "424"
+    },
+    "425": {
+      "category": "400",
+      "name": "체리",
+      "varieties": [
+        {
+          "code": "00",
+          "name": "수입"
+        }
+      ],
+      "itemCode": "425"
+    },
+    "426": {
+      "category": "400",
+      "name": "건포도",
+      "varieties": [
+        {
+          "code": "00",
+          "name": "수입"
+        }
+      ],
+      "itemCode": "426"
+    },
+    "427": {
+      "category": "400",
+      "name": "건블루베리",
+      "varieties": [
+        {
+          "code": "00",
+          "name": "수입"
+        }
+      ],
+      "itemCode": "427"
+    },
+    "428": {
+      "category": "400",
+      "name": "망고",
+      "varieties": [
+        {
+          "code": "00",
+          "name": "수입"
+        }
+      ],
+      "itemCode": "428"
+    },
+    "429": {
+      "category": "400",
+      "name": "블루베리",
+      "varieties": [
+        {
+          "code": "01",
+          "name": "블루베리"
+        }
+      ],
+      "itemCode": "429"
+    },
+    "430": {
+      "category": "400",
+      "name": "아보카도",
+      "varieties": [
+        {
+          "code": "00",
+          "name": "수입"
+        }
+      ],
+      "itemCode": "430"
+    }
+  }
+}
