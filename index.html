@@ -50,7 +50,7 @@
 </div></div><div class="calc-result"><div>건당 예상 기여이익</div><strong id="profit">—</strong><p id="details"></p></div><p class="notice">수수료는 예시입니다. 실제 계약조건·부가세·인건비·창고비·광고비 등에 따라 수익이 달라집니다.</p></section>
 <section id="calendar" class="panel"><div class="box"><h2>월별 제철 달력</h2><p class="sub">품종·재배방식 및 지역에 따라 출하시기가 달라질 수 있습니다.</p><div id="months" class="months" style="margin-top:17px"></div></div><div class="box"><h2 id="monthTitle"></h2><div id="seasons"></div></div></section>
 <div class="seo"><article><h3>🍎 과일 품종별 시세</h3><p>사과는 홍로·후지, 포도는 캠벨얼리·거봉처럼 품종을 구분하고 시장 및 등급별 가격을 비교하세요.</p></article><article><h3>📉 일별 가격변동</h3><p>중도매와 소매를 구분해 동일 품종의 1kg 환산가격 추이를 확인할 수 있습니다.</p></article><article><h3>📦 셀러 소싱 도구</h3><p>공공가격을 참고하되 실제 원가와 플랫폼 수수료를 넣어 판매 예상 이익을 계산해 보세요.</p></article></div>
-<details class="box credits" style="margin-top:16px"><summary style="cursor:pointer;font-weight:800">실제 과일 사진 출처·저작권 보기</summary><p>품목 대표 사진은 위키미디어 공용의 실제 사진입니다. 사진은 특정 품종·등급·현재 판매 상품을 보증하지 않으며 품종별 검증사진이 있는 경우에만 별도 적용했습니다. 각 사진은 원저작자의 라이선스에 따라 표기합니다.</p><div id="creditList"></div></details>
+<details class="box credits" style="margin-top:16px"><summary style="cursor:pointer;font-weight:800">실제 과일 사진 출처·저작권 보기</summary><p>품목 대표 사진은 위키미디어 공용의 실제 사진입니다. 사진은 특정 품종·등급·현재 판매 상품을 보증하지 않으며 품종별 검증사진이 있는 경우에만 별도 적용했습니다. 각 사진은 원저작자의 라이선스에 따라 표기합니다. 사이트 내부 저장본이 없을 때는 원본 Commons 사진을 사용하며, 미확인 사진을 임의로 대체하지 않습니다.</p><div id="creditList"></div></details>
 <footer>가격 출처: 한국농수산식품유통공사(aT) 공공데이터 · 본 사이트는 한국농수산식품유통공사나 쿠팡이 운영하는 공식 서비스가 아닙니다.</footer>
 </main>
 <script>
@@ -58,39 +58,29 @@
 const $=id=>document.getElementById(id);
 const fmt=n=>Math.round(n).toLocaleString('ko-KR')+'원';
 const html=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const PHOTO={
-'사과':['Fresh red apple closeup.jpg','Shixart1985','CC BY 2.0','https://creativecommons.org/licenses/by/2.0/'],
-'배':['Korean pear (Pyrus pyrifolia).jpg','국립국어원','CC BY-SA 2.0 KR','https://creativecommons.org/licenses/by-sa/2.0/kr/'],
-'감귤':['Tangerines fruit citrus reticulata.jpg','Darren Paquette','Public Domain','https://creativecommons.org/publicdomain/mark/1.0/'],
-'포도':['Fresh purple grapes.jpg','공개 이미지','Public Domain','https://creativecommons.org/publicdomain/mark/1.0/'],
-'딸기':['Strawberry fruit.jpg','Paolo Neo','Public Domain','https://creativecommons.org/publicdomain/mark/1.0/'],
-'복숭아':['Peach fruits.jpg','Prianxi','CC BY-SA 4.0','https://creativecommons.org/licenses/by-sa/4.0/'],
-'수박':['Watermelon fruit image.jpg','Waran R Samay','CC BY 4.0','https://creativecommons.org/licenses/by/4.0/'],
-'참외':['Korean melon1.jpg','randychiu','CC BY 2.0','https://creativecommons.org/licenses/by/2.0/'],
-'자두':['Plum Fruit.jpg','Gaurav Dhwaj Khadka','CC BY-SA','https://commons.wikimedia.org/wiki/File:Plum_Fruit.jpg'],
-'바나나':['Banana Fruit.JPG','ZooFari','Public Domain','https://creativecommons.org/publicdomain/mark/1.0/'],
-'파인애플':['Pineapple fruit.jpg','Mibrahim74','CC BY 3.0','https://creativecommons.org/licenses/by/3.0/'],
-'오렌지':['Orange fruit.jpg','Nirajan_pant','CC BY-SA 3.0','https://creativecommons.org/licenses/by-sa/3.0/'],
-'레몬':['Lemon fruits.jpg','브린다 수브라마니','CC BY-SA 4.0','https://creativecommons.org/licenses/by-sa/4.0/'],
-'키위':['Kiwifruitlg.jpg','KQ','Public Domain','https://creativecommons.org/publicdomain/mark/1.0/'],
-'체리':['Cherry cherries fruit.jpg','Jon Sullivan','Public Domain','https://creativecommons.org/publicdomain/mark/1.0/'],
-'블루베리':['Blueberries (1).jpg','Rosendahl','Public Domain','https://creativecommons.org/publicdomain/mark/1.0/'],
-'단감':['A Persimmon Fruit (1).JPG','Haydnaston','Public Domain','https://creativecommons.org/publicdomain/mark/1.0/'],
-'감':['A Persimmon Fruit (1).JPG','Haydnaston','Public Domain','https://creativecommons.org/publicdomain/mark/1.0/'],
-'무화과':['A Fig Fruit.jpg','MarvinBikolano','CC BY-SA 4.0','https://creativecommons.org/licenses/by-sa/4.0/'],
-'망고':['Mango fruit in illorin.jpg','Eunice Ameh','CC0','https://creativecommons.org/publicdomain/zero/1.0/']
-};
-const VARIETY_PHOTO={
-'사과|후지':['Fuji apple.jpg','USDA ARS','Public Domain','https://creativecommons.org/publicdomain/mark/1.0/'],
-'포도|샤인머스캣':['Shine muscat grapes (20240913).jpg','Fumikas Sagisavas','CC0','https://creativecommons.org/publicdomain/zero/1.0/'],
-'포도|캠벨얼리':['Campbell Early.jpg','Tae Hun Kim','CC0','https://creativecommons.org/publicdomain/zero/1.0/']
-};
-const fileUrl=entry=>entry?'https://commons.wikimedia.org/wiki/Special:FilePath/'+encodeURIComponent(entry[0])+'?width=560':'';
+const PHOTO={"사과":["Red apple fruits.jpg","Scott Bauer / USDA","Public Domain","https://creativecommons.org/publicdomain/mark/1.0/","fruit-apple.jpg"],"배":["Korean pear.jpg","Phasmatisnox","CC BY 3.0","https://creativecommons.org/licenses/by/3.0/","fruit-pear.jpg"],"복숭아":["Peach fruits.jpg","Prianxi","CC BY-SA 4.0","https://creativecommons.org/licenses/by-sa/4.0/","fruit-peach.jpg"],"포도":["Purple Grapes.JPG","Miansari66","CC0","https://creativecommons.org/publicdomain/zero/1.0/","fruit-grapes.jpg"],"감귤":["TangerineFruit.jpg","Brent Ramerth","CC BY-SA 3.0","https://creativecommons.org/licenses/by-sa/3.0/","fruit-mandarin.jpg"],"단감":["Persimmon 2017 B4.jpg","Fructibus","CC0","https://creativecommons.org/publicdomain/zero/1.0/","fruit-persimmon.jpg"],"바나나":["Banana fruit on white background.jpg","Titus Tscharntke","Public Domain","https://creativecommons.org/publicdomain/mark/1.0/","fruit-banana.jpg"],"참다래":["Kiwifruitlg.jpg","KQ","Public Domain","https://creativecommons.org/publicdomain/mark/1.0/","fruit-kiwi.jpg"],"파인애플":["Pineapple fruits 1.jpg","Bamjos","CC0","https://creativecommons.org/publicdomain/zero/1.0/","fruit-pineapple.jpg"],"오렌지":["Orange fruit (Citrus × sinensis).jpg","Kuttykrishnan Photos","CC0","https://creativecommons.org/publicdomain/zero/1.0/","fruit-orange.jpg"],"자몽":["Grapefruit free.jpg","Photos Public Domain","CC0","https://creativecommons.org/publicdomain/zero/1.0/","fruit-grapefruit.jpg"],"레몬":["Lemon Fruit.jpg","Ben Dalton","CC0","https://creativecommons.org/publicdomain/zero/1.0/","fruit-lemon.jpg"],"체리":["Cherries-.jpg","Mohana hari balu","CC0","https://creativecommons.org/publicdomain/zero/1.0/","fruit-cherry.jpg"],"건포도":["Raisins (20240207).jpg","Fumikas Sagisavas","CC0","https://creativecommons.org/publicdomain/zero/1.0/","fruit-raisins.jpg"],"건블루베리":["Xinjiang dried blueberries.jpg","Fumikas Sagisavas","CC0","https://creativecommons.org/publicdomain/zero/1.0/","fruit-dried-blueberries.jpg"],"망고":["Mango fruit in illorin.jpg","Eunice Ameh","CC0","https://creativecommons.org/publicdomain/zero/1.0/","fruit-mango.jpg"],"블루베리":["Blueberries (4).jpg","Fumikas Sagisavas","CC0","https://creativecommons.org/publicdomain/zero/1.0/","fruit-blueberries.jpg"],"아보카도":["Avocados Fruit.jpg","စာကလေး SarKaLay","CC0","https://creativecommons.org/publicdomain/zero/1.0/","fruit-avocado.jpg"],"수박":["A water melon fruit.jpg","Salma kyari","CC0","https://creativecommons.org/publicdomain/zero/1.0/","fruit-watermelon.jpg"],"참외":["Korean melons.jpg","Lee Yeondoo","CC0","https://creativecommons.org/publicdomain/zero/1.0/","fruit-chamoe.jpg"],"딸기":["Strawberry fruit in studio.jpg","Paolo Neo","Public Domain","https://creativecommons.org/publicdomain/mark/1.0/","fruit-strawberry.jpg"],"멜론":["Muskmelon Fruit.jpg","Salil Kumar Mukherjee","CC BY-SA 4.0","https://creativecommons.org/licenses/by-sa/4.0/","fruit-melon.jpg"],"방울토마토":["CherryTomatoes.jpg","Jon Sullivan","Public Domain","https://creativecommons.org/publicdomain/mark/1.0/","fruit-cherry-tomatoes.jpg"]};
+const VARIETY_PHOTO={"사과|후지":["Fuji apple.jpg","USDA Agricultural Research Service","Public Domain","https://creativecommons.org/publicdomain/mark/1.0/","variety-fuji-apple.jpg"],"포도|샤인머스켓":["Shine muscat grapes (20240913).jpg","Fumikas Sagisavas","CC0","https://creativecommons.org/publicdomain/zero/1.0/","variety-shine-muscat.jpg"],"포도|캠벨얼리":["Campbell Early.jpg","Tae Hun Kim","CC0","https://creativecommons.org/publicdomain/zero/1.0/","variety-campbell-grape.jpg"]};
+const fileUrl=entry=>entry?'/photos/'+encodeURIComponent(entry[4]):'';
+const fallbackUrl=entry=>entry?'https://commons.wikimedia.org/wiki/Special:FilePath/'+encodeURIComponent(entry[0])+'?width=560':'';
 const filePage=entry=>entry?'https://commons.wikimedia.org/wiki/File:'+encodeURIComponent(entry[0].replaceAll(' ','_')):'';
 const number=(vals)=>{const arr=vals.filter(Number.isFinite).slice().sort((a,b)=>a-b);return arr.length?arr[Math.floor(arr.length/2)]:null};
 const LABEL={사과:'🍎',배:'🍐',감귤:'🍊',포도:'🍇',딸기:'🍓',수박:'🍉',복숭아:'🍑',참외:'🍈'};
 let prices=[],history=[],catalog={},variantSummaries=[],surveyDate='',fruit='',variety='',region='전체';
-function pic(entry,cls,label){return entry?'<img class="'+cls+'" src="'+fileUrl(entry)+'" alt="'+html(label)+' 실제 과일 사진" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display=\'none\';this.parentElement.classList.add(\'image-missing\')">':'<span class="photo-fallback">사진 준비 중</span>';}
+function pic(entry,cls,label){
+ if(!entry)return '<span class="photo-fallback">해당 과일의 실물 사진 준비 중</span>';
+ return '<img class="'+cls+'" src="'+fileUrl(entry)+'" data-photo-fallback="'+html(fallbackUrl(entry))+'" alt="'+html(label)+' 실물 사진" loading="lazy" decoding="async" referrerpolicy="no-referrer">';
+}
+document.addEventListener('error',function(e){
+ const img=e.target;if(!img||img.tagName!=='IMG')return;
+ const remote=img.dataset.photoFallback;
+ if(remote&&!img.dataset.fallbackUsed){
+  img.dataset.fallbackUsed='yes';img.src=remote;return;
+ }
+ img.style.display='none';img.parentElement.classList.add('image-missing');
+ if(!img.parentElement.querySelector('.photo-fallback')){
+  const note=document.createElement('span');note.className='photo-fallback';note.textContent='사진 연결 확인 중';img.parentElement.appendChild(note);
+ }
+},true);
 function groups(name){return prices.filter(x=>x.name===name)}
 function catalogEntry(name){return Object.values(catalog).find(c=>c.name===name)}
 function types(rows,name){const names=[...(catalogEntry(name)?.varieties||[]).map(v=>v.name),...rows.map(r=>r.variety||'미분류'),...variantSummaries.filter(r=>r.name===name).map(r=>r.variety||'미분류')];return [...new Set(names)].sort((a,b)=>a.localeCompare(b,'ko'))}
@@ -103,7 +93,7 @@ const names=[...new Set([...Object.values(catalog).map(x=>x.name),...prices.map(
 const priority=['사과','배','감귤','포도','딸기','복숭아','수박','참외','자두','바나나','파인애플','오렌지','레몬','참다래','체리','블루베리','단감','망고'];
 names.sort((a,b)=>{let aa=priority.indexOf(a),bb=priority.indexOf(b);return (aa<0?999:aa)-(bb<0?999:bb)||a.localeCompare(b,'ko')});
 $('fruitGrid').innerHTML=names.map(name=>{
-const rows=groups(name),mid=figure(rows,'중도매'),photo=PHOTO[name==='참다래'?'키위':name];
+const rows=groups(name),mid=figure(rows,'중도매'),photo=PHOTO[name];
 return '<button type="button" class="fruit-card '+(fruit===name?'active':'')+'" data-fruit="'+html(name)+'"><div class="photo">'+pic(photo,'',name)+'</div><div class="fruit-body"><div class="fruit-title">'+html(name)+'</div><p class="fruit-count">등록·관측 품종 '+types(rows,name).length+'종</p><div class="small-tag">품종 선택하기 →</div><div class="fruit-price">'+(mid===null?'조사 가격 확인':'중도매 '+fmt(mid))+'</div><div class="mini">'+(mid===null?'해당 구분 시세 없음':'1kg 환산 중간값')+'</div></div></button>';
 }).join('')||'<p>조회 가능한 품목이 없습니다.</p>';
 $('fruitGrid').querySelectorAll('[data-fruit]').forEach(b=>b.onclick=()=>selectFruit(b.dataset.fruit,true))
@@ -115,7 +105,7 @@ const rows=groups(fruit),all=types(rows,fruit);
 $('bread').textContent='과일 전체 > '+fruit;
 $('varietyHeading').textContent=fruit+' 품종을 선택하세요';
 $('varietyGrid').innerHTML=all.map(v=>{
-const sub=rows.filter(x=>(x.variety||'미분류')===v),mid=priceInfo(fruit,v,'중도매'),ret=priceInfo(fruit,v,'소매'),photo=VARIETY_PHOTO[fruit+'|'+v]||PHOTO[fruit==='참다래'?'키위':fruit],isSpecific=!!VARIETY_PHOTO[fruit+'|'+v];
+const sub=rows.filter(x=>(x.variety||'미분류')===v),mid=priceInfo(fruit,v,'중도매'),ret=priceInfo(fruit,v,'소매'),photo=VARIETY_PHOTO[fruit+'|'+v]||PHOTO[fruit],isSpecific=!!VARIETY_PHOTO[fruit+'|'+v];
 return '<button type="button" class="variety-card '+(v===variety?'active':'')+'" data-variety="'+html(v)+'"><div style="position:relative">'+pic(photo,'',v+' '+fruit)+'</div><div class="variety-copy"><div class="variety-name">'+html(v==='미분류'?fruit+' (품종 미분류)':v+fruit)+'</div><div class="hint">'+(isSpecific?'품종 사진':'품목 대표 사진')+'</div><div class="variety-price">'+(mid?fmt(mid.price)+'/kg':ret?'소매 '+fmt(ret.price)+'/kg':'최근 조사 시세 없음')+'</div><div class="hint">'+(mid?'중도매 · 조사일 '+mid.date:ret?'소매 · 조사일 '+ret.date:'공식 코드표 등록 · 최근 조사 시세 없음')+'</div></div><div class="variety-next">›</div></button>';
 }).join('');
 $('varietyGrid').querySelectorAll('[data-variety]').forEach(b=>b.onclick=()=>selectVariety(b.dataset.variety,true));
@@ -126,11 +116,11 @@ function relevant(){return prices.filter(x=>x.name===fruit&&(x.variety||'미분�
 function renderDetail(){
 if(!variety){$('detailSection').hidden=true;return}
 $('detailSection').hidden=false;
-const vName=variety==='미분류'?fruit:variety+fruit,photo=VARIETY_PHOTO[fruit+'|'+variety]||PHOTO[fruit==='참다래'?'키위':fruit];
+const vName=variety==='미분류'?fruit:variety+fruit,photo=VARIETY_PHOTO[fruit+'|'+variety]||PHOTO[fruit];
 $('detailBread').textContent='과일 > '+fruit+' > '+vName;
 $('detailName').textContent=vName+' 시세';
 $('detailNote').textContent='전국 시장별 실측가 중간값 · 조사일 '+(lastDate||'최근 10일 내 시세 없음')+(VARIETY_PHOTO[fruit+'|'+variety]?' · 품종 실물 사진':' · 사진은 '+fruit+' 대표 이미지');
-const image=$('detailImage');image.hidden=!photo;if(photo){image.src=fileUrl(photo);image.alt=vName+' 관련 실제 과일 사진'}
+const image=$('detailImage');image.hidden=!photo;if(photo){image.dataset.fallbackUsed='';image.dataset.photoFallback=fallbackUrl(photo);image.style.display='';image.src=fileUrl(photo);image.alt=vName+' 관련 실제 과일 사진'}
 const rows=relevant(),wh=rows.filter(x=>x.kind.includes('중도매')&&Number(x.pricePerKg)>0),rt=rows.filter(x=>x.kind.includes('소매')&&Number(x.pricePerKg)>0);
 const whInfo=priceInfo(fruit,variety,'중도매'),rtInfo=priceInfo(fruit,variety,'소매');const lastDate=[whInfo?.date,rtInfo?.date].filter(Boolean).sort().at(-1);
 $('wholesaleValue').textContent=whInfo?fmt(whInfo.price):'정보 없음';
