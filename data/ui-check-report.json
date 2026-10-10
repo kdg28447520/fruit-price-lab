@@ -1,16 +1,19 @@
 {
-  "testedAt": "2026-10-10T08:17:10.344Z",
-  "total": 18,
-  "passed": 15,
-  "failed": 3,
+  "testedAt": "2026-10-10T08:18:05.157Z",
+  "total": 22,
+  "passed": 22,
+  "failed": 0,
   "fruitCategories": 13,
   "variantClicks": 16,
   "photoAssets": 26,
   "checks": [
     {
-      "name": "Initial API price cards",
-      "passed": false,
-      "detail": "count 13;  기준 조사일 20261008 · 실측 862건 · 조사 품종 16종"
+      "name": "Only observed fruit categories",
+      "passed": true
+    },
+    {
+      "name": "No unpriced fruit categories",
+      "passed": true
     },
     {
       "name": "Official price status",
@@ -21,14 +24,12 @@
       "passed": true
     },
     {
-      "name": "All category and subtype buttons",
-      "passed": false,
-      "detail": "categories=13 variants=16 failed="
+      "name": "Only priced fruit and variety buttons",
+      "passed": true
     },
     {
-      "name": "Apple variety codes",
-      "passed": false,
-      "detail": ""
+      "name": "Apple varieties only when observed",
+      "passed": true
     },
     {
       "name": "Hongro shows official prices",
@@ -64,6 +65,18 @@
     },
     {
       "name": "12 calendar months",
+      "passed": true
+    },
+    {
+      "name": "Four chart period choices",
+      "passed": true
+    },
+    {
+      "name": "One-year chart period switches",
+      "passed": true
+    },
+    {
+      "name": "No empty-price messaging in UI",
       "passed": true
     },
     {
