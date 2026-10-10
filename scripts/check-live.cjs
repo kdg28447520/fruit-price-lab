@@ -3,7 +3,7 @@ const tests=[];const headers={'User-Agent':'FruitPriceLab-LiveSmoke/1.0'};
 const sleep=ms=>new Promise(resolve=>setTimeout(resolve,ms));
 async function probe(name,path,validate){
  let err='';
- for(let i=0;i<10;i++){
+ for(let i=0;i<3;i++){
   try{
    const r=await fetch(base+path,{headers,signal:AbortSignal.timeout(20000)});
    const body=await r.arrayBuffer();
@@ -11,7 +11,7 @@ async function probe(name,path,validate){
    if(!r.ok||result!==true)throw Error('HTTP '+r.status+' '+JSON.stringify(result));
    tests.push({name,passed:true,status:r.status});
    return;
-  }catch(e){err=String(e.message).slice(0,250);await sleep(4000)}
+  }catch(e){err=String(e.message).slice(0,250);await sleep(2000)}
  }
  tests.push({name,passed:false,error:err});
 }
