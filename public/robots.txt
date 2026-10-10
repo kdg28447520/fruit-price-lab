@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://fruit-price-lab-kdg2844-8355s-projects.vercel.app/sitemap.xml
