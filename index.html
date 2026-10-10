@@ -89,31 +89,34 @@ const fileUrl=entry=>entry?'https://commons.wikimedia.org/wiki/Special:FilePath/
 const filePage=entry=>entry?'https://commons.wikimedia.org/wiki/File:'+encodeURIComponent(entry[0].replaceAll(' ','_')):'';
 const number=(vals)=>{const arr=vals.filter(Number.isFinite).slice().sort((a,b)=>a-b);return arr.length?arr[Math.floor(arr.length/2)]:null};
 const LABEL={사과:'🍎',배:'🍐',감귤:'🍊',포도:'🍇',딸기:'🍓',수박:'🍉',복숭아:'🍑',참외:'🍈'};
-let prices=[],history=[],fruit='',variety='',region='전체';
+let prices=[],history=[],catalog={},variantSummaries=[],surveyDate='',fruit='',variety='',region='전체';
 function pic(entry,cls,label){return entry?'<img class="'+cls+'" src="'+fileUrl(entry)+'" alt="'+html(label)+' 실제 과일 사진" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display=\'none\';this.parentElement.classList.add(\'image-missing\')">':'<span class="photo-fallback">사진 준비 중</span>';}
 function groups(name){return prices.filter(x=>x.name===name)}
-function types(rows){return [...new Set(rows.map(x=>x.variety||'미분류'))].sort((a,b)=>a.localeCompare(b,'ko'))}
+function catalogEntry(name){return Object.values(catalog).find(c=>c.name===name)}
+function types(rows,name){const names=[...(catalogEntry(name)?.varieties||[]).map(v=>v.name),...rows.map(r=>r.variety||'미분류'),...variantSummaries.filter(r=>r.name===name).map(r=>r.variety||'미분류')];return [...new Set(names)].sort((a,b)=>a.localeCompare(b,'ko'))}
+function observedVariety(name,v,kind){return variantSummaries.filter(r=>r.name===name&&(r.variety||'미분류')===v&&(!kind||(r.kind||'').includes(kind))).sort((a,b)=>b.date.localeCompare(a.date))[0]||null}
+function priceInfo(name,v,kind){const x=prices.filter(r=>r.name===name&&(r.variety||'미분류')===v&&(r.kind||'').includes(kind)&&Number(r.pricePerKg)>0);const p=number(x.map(r=>Number(r.pricePerKg)));if(p!==null)return {price:p,date:surveyDate||x[0].date,count:x.length};const last=observedVariety(name,v,kind);return last?{price:last.price,date:last.date,count:last.sampleCount}:null}
 function figure(rows,kind){return number(rows.filter(x=>(x.kind||'').includes(kind)).map(x=>Number(x.pricePerKg)).filter(x=>x>0))}
 function selectFruit(name,scroll){fruit=name;variety='';region='전체';renderFruits();renderVarieties();if(scroll)$('varietySection').scrollIntoView({behavior:'smooth',block:'start'})}
 function renderFruits(){
-const names=[...new Set(prices.map(x=>x.name))];
+const names=[...new Set([...Object.values(catalog).map(x=>x.name),...prices.map(x=>x.name)])];
 const priority=['사과','배','감귤','포도','딸기','복숭아','수박','참외','자두','바나나','파인애플','오렌지','레몬','키위','체리','블루베리','단감','망고'];
 names.sort((a,b)=>{let aa=priority.indexOf(a),bb=priority.indexOf(b);return (aa<0?999:aa)-(bb<0?999:bb)||a.localeCompare(b,'ko')});
 $('fruitGrid').innerHTML=names.map(name=>{
-const rows=groups(name),mid=figure(rows,'중도매'),photo=PHOTO[name];
-return '<button type="button" class="fruit-card '+(fruit===name?'active':'')+'" data-fruit="'+html(name)+'"><div class="photo">'+pic(photo,'',name)+'</div><div class="fruit-body"><div class="fruit-title">'+html(name)+'</div><p class="fruit-count">조사 품종 '+types(rows).length+'종</p><div class="small-tag">품종 선택하기 →</div><div class="fruit-price">'+(mid===null?'조사 가격 확인':'중도매 '+fmt(mid))+'</div><div class="mini">'+(mid===null?'해당 구분 시세 없음':'1kg 환산 중간값')+'</div></div></button>';
+const rows=groups(name),mid=figure(rows,'중도매'),photo=PHOTO[name==='참다래'?'키위':name];
+return '<button type="button" class="fruit-card '+(fruit===name?'active':'')+'" data-fruit="'+html(name)+'"><div class="photo">'+pic(photo,'',name)+'</div><div class="fruit-body"><div class="fruit-title">'+html(name)+'</div><p class="fruit-count">조사 품종 '+types(rows,name).length+'종</p><div class="small-tag">품종 선택하기 →</div><div class="fruit-price">'+(mid===null?'조사 가격 확인':'중도매 '+fmt(mid))+'</div><div class="mini">'+(mid===null?'해당 구분 시세 없음':'1kg 환산 중간값')+'</div></div></button>';
 }).join('')||'<p>조회 가능한 품목이 없습니다.</p>';
 $('fruitGrid').querySelectorAll('[data-fruit]').forEach(b=>b.onclick=()=>selectFruit(b.dataset.fruit,true))
 }
 function renderVarieties(){
 $('varietySection').hidden=!fruit;
 if(!fruit)return;
-const rows=groups(fruit),all=types(rows);
+const rows=groups(fruit),all=types(rows,fruit);
 $('bread').textContent='과일 전체 > '+fruit;
 $('varietyHeading').textContent=fruit+' 품종을 선택하세요';
 $('varietyGrid').innerHTML=all.map(v=>{
-const sub=rows.filter(x=>(x.variety||'미분류')===v),mid=figure(sub,'중도매'),ret=figure(sub,'소매'),photo=VARIETY_PHOTO[fruit+'|'+v]||PHOTO[fruit],isSpecific=!!VARIETY_PHOTO[fruit+'|'+v];
-return '<button type="button" class="variety-card '+(v===variety?'active':'')+'" data-variety="'+html(v)+'"><div style="position:relative">'+pic(photo,'',v+' '+fruit)+'</div><div class="variety-copy"><div class="variety-name">'+html(v==='미분류'?fruit+' (품종 미분류)':v+fruit)+'</div><div class="hint">'+(isSpecific?'품종 사진':'품목 대표 사진')+'</div><div class="variety-price">'+(mid!==null?fmt(mid)+'/kg':ret!==null?'소매 '+fmt(ret)+'/kg':'가격정보 확인')+'</div><div class="hint">'+(mid!==null?'중도매':ret!==null?'소매':'')+' · 최근 조사일</div></div><div class="variety-next">›</div></button>';
+const sub=rows.filter(x=>(x.variety||'미분류')===v),mid=priceInfo(fruit,v,'중도매'),ret=priceInfo(fruit,v,'소매'),photo=VARIETY_PHOTO[fruit+'|'+v]||PHOTO[fruit==='참다래'?'키위':fruit],isSpecific=!!VARIETY_PHOTO[fruit+'|'+v];
+return '<button type="button" class="variety-card '+(v===variety?'active':'')+'" data-variety="'+html(v)+'"><div style="position:relative">'+pic(photo,'',v+' '+fruit)+'</div><div class="variety-copy"><div class="variety-name">'+html(v==='미분류'?fruit+' (품종 미분류)':v+fruit)+'</div><div class="hint">'+(isSpecific?'품종 사진':'품목 대표 사진')+'</div><div class="variety-price">'+(mid?fmt(mid.price)+'/kg':ret?'소매 '+fmt(ret.price)+'/kg':'최근 조사 시세 없음')+'</div><div class="hint">'+(mid?'중도매 · '+mid.date:ret?'소매 · '+ret.date:'공식 코드표 등록')+' · 최근 조사일</div></div><div class="variety-next">›</div></button>';
 }).join('');
 $('varietyGrid').querySelectorAll('[data-variety]').forEach(b=>b.onclick=()=>selectVariety(b.dataset.variety,true));
 $('detailSection').hidden=!variety;
@@ -123,16 +126,17 @@ function relevant(){return prices.filter(x=>x.name===fruit&&(x.variety||'미분�
 function renderDetail(){
 if(!variety){$('detailSection').hidden=true;return}
 $('detailSection').hidden=false;
-const vName=variety==='미분류'?fruit:variety+fruit,photo=VARIETY_PHOTO[fruit+'|'+variety]||PHOTO[fruit];
+const vName=variety==='미분류'?fruit:variety+fruit,photo=VARIETY_PHOTO[fruit+'|'+variety]||PHOTO[fruit==='참다래'?'키위':fruit];
 $('detailBread').textContent='과일 > '+fruit+' > '+vName;
 $('detailName').textContent=vName+' 시세';
-$('detailNote').textContent='전국 시장별 실측가 중간값 · 공식 조사일 '+(prices[0]?.date||'')+(VARIETY_PHOTO[fruit+'|'+variety]?' · 품종 실물 사진':' · 사진은 '+fruit+' 대표 이미지');
+$('detailNote').textContent='전국 시장별 실측가 중간값 · 조사일 '+(lastDate||'최근 10일 내 시세 없음')+(VARIETY_PHOTO[fruit+'|'+variety]?' · 품종 실물 사진':' · 사진은 '+fruit+' 대표 이미지');
 const image=$('detailImage');image.hidden=!photo;if(photo){image.src=fileUrl(photo);image.alt=vName+' 관련 실제 과일 사진'}
 const rows=relevant(),wh=rows.filter(x=>x.kind.includes('중도매')&&Number(x.pricePerKg)>0),rt=rows.filter(x=>x.kind.includes('소매')&&Number(x.pricePerKg)>0);
-$('wholesaleValue').textContent=wh.length?fmt(number(wh.map(x=>+x.pricePerKg))):'정보 없음';
-$('wholesaleCount').textContent=wh.length?'조사 항목 '+wh.length+'건 · kg 기준':'공식 조사 자료 없음';
-$('retailValue').textContent=rt.length?fmt(number(rt.map(x=>+x.pricePerKg))):'정보 없음';
-$('retailCount').textContent=rt.length?'조사 항목 '+rt.length+'건 · kg 기준':'공식 조사 자료 없음';
+const whInfo=priceInfo(fruit,variety,'중도매'),rtInfo=priceInfo(fruit,variety,'소매');const lastDate=[whInfo?.date,rtInfo?.date].filter(Boolean).sort().at(-1);
+$('wholesaleValue').textContent=whInfo?fmt(whInfo.price):'정보 없음';
+$('wholesaleCount').textContent=whInfo?'조사일 '+whInfo.date+' · 조사 '+whInfo.count+'건':'최근 10일간 조사 자료 없음';
+$('retailValue').textContent=rtInfo?fmt(rtInfo.price):'정보 없음';
+$('retailCount').textContent=rtInfo?'조사일 '+rtInfo.date+' · 조사 '+rtInfo.count+'건':'최근 10일간 조사 자료 없음';
 const regions=['전체',...new Set(rows.map(x=>x.region).filter(Boolean))].sort((a,b)=>a==='전체'?-1:b==='전체'?1:a.localeCompare(b,'ko'));
 $('regionSelect').innerHTML=regions.map(r=>'<option value="'+html(r)+'" '+(r===region?'selected':'')+'>'+html(r)+'</option>').join('');
 renderRows();drawTrend()
@@ -160,9 +164,10 @@ function renderCredits(){const dict=new Map([...Object.values(PHOTO),...Object.v
 async function load(){
 const st=$('status');
 try{
+try{const catalogResponse=await fetch('/data/fruit-varieties.json',{cache:'no-store'});if(catalogResponse.ok)catalog=(await catalogResponse.json()).items||{}}catch(_){catalog={}}
 const r=await fetch('/api/prices',{cache:'no-store'});const data=await r.json();if(!r.ok||!data.live)throw Error(data.message||'API 요청 실패');
-prices=Array.isArray(data.items)?data.items:[];history=Array.isArray(data.history)?data.history:[];if(!prices.length)throw Error('조회된 과일 시세가 없습니다');
-st.innerHTML='<span class="dot"></span> 기준 조사일 '+html(data.date)+' · 실측 '+prices.length+'건';renderFruits();selectFruit(prices.some(x=>x.name==='사과')?'사과':prices[0].name,false);
+prices=Array.isArray(data.items)?data.items:[];history=Array.isArray(data.history)?data.history:[];variantSummaries=Array.isArray(data.varietySummaries)?data.varietySummaries:[];surveyDate=data.date||'';if(!prices.length)throw Error('조회된 과일 시세가 없습니다');
+st.innerHTML='<span class="dot"></span> 기준 조사일 '+html(data.date)+' · 실측 '+prices.length+'건 / 공식 품종 '+Object.values(catalog).reduce((a,v)=>a+(v.varieties?.length||0),0)+'종';renderFruits();selectFruit(prices.some(x=>x.name==='사과')?'사과':prices[0].name,false);
 }catch(e){st.innerHTML='시세 수신 오류 · 잠시 후 다시 시도';$('fruitGrid').innerHTML='<p class="sub">'+html(e.message)+'<br>실제 시세가 반환되지 않아 임의의 가격은 표시하지 않습니다.</p>';}
 }
 renderCalendar();renderCredits();calc();load();
