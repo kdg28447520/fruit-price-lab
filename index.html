@@ -2,6 +2,20 @@
 <html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>제철과일 시세 연구소 | 홍로사과·신고배 품종별 도매·소매 가격 비교</title>
 <meta name="description" content="사과부터 홍로사과·후지사과까지. 한국농수산식품유통공사 공식 조사자료로 과일 품종별 중도매·소매 가격과 가격추이를 비교하고 온라인 판매 마진도 계산해 보세요.">
+<link rel="canonical" href="https://fruit-price-lab-kdg2844-8355s-projects.vercel.app/">
+<meta property="og:title" content="제철과일 시세 연구소 | 홍로사과·신고배 품종별 도매·소매 가격 비교">
+<meta property="og:description" content="사과부터 홍로사과·후지사과까지. 한국농수산식품유통공사 공식 조사자료로 과일 품종별 중도매·소매 가격과 가격추이를 비교하고 온라인 판매 마진도 계산해 보세요.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://fruit-price-lab-kdg2844-8355s-projects.vercel.app/">
+<meta property="og:site_name" content="제철과일 시세 연구소">
+<meta property="og:image" content="https://fruit-price-lab-kdg2844-8355s-projects.vercel.app/og-image.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="제철과일 시세 연구소 · 품종별 가격과 1년 가격추이">
+<meta property="og:locale" content="ko_KR">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <meta name="theme-color" content="#11845b">
 <style>
 :root{--green:#10865d;--deep:#173d2f;--ink:#20342b;--muted:#718477;--line:#e4ece6;--bg:#f7faf7;font-family:system-ui,-apple-system,"Noto Sans KR",sans-serif}
@@ -9,7 +23,7 @@
 .wrap{width:min(1120px,calc(100% - 36px));margin:auto}.top{background:#fff;border-bottom:1px solid var(--line)}.topbar{height:72px;display:flex;align-items:center;justify-content:space-between;gap:16px}.brand{font-weight:900;font-size:22px;letter-spacing:-.7px}.brand b{color:var(--green)}.source-pill{background:#eaf8f0;color:var(--green);padding:9px 14px;font-size:12px;border-radius:99px;font-weight:750}
 .hero{margin:24px 0 22px;overflow:hidden;background:linear-gradient(110deg,#def8e9,#fff3d9);border-radius:24px;display:flex;justify-content:space-between;align-items:center;min-height:204px;padding:30px 38px;gap:18px}.eyebrow{font-size:13px;font-weight:800;color:#168659}.hero h1{font-size:clamp(24px,3.7vw,38px);letter-spacing:-1.2px;line-height:1.35;margin:13px 0}.hero em{font-style:normal;color:#0f885b}.hero p{color:#5f806b;font-size:13px;margin:0}.hero-art{font-size:66px;white-space:nowrap}
 .tabs{display:flex;gap:10px;margin:18px 0 18px;flex-wrap:wrap}.tabs button{background:#fff;border:1px solid #dee8e1;border-radius:13px;padding:12px 17px;font-weight:750;color:#466154}.tabs button.on{background:var(--green);color:#fff;border-color:var(--green);box-shadow:0 5px 14px #168d5d22}
-.panel{display:none}.panel.on{display:block}.box{background:#fff;border:1px solid var(--line);border-radius:20px;padding:23px;margin-bottom:16px}.headrow{display:flex;gap:16px;align-items:center;justify-content:space-between;flex-wrap:wrap}h2{margin:0 0 8px;font-size:21px;letter-spacing:-.7px}.sub{font-size:13px;color:var(--muted);margin:0;line-height:1.7}.hint{font-size:12px;color:var(--muted)}.status{display:inline-flex;align-items:center;gap:7px;background:#edf7ee;border-radius:30px;padding:8px 12px;font-size:12px;color:#267051;font-weight:750}.dot{background:#1dba77;width:7px;height:7px;border-radius:50%}
+.panel{display:none}.panel.on{display:block}.box{background:#fff;border:1px solid var(--line);border-radius:20px;padding:23px;margin-bottom:16px}.headrow{display:flex;gap:16px;align-items:center;justify-content:space-between;flex-wrap:wrap}h2{margin:0 0 8px;font-size:21px;letter-spacing:-.7px}.sub{font-size:13px;color:var(--muted);margin:0;line-height:1.7}.hint{font-size:12px;color:var(--muted)}.status{display:inline-flex;align-items:center;gap:7px;flex-wrap:wrap;background:#edf7ee;border-radius:30px;padding:8px 12px;font-size:12px;color:#267051;font-weight:750}.status-time{font-size:11px;font-weight:500;color:#67816e}.dot{background:#1dba77;width:7px;height:7px;border-radius:50%}
 .fruit-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px;margin-top:20px}
 .fruit-card{overflow:hidden;text-align:left;border:1px solid #e2eae3;background:#fff;border-radius:17px;padding:0 0 16px;transition:box-shadow .2s,border-color .2s;min-width:0}
 .fruit-card.active{border:2px solid #1cac77;box-shadow:0 5px 20px #13815713}.fruit-card:hover{box-shadow:0 5px 22px #183d2f18}
@@ -208,6 +222,8 @@ $('regionSelect').addEventListener('change',e=>{region=e.target.value;renderRows
 $('kindSelect').addEventListener('change',drawTrend);$('periodSelect').addEventListener('change',drawTrend);
 const season=[['딸기','감귤'],['딸기','천혜향'],['딸기','한라봉'],['딸기','참외'],['참외','매실'],['복숭아','자두','수박'],['복숭아','수박'],['포도','무화과'],['사과','배','포도'],['사과','배','감'],['감귤','유자'],['감귤','딸기']];
 let month=new Date(new Date().toLocaleString('en-US',{timeZone:'Asia/Seoul'})).getMonth()+1;
+function formatSurveyDate(v){const d=String(v||'');return /^20[0-9]{6}$/.test(d)?Number(d.slice(4,6))+'월 '+Number(d.slice(6,8))+'일 기준':d+' 기준'}
+function formatCheckedAt(v){const d=new Date(v||'');if(Number.isNaN(d.getTime()))return '조회시각 확인 중';return new Intl.DateTimeFormat('ko-KR',{timeZone:'Asia/Seoul',month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit',hour12:false}).format(d)}
 function renderCalendar(){$('months').innerHTML=Array.from({length:12},(_,i)=>'<button class="'+(month===i+1?'on':'')+'" data-month="'+(i+1)+'">'+(i+1)+'월</button>').join('');$('months').querySelectorAll('button').forEach(b=>b.onclick=()=>{month=Number(b.dataset.month);renderCalendar()});$('monthTitle').textContent=month+'월 대표 제철과일';$('seasons').innerHTML=season[month-1].map(x=>'<span class="tag">'+html(x)+'</span>').join('')}
 function renderCredits(){const dict=new Map([...Object.values(PHOTO),...Object.values(VARIETY_PHOTO)].map(p=>[p[0],p]));$('creditList').innerHTML='<ul>'+[...dict.values()].map(p=>'<li><a target="_blank" rel="noopener noreferrer" href="'+filePage(p)+'">'+html(p[0])+'</a> — '+html(p[1])+' · <a target="_blank" rel="noopener noreferrer" href="'+p[3]+'">'+html(p[2])+'</a></li>').join('')+'</ul>'}
 async function load(){
@@ -217,7 +233,7 @@ try{const catalogResponse=await fetch('/data/fruit-varieties.json',{cache:'no-st
 try{const resp=await fetch('/data/year-index.json',{cache:'no-store'});if(resp.ok){const parsed=await resp.json();yearIndex=parsed&&Array.isArray(parsed.items)?parsed:{items:[]}}}catch(_){yearIndex={items:[]}}
 const r=await fetch('/api/prices',{cache:'no-store'});const data=await r.json();if(!r.ok||!data.live)throw Error(data.message||'API 요청 실패');
 prices=Array.isArray(data.items)?data.items:[];history=Array.isArray(data.history)?data.history:[];variantSummaries=Array.isArray(data.varietySummaries)?data.varietySummaries:[];surveyDate=data.date||'';if(!prices.length)throw Error('조회된 과일 시세가 없습니다');
-st.innerHTML='<span class="dot"></span> 기준 조사일 '+html(data.date)+' · 최근 '+prices.length+'건 / 1년간 가격 관측 품종 '+(yearIndex.varietyCount||new Set(prices.filter(x=>Number(x.pricePerKg)>0).map(x=>x.name+'|'+x.variety)).size)+'종';renderFruits();selectFruit(prices.some(x=>x.name==='사과')?'사과':prices[0].name,false);
+st.innerHTML='<span class="dot"></span><strong>'+html(formatSurveyDate(data.date))+'</strong><span class="status-time">· API 확인 '+html(formatCheckedAt(data.checkedAt))+'</span><span class="status-time">· 실측 '+prices.length+'건</span>';renderFruits();selectFruit(prices.some(x=>x.name==='사과')?'사과':prices[0].name,false);
 }catch(e){st.innerHTML='시세 수신 오류 · 잠시 후 다시 시도';$('fruitGrid').innerHTML='<p class="sub">'+html(e.message)+'<br>실제 시세가 반환되지 않아 임의의 가격은 표시하지 않습니다.</p>';}
 }
 renderCalendar();renderCredits();calc();load();
