@@ -117,12 +117,13 @@ function renderDetail(){
 if(!variety){$('detailSection').hidden=true;return}
 $('detailSection').hidden=false;
 const vName=variety==='미분류'?fruit:variety+fruit,photo=VARIETY_PHOTO[fruit+'|'+variety]||PHOTO[fruit];
+const whInfo=priceInfo(fruit,variety,'중도매'),rtInfo=priceInfo(fruit,variety,'소매');const lastDate=[whInfo?.date,rtInfo?.date].filter(Boolean).sort().at(-1);
 $('detailBread').textContent='과일 > '+fruit+' > '+vName;
 $('detailName').textContent=vName+' 시세';
 $('detailNote').textContent='전국 시장별 실측가 중간값 · 조사일 '+(lastDate||'최근 10일 내 시세 없음')+(VARIETY_PHOTO[fruit+'|'+variety]?' · 품종 실물 사진':' · 사진은 '+fruit+' 대표 이미지');
 const image=$('detailImage');image.hidden=!photo;if(photo){image.dataset.fallbackUsed='';image.dataset.photoFallback=fallbackUrl(photo);image.style.display='';image.src=fileUrl(photo);image.alt=vName+' 관련 실제 과일 사진'}
 const rows=relevant(),wh=rows.filter(x=>x.kind.includes('중도매')&&Number(x.pricePerKg)>0),rt=rows.filter(x=>x.kind.includes('소매')&&Number(x.pricePerKg)>0);
-const whInfo=priceInfo(fruit,variety,'중도매'),rtInfo=priceInfo(fruit,variety,'소매');const lastDate=[whInfo?.date,rtInfo?.date].filter(Boolean).sort().at(-1);
+
 $('wholesaleValue').textContent=whInfo?fmt(whInfo.price):'정보 없음';
 $('wholesaleCount').textContent=whInfo?'조사일 '+whInfo.date+' · 조사 '+whInfo.count+'건':'최근 10일간 조사 자료 없음';
 $('retailValue').textContent=rtInfo?fmt(rtInfo.price):'정보 없음';
