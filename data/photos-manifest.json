@@ -1,0 +1,190 @@
+{
+  "description": "Commons verified photos; per-variety photos only when explicitly verified. Other varieties display the correct fruit category representative photo.",
+  "checkedAt": "2026-10-10",
+  "fruits": {
+    "사과": {
+      "filename": "Red apple fruits.jpg",
+      "author": "Scott Bauer / USDA",
+      "license": "Public Domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "asset": "fruit-apple.jpg"
+    },
+    "배": {
+      "filename": "Korean pear.jpg",
+      "author": "Phasmatisnox",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "asset": "fruit-pear.jpg"
+    },
+    "복숭아": {
+      "filename": "Peach fruits.jpg",
+      "author": "Prianxi",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "asset": "fruit-peach.jpg"
+    },
+    "포도": {
+      "filename": "Purple Grapes.JPG",
+      "author": "Miansari66",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "asset": "fruit-grapes.jpg"
+    },
+    "감귤": {
+      "filename": "TangerineFruit.jpg",
+      "author": "Brent Ramerth",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "asset": "fruit-mandarin.jpg"
+    },
+    "단감": {
+      "filename": "Persimmon 2017 B4.jpg",
+      "author": "Fructibus",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "asset": "fruit-persimmon.jpg"
+    },
+    "바나나": {
+      "filename": "Banana fruit on white background.jpg",
+      "author": "Titus Tscharntke",
+      "license": "Public Domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "asset": "fruit-banana.jpg"
+    },
+    "참다래": {
+      "filename": "Kiwifruitlg.jpg",
+      "author": "KQ",
+      "license": "Public Domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "asset": "fruit-kiwi.jpg"
+    },
+    "파인애플": {
+      "filename": "Pineapple fruits 1.jpg",
+      "author": "Bamjos",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "asset": "fruit-pineapple.jpg"
+    },
+    "오렌지": {
+      "filename": "Orange fruit (Citrus × sinensis).jpg",
+      "author": "Kuttykrishnan Photos",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "asset": "fruit-orange.jpg"
+    },
+    "자몽": {
+      "filename": "Grapefruit free.jpg",
+      "author": "Photos Public Domain",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "asset": "fruit-grapefruit.jpg"
+    },
+    "레몬": {
+      "filename": "Lemon Fruit.jpg",
+      "author": "Ben Dalton",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "asset": "fruit-lemon.jpg"
+    },
+    "체리": {
+      "filename": "Cherries-.jpg",
+      "author": "Mohana hari balu",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "asset": "fruit-cherry.jpg"
+    },
+    "건포도": {
+      "filename": "Raisins (20240207).jpg",
+      "author": "Fumikas Sagisavas",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "asset": "fruit-raisins.jpg"
+    },
+    "건블루베리": {
+      "filename": "Xinjiang dried blueberries.jpg",
+      "author": "Fumikas Sagisavas",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "asset": "fruit-dried-blueberries.jpg"
+    },
+    "망고": {
+      "filename": "Mango fruit in illorin.jpg",
+      "author": "Eunice Ameh",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "asset": "fruit-mango.jpg"
+    },
+    "블루베리": {
+      "filename": "Blueberries (4).jpg",
+      "author": "Fumikas Sagisavas",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "asset": "fruit-blueberries.jpg"
+    },
+    "아보카도": {
+      "filename": "Avocados Fruit.jpg",
+      "author": "စာကလေး SarKaLay",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "asset": "fruit-avocado.jpg"
+    },
+    "수박": {
+      "filename": "A water melon fruit.jpg",
+      "author": "Salma kyari",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "asset": "fruit-watermelon.jpg"
+    },
+    "참외": {
+      "filename": "Korean melons.jpg",
+      "author": "Lee Yeondoo",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "asset": "fruit-chamoe.jpg"
+    },
+    "딸기": {
+      "filename": "Strawberry fruit in studio.jpg",
+      "author": "Paolo Neo",
+      "license": "Public Domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "asset": "fruit-strawberry.jpg"
+    },
+    "멜론": {
+      "filename": "Muskmelon Fruit.jpg",
+      "author": "Salil Kumar Mukherjee",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "asset": "fruit-melon.jpg"
+    },
+    "방울토마토": {
+      "filename": "CherryTomatoes.jpg",
+      "author": "Jon Sullivan",
+      "license": "Public Domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "asset": "fruit-cherry-tomatoes.jpg"
+    }
+  },
+  "varieties": {
+    "사과|후지": {
+      "filename": "Fuji apple.jpg",
+      "author": "USDA Agricultural Research Service",
+      "license": "Public Domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "asset": "variety-fuji-apple.jpg"
+    },
+    "포도|샤인머스켓": {
+      "filename": "Shine muscat grapes (20240913).jpg",
+      "author": "Fumikas Sagisavas",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "asset": "variety-shine-muscat.jpg"
+    },
+    "포도|캠벨얼리": {
+      "filename": "Campbell Early.jpg",
+      "author": "Tae Hun Kim",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "asset": "variety-campbell-grape.jpg"
+    }
+  }
+}
