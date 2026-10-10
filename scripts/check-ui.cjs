@@ -77,6 +77,20 @@ const wait=ms=>new Promise(resolve=>setTimeout(resolve,ms));
  pass('Sourcing TOP 10 uses observed wholesale fruits',shouldRank?tops.length===Math.min(10,seenFruit.size):tops.length===0,'ranked='+tops.length+' observed='+seenFruit.size+' staleAge='+staleAge);
  pass('Sourcing candidates show surveyed 1kg median',!shouldRank||tops.every(x=>x.textContent.includes('중도매 1kg 참고가')&&x.textContent.includes('원')));
  pass('Sourcing data source supports historical comparisons',!shouldRank||sourcingHistory.length>0&&tops.some(x=>!x.textContent.includes('비교자료 부족')));
+ const signalKinds=[['all',null],['watch','watch'],['drop','drop'],['entry','entry']];
+ pass('Four sourcing signal filters present',!shouldRank||doc.querySelectorAll('[data-sourcing-filter]').length===4);
+ if(shouldRank&&tops.length){
+  for(const [key,css] of signalKinds){
+   const button=doc.querySelector('[data-sourcing-filter="'+key+'"]');
+   const expected=Number(button?.textContent.match(/(\d+)\s*$/)?.[1]);
+   button?.click();
+   const displayed=[...doc.querySelectorAll('.sourcing-card')];
+   const observed=css?displayed.every(card=>card.querySelector('.sourcing-signal.'+css)):true;
+   pass('Sourcing signal '+key+' filters cards',button&&Number.isFinite(expected)&&displayed.length===expected&&observed,'shown='+displayed.length+' expected='+expected);
+   pass('Sourcing signal '+key+' has pressed state',doc.querySelector('[data-sourcing-filter="'+key+'"]')?.getAttribute('aria-pressed')==='true');
+  }
+  pass('Sourcing badges clarify signals and data caveats',doc.querySelector('#sourcing')?.textContent.includes('네이버 검색 트렌드')&&doc.querySelector('#sourcing')?.textContent.includes('쿠팡 판매 실적'));
+ }
  if(shouldRank&&tops.length){
   tops[0].querySelector('[data-sourcing-view]')?.click();
   pass('Sourcing opens actual fruit variety price details',!doc.querySelector('#detailSection')?.hidden&&doc.querySelector('#prices')?.classList.contains('on'));
