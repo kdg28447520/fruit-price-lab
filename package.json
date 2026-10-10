@@ -1,0 +1,9 @@
+{
+  "name": "fruit-price-lab",
+  "version": "1.2.0",
+  "private": true,
+  "type": "commonjs",
+  "dependencies": {
+    "@vercel/blob": "^2.3.0"
+  }
+}
