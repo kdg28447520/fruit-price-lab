@@ -1,10 +1,10 @@
 {
-  "testedAt": "2026-10-10T08:30:17.783Z",
-  "total": 22,
+  "testedAt": "2026-10-10T08:31:24.485Z",
+  "total": 23,
   "passed": 21,
-  "failed": 1,
-  "fruitCategories": 13,
-  "variantClicks": 16,
+  "failed": 2,
+  "fruitCategories": 20,
+  "variantClicks": 34,
   "photoAssets": 26,
   "checks": [
     {
@@ -18,7 +18,7 @@
     {
       "name": "Official price status",
       "passed": false,
-      "detail": "status= 기준 조사일 20261008 · 최근 862건 / 1년간 가격 관측 품종 16종"
+      "detail": "status= 기준 조사일 20261008 · 최근 862건 / 1년간 가격 관측 품종 34종"
     },
     {
       "name": "Photo credits visible",
@@ -29,7 +29,7 @@
       "passed": true
     },
     {
-      "name": "Apple varieties only when observed",
+      "name": "All 1-year priced apple varieties",
       "passed": true
     },
     {
@@ -37,8 +37,13 @@
       "passed": true
     },
     {
-      "name": "Region selector initialized",
+      "name": "Fuji older 1-year price displayed",
       "passed": true
+    },
+    {
+      "name": "Region selector initialized",
+      "passed": false,
+      "detail": ""
     },
     {
       "name": "Region switch filters rows",
