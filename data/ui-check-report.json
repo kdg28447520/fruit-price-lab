@@ -1,15 +1,16 @@
 {
-  "testedAt": "2026-10-10T08:01:46.172Z",
+  "testedAt": "2026-10-10T08:16:07.675Z",
   "total": 18,
-  "passed": 18,
-  "failed": 0,
-  "fruitCategories": 23,
-  "variantClicks": 49,
+  "passed": 15,
+  "failed": 3,
+  "fruitCategories": 13,
+  "variantClicks": 16,
   "photoAssets": 26,
   "checks": [
     {
       "name": "Initial API price cards",
-      "passed": true
+      "passed": false,
+      "detail": "count 13;  기준 조사일 20261008 · 실측 862건 · 조사 품종 16종"
     },
     {
       "name": "Official price status",
@@ -21,11 +22,13 @@
     },
     {
       "name": "All category and subtype buttons",
-      "passed": true
+      "passed": false,
+      "detail": "categories=13 variants=16 failed="
     },
     {
       "name": "Apple variety codes",
-      "passed": true
+      "passed": false,
+      "detail": ""
     },
     {
       "name": "Hongro shows official prices",
