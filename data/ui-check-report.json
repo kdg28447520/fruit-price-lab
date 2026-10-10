@@ -1,8 +1,8 @@
 {
-  "testedAt": "2026-10-10T10:25:30.538Z",
-  "total": 25,
-  "passed": 24,
-  "failed": 1,
+  "testedAt": "2026-10-10T10:28:42.852Z",
+  "total": 26,
+  "passed": 26,
+  "failed": 0,
   "fruitCategories": 20,
   "variantClicks": 34,
   "photoAssets": 26,
@@ -16,9 +16,12 @@
       "passed": true
     },
     {
-      "name": "Official price status",
-      "passed": false,
-      "detail": "status=10월 8일 기준· API 확인 10. 10. 16:18· 실측 862건"
+      "name": "Survey date rendered as Korean month/day",
+      "passed": true
+    },
+    {
+      "name": "API checked-at timestamp displayed",
+      "passed": true
     },
     {
       "name": "Photo credits visible",
