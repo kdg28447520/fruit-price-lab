@@ -255,13 +255,13 @@ $('seasons').innerHTML=['harvest','facility','stored'].filter(key=>record[key].l
 }
 
 function dayNumber(s){
- const m=/^(20\\d{2})(\\d{2})(\\d{2})$/.exec(String(s||''));
+ const m=/^(20\d{2})(\d{2})(\d{2})$/.exec(String(s||''));
  return m?Math.floor(Date.UTC(Number(m[1]),Number(m[2])-1,Number(m[3]))/86400000):NaN;
 }
 function currentKstDate(){return new Date(Date.now()+9*3600000).toISOString().slice(0,10).replaceAll('-','')}
 function seasonClass(name,v,m){
  const data=SEASON_DATA[m-1]||{harvest:[],facility:[],stored:[]};
- const norm=x=>String(x||'').replaceAll('머스켓','머스캣').replace(/\\s/g,'');
+ const norm=x=>String(x||'').replaceAll('머스켓','머스캣').replace(/\s/g,'');
  for(const group of ['harvest','facility','stored']){
   for(const item of data[group]){
    const label=norm(item),fruitName=norm(name),vName=norm(v);
@@ -272,7 +272,7 @@ function seasonClass(name,v,m){
  return 'none';
 }
 function sourcingCandidates(){
- if(!/^20\\d{6}$/.test(surveyDate))return [];
+ if(!/^20\d{6}$/.test(surveyDate))return [];
  const month=Number(surveyDate.slice(4,6)),today=dayNumber(currentKstDate()),latest=dayNumber(surveyDate);
  if(!Number.isFinite(latest)||!Number.isFinite(today)||today-latest>7||today<latest-2)return [];
  const wh=prices.filter(x=>String(x.kind||'').includes('중도매')&&Number(x.pricePerKg)>0&&x.date===surveyDate);
@@ -342,7 +342,7 @@ async function loadSourcingHistory(){
   if(!resp.ok)throw Error('지난 가격 파일 접근 실패');
   const data=await resp.json();
   if(!Array.isArray(data.samples))throw Error('지난 가격 자료 형식 오류');
-  sourcingSamples=data.samples.filter(x=>x&&Number(x.price)>0&&/^20\\d{6}$/.test(String(x.date||'')));
+  sourcingSamples=data.samples.filter(x=>x&&Number(x.price)>0&&/^20\d{6}$/.test(String(x.date||'')));
   sourcingReady=true;
  }catch(_){sourcingSamples=[];sourcingReady=false}
  renderSourcing();
