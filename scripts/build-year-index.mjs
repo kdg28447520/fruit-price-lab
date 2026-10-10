@@ -1,7 +1,9 @@
 import fs from 'node:fs/promises';
 const catalog=JSON.parse(await fs.readFile('data/fruit-varieties.json','utf8')).items;
 const status=JSON.parse(await fs.readFile('data/backfill-status.json','utf8'));
-const begin=status.from||'20251010',end=status.to||'20261010';
+const today=new Date(Date.now()+9*3600000);
+const begin=new Date(today.getTime()-365*86400000).toISOString().slice(0,10).replaceAll('-','');
+const end=today.toISOString().slice(0,10).replaceAll('-');
 const overview=[];
 let total=0,variants=0;
 for(const [code,meta] of Object.entries(catalog)){
