@@ -16,7 +16,11 @@ const dom=new JSDOM(html,{url:'https://fruit-price-lab.example.test/',runScripts
    if(String(url).startsWith('/data/fruit-varieties.json'))return {ok:true,json:async()=>catalog};
    if(String(url).startsWith('/data/year-index.json'))return {ok:true,json:async()=>yearly};
    if(String(url).startsWith('/api/prices'))return {ok:true,json:async()=>({live:true,...latest,history:history.samples,varietySummaries:summaries})};
-   if(String(url).startsWith('/data/history/'))return {ok:false,status:404,json:async()=>({samples:[]})};
+   if(String(url).startsWith('/data/history/')){
+ const code=String(url).split('/').at(-1).split('.')[0];
+ try{const file=JSON.parse(fs.readFileSync('data/history/'+code+'.json','utf8'));return {ok:true,status:200,json:async()=>file}}
+ catch{return {ok:false,status:404,json:async()=>({samples:[]})}}
+ }
    throw Error('Unexpected fetch '+url);
  };
 }});
@@ -68,6 +72,10 @@ const wait=ms=>new Promise(resolve=>setTimeout(resolve,ms));
  pass('Four chart period choices',doc.querySelectorAll('#periodSelect option').length===4); 
  doc.querySelector('#periodSelect').value='365';doc.querySelector('#periodSelect').dispatchEvent(new dom.window.Event('change',{bubbles:true}));
  pass('One-year chart period switches',doc.querySelector('#periodSelect').value==='365');
+ const selectedApple=[...doc.querySelectorAll('[data-fruit]')].find(e=>e.dataset.fruit==='사과');selectedApple?.click();
+ const selectedFuji=[...doc.querySelectorAll('[data-variety]')].find(e=>e.dataset.variety==='후지');selectedFuji?.click();
+ await wait(90);
+ pass('Historic Fuji graph has multiple dated observations',doc.querySelector('#trendChart path')!==null&&doc.querySelector('#trendInfo')?.textContent.includes('실제 조사일'),'graph='+doc.querySelector('#trendInfo')?.textContent);
  pass('No empty-price messaging in UI',![...doc.querySelectorAll('[data-fruit], [data-variety]')].some(x=>x.textContent.includes('시세 없음')||x.textContent.includes('가격정보 확인')));
  doc.querySelector('[data-month="3"]').click();pass('Calendar month navigation',doc.querySelector('#monthTitle')?.textContent.includes('3월'));
  const entries=[...Object.values(manifest.fruits),...Object.values(manifest.varieties)];
