@@ -1,39 +1,64 @@
 {
-  "testedAt": "2026-10-10T08:37:02.528Z",
+  "testedAt": "2026-10-10T10:28:21.804Z",
   "base": "https://fruit-price-lab-kdg2844-8355s-projects.vercel.app",
-  "total": 7,
-  "passed": 7,
-  "failed": 0,
+  "total": 12,
+  "passed": 5,
+  "failed": 7,
   "tests": [
     {
       "name": "Homepage delivers HTML",
+      "passed": false,
+      "error": "HTTP 404 false"
+    },
+    {
+      "name": "robots.txt public and sitemap declared",
       "passed": true,
       "status": 200
+    },
+    {
+      "name": "sitemap.xml includes one canonical root with daily frequency",
+      "passed": true,
+      "status": 200
+    },
+    {
+      "name": "favicon.svg is accessible",
+      "passed": true,
+      "status": 200
+    },
+    {
+      "name": "1200x630 OG JPEG loads for chat previews",
+      "passed": true,
+      "status": 200
+    },
+    {
+      "name": "HTML contains Open Graph, canonical, favicon and latest-date renderer",
+      "passed": false,
+      "error": "HTTP 404 false"
     },
     {
       "name": "Apple photo delivers real JPEG",
-      "passed": true,
-      "status": 200
+      "passed": false,
+      "error": "HTTP 404 false"
     },
     {
       "name": "Pear photo delivers real JPEG",
-      "passed": true,
-      "status": 200
+      "passed": false,
+      "error": "HTTP 404 false"
     },
     {
       "name": "Shine Muscat variety photo delivers JPEG",
-      "passed": true,
-      "status": 200
+      "passed": false,
+      "error": "HTTP 404 false"
     },
     {
       "name": "Annual active-variety list is available",
-      "passed": true,
-      "status": 200
+      "passed": false,
+      "error": "HTTP 404 false"
     },
     {
       "name": "Fuji one-year historical series available",
-      "passed": true,
-      "status": 200
+      "passed": false,
+      "error": "HTTP 404 false"
     },
     {
       "name": "Official price API returns live data",
