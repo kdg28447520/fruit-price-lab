@@ -4,6 +4,9 @@ on:
     branches: [main]
     paths:
       - 'index.html'
+      - 'api/search-trends.js'
+      - 'lib/naver-keywords.js'
+      - 'scripts/check-search-trends.cjs'
       - 'scripts/check-ui.cjs'
       - 'data/photos-manifest.json'
       - '.github/workflows/verify-ui.yml'
@@ -24,6 +27,7 @@ jobs:
         with:
           node-version: '22'
       - run: npm install --ignore-scripts --no-save --no-package-lock jsdom@26.1.0
+      - run: node scripts/check-search-trends.cjs
       - run: node scripts/check-ui.cjs
       - name: Save UI test report
         if: always()
