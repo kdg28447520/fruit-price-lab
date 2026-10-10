@@ -27,7 +27,7 @@ const wait=ms=>new Promise(resolve=>setTimeout(resolve,ms));
  const expectedNames=[...new Set([...latest.items.filter(x=>Number(x.pricePerKg)>0).map(x=>x.name),...yearly.items.filter(x=>x.varieties?.length).map(x=>x.name)])];
  pass('Only observed fruit categories',doc.querySelectorAll('[data-fruit]').length===expectedNames.length,'count '+doc.querySelectorAll('[data-fruit]').length+'; expected='+expectedNames.length); 
  pass('No unpriced fruit categories', [...doc.querySelectorAll('[data-fruit]')].every(x=>expectedNames.includes(x.dataset.fruit)));
- pass('Official price status',doc.querySelector('#status')?.textContent?.includes('실측'),'status='+doc.querySelector('#status')?.textContent);
+ pass('Official price status',doc.querySelector('#status')?.textContent?.includes('1년간 가격 관측'),'status='+doc.querySelector('#status')?.textContent);
  pass('Photo credits visible',doc.querySelectorAll('#creditList li').length===26,'links='+doc.querySelectorAll('#creditList li').length);
  const all=[...doc.querySelectorAll('[data-fruit]')].map(b=>b.dataset.fruit);
  let n=0,variantsFail=[];
@@ -51,12 +51,14 @@ const wait=ms=>new Promise(resolve=>setTimeout(resolve,ms));
  const hongro=apples.find(e=>e.dataset.variety==='홍로');
  if(hongro)hongro.click();
  pass('Hongro shows official prices',doc.querySelector('#wholesaleValue')?.textContent?.includes('원'),'value='+doc.querySelector('#wholesaleValue')?.textContent);
- const fuji=apples.find(x=>x.dataset.variety==='후지'); if(fuji)fuji.click();
- pass('Fuji older 1-year price displayed',doc.querySelector('#wholesaleValue')?.textContent?.includes('원')&&doc.querySelector('#detailNote')?.textContent?.includes('2026'),'value='+doc.querySelector('#wholesaleValue')?.textContent+' / '+doc.querySelector('#detailNote')?.textContent);
+
  pass('Region selector initialized',doc.querySelector('#regionSelect')?.options?.length>1);
  const region=doc.querySelector('#regionSelect');
  if([...region.options].some(o=>o.value==='서울')){region.value='서울';region.dispatchEvent(new dom.window.Event('change',{bubbles:true}));}
  pass('Region switch filters rows',!doc.querySelector('#priceRows')?.textContent.includes('부산'));
+ const fuji=apples.find(x=>x.dataset.variety==='후지'); if(fuji)fuji.click();
+ pass('Fuji older 1-year price displayed',doc.querySelector('#wholesaleValue')?.textContent?.includes('원')&&doc.querySelector('#detailNote')?.textContent?.includes('2026'),'value='+doc.querySelector('#wholesaleValue')?.textContent+' / '+doc.querySelector('#detailNote')?.textContent);
+ pass('Fuji full-year price retained',doc.querySelector('#detailName')?.textContent?.includes('후지'));
  const kind=doc.querySelector('#kindSelect');kind.value='소매';kind.dispatchEvent(new dom.window.Event('change',{bubbles:true}));
  pass('Wholesaler/retail chart switch',doc.querySelector('#trendInfo').textContent.length>5);
  for(const tab of ['prices','seller','calendar']){doc.querySelector('[data-tab="'+tab+'"]').click();pass(tab+' menu tab',doc.querySelector('#'+tab)?.classList.contains('on'))}
