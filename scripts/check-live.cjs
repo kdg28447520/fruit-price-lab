@@ -20,6 +20,8 @@ async function probe(name,path,validate){
  await probe('Apple photo delivers real JPEG','/photos/fruit-apple.jpg',(r,b)=>r.headers.get('content-type')?.includes('image/')&&b[0]===255&&b[1]===216);
  await probe('Pear photo delivers real JPEG','/photos/fruit-pear.jpg',(r,b)=>r.headers.get('content-type')?.includes('image/')&&b[0]===255&&b[1]===216);
  await probe('Shine Muscat variety photo delivers JPEG','/photos/variety-shine-muscat.jpg',(r,b)=>r.headers.get('content-type')?.includes('image/')&&b[0]===255&&b[1]===216);
+ await probe('Annual active-variety list is available','/data/year-index.json',(r,b)=>{try{const o=JSON.parse(b.toString('utf8'));return /^20\\d{6}$/.test(o.range?.from||'')&&/^20\\d{6}$/.test(o.range?.to||'')&&o.itemCount===20&&o.varietyCount===34&&o.items.some(i=>i.name==='사과'&&i.varieties.some(v=>v.name==='후지'&&Number(v.kinds?.소매?.price)>0))}catch{return false}});
+ await probe('Fuji one-year historical series available','/data/history/411.json',(r,b)=>{try{const o=JSON.parse(b.toString('utf8'));return o.complete===true&&Array.isArray(o.samples)&&o.samples.length>=300&&o.samples.some(x=>x.variety==='후지'&&x.date<'20261001')}catch{return false}});
  await probe('Official price API returns live data','/api/prices',(r,b)=>{try{const o=JSON.parse(b.toString('utf8'));return o.live===true&&Array.isArray(o.items)&&o.items.length>0}catch{return false}});
  const failed=tests.filter(t=>!t.passed);
  const output={testedAt:new Date().toISOString(),base,total:tests.length,passed:tests.length-failed.length,failed:failed.length,tests};
