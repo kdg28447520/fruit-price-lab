@@ -12,13 +12,13 @@ const groups=new Map();
 for(const r of rows){
   if(!(r.pricePerKg>0))continue;
   const kind=r.kind||'미분류';
-  const key=[r.date,r.name,kind].join('|');
+  const key=[r.date,r.name,r.variety||'품종 미상',kind].join('|');
   if(!groups.has(key))groups.set(key,[]);
   groups.get(key).push(r.pricePerKg);
 }
 const history=[...groups].map(([key,prices])=>{
   prices.sort((a,b)=>a-b);
-  const [date,name,kind]=key.split('|');
-  return {date,name,kind,price:prices[Math.floor(prices.length/2)],sampleCount:prices.length};
+  const [date,name,variety,kind]=key.split('|');
+  return {date,name,variety,kind,price:prices[Math.floor(prices.length/2)],sampleCount:prices.length};
 }).sort((a,b)=>a.date.localeCompare(b.date)||a.name.localeCompare(b.name)||a.kind.localeCompare(b.kind));
 res.status(200).json({live:true,date:latest,checkedAt:new Date().toISOString(),items:list,history,count:list.length,partial:partial.length>0,warnings:{failedItems:errors.length,truncatedGroups:partial.length},source:'한국농수산식품유통공사 일별 도·소매 가격정보',priceBasis:'kg 환산가격 우선, 없으면 원 거래단위 가격'})};
