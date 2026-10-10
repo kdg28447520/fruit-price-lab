@@ -1,8 +1,8 @@
 {
-  "testedAt": "2026-10-10T14:38:00.650Z",
+  "testedAt": "2026-10-10T14:52:05.401Z",
   "total": 42,
-  "passed": 42,
-  "failed": 0,
+  "passed": 40,
+  "failed": 2,
   "fruitCategories": 20,
   "variantClicks": 34,
   "photoAssets": 26,
@@ -89,7 +89,8 @@
     },
     {
       "name": "Four sourcing signal filters present",
-      "passed": true
+      "passed": false,
+      "detail": ""
     },
     {
       "name": "Sourcing signal all filters cards",
@@ -125,7 +126,8 @@
     },
     {
       "name": "Sourcing badges clarify signals and data caveats",
-      "passed": true
+      "passed": false,
+      "detail": ""
     },
     {
       "name": "Sourcing opens actual fruit variety price details",
