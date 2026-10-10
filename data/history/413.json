@@ -1,0 +1,778 @@
+{
+  "itemCode": "413",
+  "source": "한국농수산식품유통공사 일별 도·소매 가격정보",
+  "basis": "지역/등급 합산하지 않고 품종별·거래유형별 1kg 환산가격 중간값",
+  "from": "20251010",
+  "to": "20261010",
+  "samples": [
+    {
+      "date": "20260707",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 20500,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260707",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "중도매",
+      "price": 5250,
+      "sampleCount": 5
+    },
+    {
+      "date": "20260708",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 20500,
+      "sampleCount": 52
+    },
+    {
+      "date": "20260708",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "중도매",
+      "price": 6750,
+      "sampleCount": 6
+    },
+    {
+      "date": "20260709",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 17900,
+      "sampleCount": 51
+    },
+    {
+      "date": "20260709",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "중도매",
+      "price": 5750,
+      "sampleCount": 6
+    },
+    {
+      "date": "20260710",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 18300,
+      "sampleCount": 52
+    },
+    {
+      "date": "20260710",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "중도매",
+      "price": 5875,
+      "sampleCount": 6
+    },
+    {
+      "date": "20260713",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 18200,
+      "sampleCount": 58
+    },
+    {
+      "date": "20260713",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "중도매",
+      "price": 6500,
+      "sampleCount": 6
+    },
+    {
+      "date": "20260714",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 17900,
+      "sampleCount": 61
+    },
+    {
+      "date": "20260714",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "중도매",
+      "price": 5625,
+      "sampleCount": 7
+    },
+    {
+      "date": "20260715",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 18100,
+      "sampleCount": 66
+    },
+    {
+      "date": "20260715",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "중도매",
+      "price": 5875,
+      "sampleCount": 7
+    },
+    {
+      "date": "20260716",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 15800,
+      "sampleCount": 63
+    },
+    {
+      "date": "20260716",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "중도매",
+      "price": 5875,
+      "sampleCount": 8
+    },
+    {
+      "date": "20260720",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 15600,
+      "sampleCount": 72
+    },
+    {
+      "date": "20260720",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "중도매",
+      "price": 5825,
+      "sampleCount": 8
+    },
+    {
+      "date": "20260721",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 15600,
+      "sampleCount": 75
+    },
+    {
+      "date": "20260721",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "중도매",
+      "price": 5600,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260722",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 15600,
+      "sampleCount": 76
+    },
+    {
+      "date": "20260722",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "중도매",
+      "price": 4500,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260723",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 16600,
+      "sampleCount": 77
+    },
+    {
+      "date": "20260723",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "중도매",
+      "price": 4500,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260724",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 16600,
+      "sampleCount": 76
+    },
+    {
+      "date": "20260724",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "중도매",
+      "price": 4650,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260727",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 16600,
+      "sampleCount": 77
+    },
+    {
+      "date": "20260727",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "중도매",
+      "price": 4650,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260728",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 17000,
+      "sampleCount": 77
+    },
+    {
+      "date": "20260728",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "중도매",
+      "price": 4325,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260729",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 16600,
+      "sampleCount": 76
+    },
+    {
+      "date": "20260729",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "중도매",
+      "price": 4650,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260730",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 15600,
+      "sampleCount": 76
+    },
+    {
+      "date": "20260730",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "중도매",
+      "price": 4400,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260731",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 15600,
+      "sampleCount": 77
+    },
+    {
+      "date": "20260731",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "중도매",
+      "price": 4750,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260803",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 15600,
+      "sampleCount": 77
+    },
+    {
+      "date": "20260803",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "중도매",
+      "price": 4900,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260804",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 15600,
+      "sampleCount": 78
+    },
+    {
+      "date": "20260804",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "중도매",
+      "price": 4900,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260805",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 15600,
+      "sampleCount": 77
+    },
+    {
+      "date": "20260805",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "중도매",
+      "price": 5000,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260806",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 16600,
+      "sampleCount": 77
+    },
+    {
+      "date": "20260806",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "중도매",
+      "price": 5000,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260807",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 17000,
+      "sampleCount": 78
+    },
+    {
+      "date": "20260807",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "중도매",
+      "price": 4900,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260810",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 17200,
+      "sampleCount": 78
+    },
+    {
+      "date": "20260810",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "중도매",
+      "price": 5150,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260811",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 16900,
+      "sampleCount": 78
+    },
+    {
+      "date": "20260811",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "중도매",
+      "price": 5150,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260812",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 17000,
+      "sampleCount": 78
+    },
+    {
+      "date": "20260812",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "중도매",
+      "price": 5500,
+      "sampleCount": 6
+    },
+    {
+      "date": "20260813",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 17900,
+      "sampleCount": 78
+    },
+    {
+      "date": "20260813",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "중도매",
+      "price": 5500,
+      "sampleCount": 6
+    },
+    {
+      "date": "20260814",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 17000,
+      "sampleCount": 76
+    },
+    {
+      "date": "20260814",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "중도매",
+      "price": 5575,
+      "sampleCount": 5
+    },
+    {
+      "date": "20260818",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 17000,
+      "sampleCount": 75
+    },
+    {
+      "date": "20260818",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "중도매",
+      "price": 5575,
+      "sampleCount": 4
+    },
+    {
+      "date": "20260819",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 17000,
+      "sampleCount": 76
+    },
+    {
+      "date": "20260819",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "중도매",
+      "price": 5575,
+      "sampleCount": 4
+    },
+    {
+      "date": "20260820",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 17400,
+      "sampleCount": 76
+    },
+    {
+      "date": "20260820",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "중도매",
+      "price": 5325,
+      "sampleCount": 5
+    },
+    {
+      "date": "20260821",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 17400,
+      "sampleCount": 75
+    },
+    {
+      "date": "20260821",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "중도매",
+      "price": 5325,
+      "sampleCount": 5
+    },
+    {
+      "date": "20260824",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 17400,
+      "sampleCount": 75
+    },
+    {
+      "date": "20260824",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "중도매",
+      "price": 5075,
+      "sampleCount": 5
+    },
+    {
+      "date": "20260825",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 17400,
+      "sampleCount": 75
+    },
+    {
+      "date": "20260825",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "중도매",
+      "price": 5150,
+      "sampleCount": 5
+    },
+    {
+      "date": "20260826",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 17900,
+      "sampleCount": 74
+    },
+    {
+      "date": "20260826",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "중도매",
+      "price": 5825,
+      "sampleCount": 5
+    },
+    {
+      "date": "20260827",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 17900,
+      "sampleCount": 71
+    },
+    {
+      "date": "20260827",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "중도매",
+      "price": 5825,
+      "sampleCount": 5
+    },
+    {
+      "date": "20260828",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 17300,
+      "sampleCount": 69
+    },
+    {
+      "date": "20260828",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "중도매",
+      "price": 5200,
+      "sampleCount": 4
+    },
+    {
+      "date": "20260831",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 17900,
+      "sampleCount": 67
+    },
+    {
+      "date": "20260831",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "중도매",
+      "price": 4875,
+      "sampleCount": 4
+    },
+    {
+      "date": "20260901",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 17900,
+      "sampleCount": 68
+    },
+    {
+      "date": "20260901",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "중도매",
+      "price": 4875,
+      "sampleCount": 4
+    },
+    {
+      "date": "20260902",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 17900,
+      "sampleCount": 69
+    },
+    {
+      "date": "20260902",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "중도매",
+      "price": 4825,
+      "sampleCount": 4
+    },
+    {
+      "date": "20260903",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 18200,
+      "sampleCount": 67
+    },
+    {
+      "date": "20260903",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "중도매",
+      "price": 4825,
+      "sampleCount": 4
+    },
+    {
+      "date": "20260904",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 18200,
+      "sampleCount": 68
+    },
+    {
+      "date": "20260907",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 18200,
+      "sampleCount": 67
+    },
+    {
+      "date": "20260908",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 18200,
+      "sampleCount": 68
+    },
+    {
+      "date": "20260909",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 18200,
+      "sampleCount": 66
+    },
+    {
+      "date": "20260910",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 19200,
+      "sampleCount": 57
+    },
+    {
+      "date": "20260911",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 19200,
+      "sampleCount": 59
+    },
+    {
+      "date": "20260914",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 18200,
+      "sampleCount": 54
+    },
+    {
+      "date": "20260915",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 18200,
+      "sampleCount": 51
+    },
+    {
+      "date": "20260916",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 18200,
+      "sampleCount": 46
+    },
+    {
+      "date": "20260917",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 19800,
+      "sampleCount": 32
+    },
+    {
+      "date": "20260918",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 19800,
+      "sampleCount": 22
+    },
+    {
+      "date": "20260921",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 19800,
+      "sampleCount": 16
+    },
+    {
+      "date": "20260922",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 19800,
+      "sampleCount": 15
+    },
+    {
+      "date": "20260923",
+      "name": "복숭아",
+      "variety": "백도",
+      "kind": "소매",
+      "price": 19800,
+      "sampleCount": 14
+    }
+  ],
+  "complete": true
+}

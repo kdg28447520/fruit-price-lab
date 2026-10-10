@@ -1,0 +1,1962 @@
+{
+  "itemCode": "430",
+  "source": "한국농수산식품유통공사 일별 도·소매 가격정보",
+  "basis": "지역/등급 합산하지 않고 품종별·거래유형별 1kg 환산가격 중간값",
+  "from": "20251010",
+  "to": "20261010",
+  "samples": [
+    {
+      "date": "20251010",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 38
+    },
+    {
+      "date": "20251013",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 39
+    },
+    {
+      "date": "20251014",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 39
+    },
+    {
+      "date": "20251015",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 38
+    },
+    {
+      "date": "20251016",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 38
+    },
+    {
+      "date": "20251017",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 38
+    },
+    {
+      "date": "20251020",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 38
+    },
+    {
+      "date": "20251021",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 38
+    },
+    {
+      "date": "20251022",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 38
+    },
+    {
+      "date": "20251023",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 38
+    },
+    {
+      "date": "20251024",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 38
+    },
+    {
+      "date": "20251027",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 38
+    },
+    {
+      "date": "20251028",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 38
+    },
+    {
+      "date": "20251029",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1980,
+      "sampleCount": 38
+    },
+    {
+      "date": "20251030",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1770,
+      "sampleCount": 38
+    },
+    {
+      "date": "20251031",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1750,
+      "sampleCount": 38
+    },
+    {
+      "date": "20251103",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1750,
+      "sampleCount": 38
+    },
+    {
+      "date": "20251104",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1770,
+      "sampleCount": 38
+    },
+    {
+      "date": "20251105",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1770,
+      "sampleCount": 38
+    },
+    {
+      "date": "20251106",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1750,
+      "sampleCount": 38
+    },
+    {
+      "date": "20251107",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1810,
+      "sampleCount": 38
+    },
+    {
+      "date": "20251110",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1830,
+      "sampleCount": 38
+    },
+    {
+      "date": "20251111",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 38
+    },
+    {
+      "date": "20251112",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 38
+    },
+    {
+      "date": "20251113",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 38
+    },
+    {
+      "date": "20251114",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 38
+    },
+    {
+      "date": "20251117",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 38
+    },
+    {
+      "date": "20251118",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 38
+    },
+    {
+      "date": "20251119",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 38
+    },
+    {
+      "date": "20251120",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 38
+    },
+    {
+      "date": "20251121",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 38
+    },
+    {
+      "date": "20251124",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 38
+    },
+    {
+      "date": "20251125",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 38
+    },
+    {
+      "date": "20251126",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 38
+    },
+    {
+      "date": "20251127",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 34
+    },
+    {
+      "date": "20251128",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 35
+    },
+    {
+      "date": "20251201",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2000,
+      "sampleCount": 38
+    },
+    {
+      "date": "20251202",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2000,
+      "sampleCount": 38
+    },
+    {
+      "date": "20251203",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2000,
+      "sampleCount": 38
+    },
+    {
+      "date": "20251204",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 38
+    },
+    {
+      "date": "20251208",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 38
+    },
+    {
+      "date": "20251209",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 38
+    },
+    {
+      "date": "20251210",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 38
+    },
+    {
+      "date": "20251211",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 38
+    },
+    {
+      "date": "20251212",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 38
+    },
+    {
+      "date": "20251215",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 37
+    },
+    {
+      "date": "20251216",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 37
+    },
+    {
+      "date": "20251217",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 37
+    },
+    {
+      "date": "20251218",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 37
+    },
+    {
+      "date": "20251219",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 37
+    },
+    {
+      "date": "20251222",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 37
+    },
+    {
+      "date": "20251223",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 37
+    },
+    {
+      "date": "20251224",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 37
+    },
+    {
+      "date": "20251226",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 37
+    },
+    {
+      "date": "20251229",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 37
+    },
+    {
+      "date": "20251230",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 37
+    },
+    {
+      "date": "20251231",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260102",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260105",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260106",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260107",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260108",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2290,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260109",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2290,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260112",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2290,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260113",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2290,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260114",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2290,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260115",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2490,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260116",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2490,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260119",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2490,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260120",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2330,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260121",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2250,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260122",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2330,
+      "sampleCount": 36
+    },
+    {
+      "date": "20260123",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2250,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260126",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2250,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260127",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2200,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260128",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2200,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260129",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260130",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260202",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260203",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260204",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260205",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260206",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260209",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260210",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260211",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 39
+    },
+    {
+      "date": "20260212",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2160,
+      "sampleCount": 39
+    },
+    {
+      "date": "20260213",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2180,
+      "sampleCount": 39
+    },
+    {
+      "date": "20260219",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2180,
+      "sampleCount": 39
+    },
+    {
+      "date": "20260220",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2180,
+      "sampleCount": 39
+    },
+    {
+      "date": "20260223",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2190,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260224",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2190,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260225",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2190,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260226",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260227",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260303",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260304",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260305",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 36
+    },
+    {
+      "date": "20260306",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 36
+    },
+    {
+      "date": "20260309",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260310",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260311",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260312",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2190,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260313",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2190,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260316",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2220,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260317",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2220,
+      "sampleCount": 36
+    },
+    {
+      "date": "20260318",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2250,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260319",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2160,
+      "sampleCount": 31
+    },
+    {
+      "date": "20260320",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2160,
+      "sampleCount": 31
+    },
+    {
+      "date": "20260323",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2160,
+      "sampleCount": 30
+    },
+    {
+      "date": "20260324",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2180,
+      "sampleCount": 30
+    },
+    {
+      "date": "20260325",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2190,
+      "sampleCount": 30
+    },
+    {
+      "date": "20260326",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2250,
+      "sampleCount": 32
+    },
+    {
+      "date": "20260327",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2330,
+      "sampleCount": 34
+    },
+    {
+      "date": "20260330",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2460,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260331",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2460,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260401",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2460,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260402",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2490,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260403",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2490,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260406",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2490,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260407",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2490,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260408",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2490,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260409",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2490,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260410",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2490,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260413",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2490,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260414",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2490,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260415",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2490,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260416",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2380,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260417",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2000,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260420",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2180,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260421",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2180,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260422",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2180,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260423",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2180,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260424",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2180,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260427",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2130,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260428",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2130,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260429",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2000,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260430",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 2000,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260504",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260506",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 36
+    },
+    {
+      "date": "20260507",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 34
+    },
+    {
+      "date": "20260508",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 34
+    },
+    {
+      "date": "20260511",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 33
+    },
+    {
+      "date": "20260512",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 32
+    },
+    {
+      "date": "20260513",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 32
+    },
+    {
+      "date": "20260514",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 36
+    },
+    {
+      "date": "20260515",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 35
+    },
+    {
+      "date": "20260518",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 36
+    },
+    {
+      "date": "20260519",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 35
+    },
+    {
+      "date": "20260520",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 35
+    },
+    {
+      "date": "20260521",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260522",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260526",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260527",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260528",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260529",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260601",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260602",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260604",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 32
+    },
+    {
+      "date": "20260605",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 32
+    },
+    {
+      "date": "20260608",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 32
+    },
+    {
+      "date": "20260609",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 31
+    },
+    {
+      "date": "20260610",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 31
+    },
+    {
+      "date": "20260611",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1660,
+      "sampleCount": 32
+    },
+    {
+      "date": "20260612",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1660,
+      "sampleCount": 32
+    },
+    {
+      "date": "20260615",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1640,
+      "sampleCount": 32
+    },
+    {
+      "date": "20260616",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1660,
+      "sampleCount": 32
+    },
+    {
+      "date": "20260617",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1660,
+      "sampleCount": 32
+    },
+    {
+      "date": "20260618",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1630,
+      "sampleCount": 32
+    },
+    {
+      "date": "20260619",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1630,
+      "sampleCount": 32
+    },
+    {
+      "date": "20260622",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1590,
+      "sampleCount": 32
+    },
+    {
+      "date": "20260623",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1590,
+      "sampleCount": 33
+    },
+    {
+      "date": "20260624",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1590,
+      "sampleCount": 33
+    },
+    {
+      "date": "20260625",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1490,
+      "sampleCount": 33
+    },
+    {
+      "date": "20260626",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1490,
+      "sampleCount": 33
+    },
+    {
+      "date": "20260629",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1490,
+      "sampleCount": 33
+    },
+    {
+      "date": "20260630",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1510,
+      "sampleCount": 33
+    },
+    {
+      "date": "20260701",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1510,
+      "sampleCount": 33
+    },
+    {
+      "date": "20260702",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1510,
+      "sampleCount": 33
+    },
+    {
+      "date": "20260703",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1390,
+      "sampleCount": 33
+    },
+    {
+      "date": "20260706",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1500,
+      "sampleCount": 33
+    },
+    {
+      "date": "20260707",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1510,
+      "sampleCount": 34
+    },
+    {
+      "date": "20260708",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1510,
+      "sampleCount": 34
+    },
+    {
+      "date": "20260709",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1500,
+      "sampleCount": 34
+    },
+    {
+      "date": "20260710",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1500,
+      "sampleCount": 34
+    },
+    {
+      "date": "20260713",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1490,
+      "sampleCount": 34
+    },
+    {
+      "date": "20260714",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1490,
+      "sampleCount": 34
+    },
+    {
+      "date": "20260715",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1490,
+      "sampleCount": 34
+    },
+    {
+      "date": "20260716",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1390,
+      "sampleCount": 34
+    },
+    {
+      "date": "20260720",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1390,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260721",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1390,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260722",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1390,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260723",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1390,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260724",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1390,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260727",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1390,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260728",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1390,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260729",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1390,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260730",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1390,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260731",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1390,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260803",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1390,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260804",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1390,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260805",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1390,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260806",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1690,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260807",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1690,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260810",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1690,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260811",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1690,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260812",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1690,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260813",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1690,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260814",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1690,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260818",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1690,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260819",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1690,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260820",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1690,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260821",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1690,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260824",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1690,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260825",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1690,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260826",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1690,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260827",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1690,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260828",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1700,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260831",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1690,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260901",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1690,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260902",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1690,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260903",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1690,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260904",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1720,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260907",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1720,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260908",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1720,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260909",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1790,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260910",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1810,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260911",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1830,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260914",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1830,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260915",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1830,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260916",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1830,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260917",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1830,
+      "sampleCount": 35
+    },
+    {
+      "date": "20260918",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1830,
+      "sampleCount": 35
+    },
+    {
+      "date": "20260921",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1830,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260922",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1830,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260923",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1860,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260928",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1860,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260929",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1830,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260930",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1830,
+      "sampleCount": 37
+    },
+    {
+      "date": "20261001",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1860,
+      "sampleCount": 37
+    },
+    {
+      "date": "20261002",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 37
+    },
+    {
+      "date": "20261006",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 37
+    },
+    {
+      "date": "20261007",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 37
+    },
+    {
+      "date": "20261008",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1990,
+      "sampleCount": 37
+    }
+  ],
+  "complete": true
+}

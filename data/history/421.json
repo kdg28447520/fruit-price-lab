@@ -1,0 +1,3210 @@
+{
+  "itemCode": "421",
+  "source": "한국농수산식품유통공사 일별 도·소매 가격정보",
+  "basis": "지역/등급 합산하지 않고 품종별·거래유형별 1kg 환산가격 중간값",
+  "from": "20251010",
+  "to": "20261010",
+  "samples": [
+    {
+      "date": "20251010",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 13700,
+      "sampleCount": 17
+    },
+    {
+      "date": "20251010",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3611,
+      "sampleCount": 9
+    },
+    {
+      "date": "20251013",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 13700,
+      "sampleCount": 19
+    },
+    {
+      "date": "20251013",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3611,
+      "sampleCount": 9
+    },
+    {
+      "date": "20251014",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 13300,
+      "sampleCount": 21
+    },
+    {
+      "date": "20251014",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3611,
+      "sampleCount": 9
+    },
+    {
+      "date": "20251015",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 13300,
+      "sampleCount": 21
+    },
+    {
+      "date": "20251015",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3611,
+      "sampleCount": 9
+    },
+    {
+      "date": "20251016",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 12400,
+      "sampleCount": 21
+    },
+    {
+      "date": "20251016",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3611,
+      "sampleCount": 9
+    },
+    {
+      "date": "20251017",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 12400,
+      "sampleCount": 22
+    },
+    {
+      "date": "20251017",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3611,
+      "sampleCount": 9
+    },
+    {
+      "date": "20251020",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 12400,
+      "sampleCount": 22
+    },
+    {
+      "date": "20251020",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3611,
+      "sampleCount": 9
+    },
+    {
+      "date": "20251021",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 12400,
+      "sampleCount": 21
+    },
+    {
+      "date": "20251021",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3611,
+      "sampleCount": 9
+    },
+    {
+      "date": "20251022",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 12400,
+      "sampleCount": 21
+    },
+    {
+      "date": "20251022",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3611,
+      "sampleCount": 9
+    },
+    {
+      "date": "20251023",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 13700,
+      "sampleCount": 23
+    },
+    {
+      "date": "20251023",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3611,
+      "sampleCount": 9
+    },
+    {
+      "date": "20251024",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 13700,
+      "sampleCount": 23
+    },
+    {
+      "date": "20251024",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3611,
+      "sampleCount": 9
+    },
+    {
+      "date": "20251027",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 14100,
+      "sampleCount": 24
+    },
+    {
+      "date": "20251027",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3611,
+      "sampleCount": 9
+    },
+    {
+      "date": "20251028",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 13700,
+      "sampleCount": 24
+    },
+    {
+      "date": "20251028",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3611,
+      "sampleCount": 9
+    },
+    {
+      "date": "20251029",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 13700,
+      "sampleCount": 25
+    },
+    {
+      "date": "20251029",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3611,
+      "sampleCount": 9
+    },
+    {
+      "date": "20251030",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 13700,
+      "sampleCount": 23
+    },
+    {
+      "date": "20251030",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3678,
+      "sampleCount": 9
+    },
+    {
+      "date": "20251031",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 14500,
+      "sampleCount": 22
+    },
+    {
+      "date": "20251031",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3678,
+      "sampleCount": 9
+    },
+    {
+      "date": "20251103",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 14500,
+      "sampleCount": 21
+    },
+    {
+      "date": "20251103",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3678,
+      "sampleCount": 9
+    },
+    {
+      "date": "20251104",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 14500,
+      "sampleCount": 21
+    },
+    {
+      "date": "20251104",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3678,
+      "sampleCount": 9
+    },
+    {
+      "date": "20251105",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 14900,
+      "sampleCount": 22
+    },
+    {
+      "date": "20251105",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3806,
+      "sampleCount": 9
+    },
+    {
+      "date": "20251106",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 14900,
+      "sampleCount": 20
+    },
+    {
+      "date": "20251106",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3806,
+      "sampleCount": 9
+    },
+    {
+      "date": "20251107",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 14900,
+      "sampleCount": 20
+    },
+    {
+      "date": "20251107",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3806,
+      "sampleCount": 9
+    },
+    {
+      "date": "20251110",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 14900,
+      "sampleCount": 20
+    },
+    {
+      "date": "20251110",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3806,
+      "sampleCount": 9
+    },
+    {
+      "date": "20251111",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 14900,
+      "sampleCount": 20
+    },
+    {
+      "date": "20251111",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3806,
+      "sampleCount": 9
+    },
+    {
+      "date": "20251112",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 14900,
+      "sampleCount": 20
+    },
+    {
+      "date": "20251112",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3806,
+      "sampleCount": 9
+    },
+    {
+      "date": "20251113",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 14900,
+      "sampleCount": 21
+    },
+    {
+      "date": "20251113",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3806,
+      "sampleCount": 9
+    },
+    {
+      "date": "20251114",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 14900,
+      "sampleCount": 21
+    },
+    {
+      "date": "20251114",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3806,
+      "sampleCount": 9
+    },
+    {
+      "date": "20251117",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 14900,
+      "sampleCount": 21
+    },
+    {
+      "date": "20251117",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3806,
+      "sampleCount": 9
+    },
+    {
+      "date": "20251118",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 14900,
+      "sampleCount": 21
+    },
+    {
+      "date": "20251118",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3806,
+      "sampleCount": 9
+    },
+    {
+      "date": "20251119",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 14900,
+      "sampleCount": 21
+    },
+    {
+      "date": "20251119",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3806,
+      "sampleCount": 9
+    },
+    {
+      "date": "20251120",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 14900,
+      "sampleCount": 21
+    },
+    {
+      "date": "20251120",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3806,
+      "sampleCount": 9
+    },
+    {
+      "date": "20251121",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 14900,
+      "sampleCount": 21
+    },
+    {
+      "date": "20251121",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3806,
+      "sampleCount": 9
+    },
+    {
+      "date": "20251124",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 14900,
+      "sampleCount": 21
+    },
+    {
+      "date": "20251124",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3811,
+      "sampleCount": 9
+    },
+    {
+      "date": "20251125",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 15700,
+      "sampleCount": 29
+    },
+    {
+      "date": "20251125",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3811,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260109",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 5000,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260112",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 5000,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260113",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 5000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260114",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4916,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260115",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4916,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260116",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 5034,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260119",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 5028,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260120",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 5000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260121",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 5000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260122",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 5000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260123",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 5000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260126",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 5000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260127",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 5000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260128",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4945,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260129",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4866,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260130",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4866,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260202",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4834,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260203",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 21200,
+      "sampleCount": 42
+    },
+    {
+      "date": "20260203",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4845,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260204",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 21200,
+      "sampleCount": 46
+    },
+    {
+      "date": "20260204",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4845,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260205",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 21200,
+      "sampleCount": 46
+    },
+    {
+      "date": "20260205",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4845,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260206",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 21200,
+      "sampleCount": 47
+    },
+    {
+      "date": "20260206",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4850,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260209",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 21200,
+      "sampleCount": 46
+    },
+    {
+      "date": "20260209",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4850,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260210",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 21200,
+      "sampleCount": 48
+    },
+    {
+      "date": "20260210",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4834,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260211",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 21200,
+      "sampleCount": 47
+    },
+    {
+      "date": "20260211",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4739,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260212",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 19900,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260212",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4722,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260213",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 19900,
+      "sampleCount": 40
+    },
+    {
+      "date": "20260213",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4722,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260219",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 19900,
+      "sampleCount": 36
+    },
+    {
+      "date": "20260219",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4722,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260220",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 19900,
+      "sampleCount": 39
+    },
+    {
+      "date": "20260220",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4684,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260223",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 19900,
+      "sampleCount": 40
+    },
+    {
+      "date": "20260223",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4684,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260224",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 19900,
+      "sampleCount": 41
+    },
+    {
+      "date": "20260224",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4555,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260225",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 19900,
+      "sampleCount": 41
+    },
+    {
+      "date": "20260225",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4611,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260226",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 16900,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260226",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4611,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260227",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 16900,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260227",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4611,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260303",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 16200,
+      "sampleCount": 33
+    },
+    {
+      "date": "20260303",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4278,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260304",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 16200,
+      "sampleCount": 41
+    },
+    {
+      "date": "20260304",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4278,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260305",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 14500,
+      "sampleCount": 39
+    },
+    {
+      "date": "20260305",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4055,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260306",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 14200,
+      "sampleCount": 42
+    },
+    {
+      "date": "20260306",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 3922,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260309",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 14200,
+      "sampleCount": 43
+    },
+    {
+      "date": "20260309",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 3922,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260310",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 14200,
+      "sampleCount": 45
+    },
+    {
+      "date": "20260310",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 3889,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260311",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 14400,
+      "sampleCount": 45
+    },
+    {
+      "date": "20260311",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 3861,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260312",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 14200,
+      "sampleCount": 46
+    },
+    {
+      "date": "20260312",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 3778,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260313",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 14200,
+      "sampleCount": 46
+    },
+    {
+      "date": "20260313",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 3778,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260316",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 14200,
+      "sampleCount": 47
+    },
+    {
+      "date": "20260316",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 3778,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260317",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 14200,
+      "sampleCount": 48
+    },
+    {
+      "date": "20260317",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 3778,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260318",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 14200,
+      "sampleCount": 50
+    },
+    {
+      "date": "20260318",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 3778,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260319",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 16500,
+      "sampleCount": 50
+    },
+    {
+      "date": "20260319",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 3666,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260320",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 16500,
+      "sampleCount": 50
+    },
+    {
+      "date": "20260320",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 3666,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260323",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 14200,
+      "sampleCount": 49
+    },
+    {
+      "date": "20260323",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 3666,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260324",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 14200,
+      "sampleCount": 49
+    },
+    {
+      "date": "20260324",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 3666,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260325",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 14200,
+      "sampleCount": 49
+    },
+    {
+      "date": "20260325",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 3678,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260326",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 14200,
+      "sampleCount": 50
+    },
+    {
+      "date": "20260326",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 3678,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260327",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 14200,
+      "sampleCount": 50
+    },
+    {
+      "date": "20260327",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 3695,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260330",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 14200,
+      "sampleCount": 50
+    },
+    {
+      "date": "20260330",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 3695,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260331",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 14200,
+      "sampleCount": 52
+    },
+    {
+      "date": "20260331",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 3666,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260401",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 14200,
+      "sampleCount": 52
+    },
+    {
+      "date": "20260401",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 3666,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260402",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 14100,
+      "sampleCount": 52
+    },
+    {
+      "date": "20260402",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 3666,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260403",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 14200,
+      "sampleCount": 52
+    },
+    {
+      "date": "20260403",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 3666,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260406",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 14200,
+      "sampleCount": 54
+    },
+    {
+      "date": "20260406",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 3666,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260407",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 14200,
+      "sampleCount": 53
+    },
+    {
+      "date": "20260407",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 3705,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260408",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 14200,
+      "sampleCount": 52
+    },
+    {
+      "date": "20260408",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 3778,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260409",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 14100,
+      "sampleCount": 50
+    },
+    {
+      "date": "20260409",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 3778,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260410",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 14200,
+      "sampleCount": 50
+    },
+    {
+      "date": "20260410",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 3778,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260413",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 14200,
+      "sampleCount": 50
+    },
+    {
+      "date": "20260413",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 3778,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260414",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 14100,
+      "sampleCount": 50
+    },
+    {
+      "date": "20260414",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 3778,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260415",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 14100,
+      "sampleCount": 49
+    },
+    {
+      "date": "20260415",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 3834,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260416",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 14200,
+      "sampleCount": 50
+    },
+    {
+      "date": "20260416",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 3834,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260417",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 14200,
+      "sampleCount": 50
+    },
+    {
+      "date": "20260417",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 3845,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260420",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 14200,
+      "sampleCount": 50
+    },
+    {
+      "date": "20260420",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 3834,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260421",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 14200,
+      "sampleCount": 50
+    },
+    {
+      "date": "20260421",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 3834,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260422",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 14200,
+      "sampleCount": 50
+    },
+    {
+      "date": "20260422",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 3834,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260423",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 14200,
+      "sampleCount": 50
+    },
+    {
+      "date": "20260423",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 3872,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260424",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 14200,
+      "sampleCount": 51
+    },
+    {
+      "date": "20260424",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 3872,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260427",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 14200,
+      "sampleCount": 51
+    },
+    {
+      "date": "20260427",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 3872,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260428",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 14200,
+      "sampleCount": 50
+    },
+    {
+      "date": "20260428",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4028,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260429",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 14200,
+      "sampleCount": 48
+    },
+    {
+      "date": "20260429",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 3889,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260430",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 14200,
+      "sampleCount": 46
+    },
+    {
+      "date": "20260430",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 3945,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260504",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 14200,
+      "sampleCount": 46
+    },
+    {
+      "date": "20260504",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 3945,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260506",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 14200,
+      "sampleCount": 45
+    },
+    {
+      "date": "20260506",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4111,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260507",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 14200,
+      "sampleCount": 41
+    },
+    {
+      "date": "20260507",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4111,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260508",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 14200,
+      "sampleCount": 40
+    },
+    {
+      "date": "20260508",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4111,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260508",
+      "name": "오렌지",
+      "variety": "네이블 EU",
+      "kind": "중도매",
+      "price": 4056,
+      "sampleCount": 1
+    },
+    {
+      "date": "20260511",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 14200,
+      "sampleCount": 40
+    },
+    {
+      "date": "20260511",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4111,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260512",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 14200,
+      "sampleCount": 40
+    },
+    {
+      "date": "20260512",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4166,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260513",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 14200,
+      "sampleCount": 40
+    },
+    {
+      "date": "20260513",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4334,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260514",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 14200,
+      "sampleCount": 40
+    },
+    {
+      "date": "20260514",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4334,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260515",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 14200,
+      "sampleCount": 40
+    },
+    {
+      "date": "20260515",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4334,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260518",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 13700,
+      "sampleCount": 42
+    },
+    {
+      "date": "20260518",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4445,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260519",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 13700,
+      "sampleCount": 41
+    },
+    {
+      "date": "20260519",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4461,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260520",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 14200,
+      "sampleCount": 42
+    },
+    {
+      "date": "20260520",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4461,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260521",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 13700,
+      "sampleCount": 41
+    },
+    {
+      "date": "20260521",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4461,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260522",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 13700,
+      "sampleCount": 43
+    },
+    {
+      "date": "20260522",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4461,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260526",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 13700,
+      "sampleCount": 43
+    },
+    {
+      "date": "20260526",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4405,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260527",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 13700,
+      "sampleCount": 43
+    },
+    {
+      "date": "20260527",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4334,
+      "sampleCount": 7
+    },
+    {
+      "date": "20260528",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 15400,
+      "sampleCount": 46
+    },
+    {
+      "date": "20260528",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4166,
+      "sampleCount": 7
+    },
+    {
+      "date": "20260529",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 15500,
+      "sampleCount": 45
+    },
+    {
+      "date": "20260529",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4255,
+      "sampleCount": 6
+    },
+    {
+      "date": "20260601",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 15500,
+      "sampleCount": 44
+    },
+    {
+      "date": "20260601",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4445,
+      "sampleCount": 6
+    },
+    {
+      "date": "20260602",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 15500,
+      "sampleCount": 45
+    },
+    {
+      "date": "20260602",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4445,
+      "sampleCount": 6
+    },
+    {
+      "date": "20260604",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 16200,
+      "sampleCount": 40
+    },
+    {
+      "date": "20260604",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4722,
+      "sampleCount": 6
+    },
+    {
+      "date": "20260605",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 16200,
+      "sampleCount": 39
+    },
+    {
+      "date": "20260605",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4722,
+      "sampleCount": 5
+    },
+    {
+      "date": "20260608",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 16300,
+      "sampleCount": 36
+    },
+    {
+      "date": "20260608",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4584,
+      "sampleCount": 6
+    },
+    {
+      "date": "20260609",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 16300,
+      "sampleCount": 35
+    },
+    {
+      "date": "20260609",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4584,
+      "sampleCount": 5
+    },
+    {
+      "date": "20260610",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 16600,
+      "sampleCount": 34
+    },
+    {
+      "date": "20260610",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4584,
+      "sampleCount": 5
+    },
+    {
+      "date": "20260611",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 17500,
+      "sampleCount": 27
+    },
+    {
+      "date": "20260611",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4011,
+      "sampleCount": 5
+    },
+    {
+      "date": "20260612",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 16600,
+      "sampleCount": 29
+    },
+    {
+      "date": "20260612",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4011,
+      "sampleCount": 5
+    },
+    {
+      "date": "20260615",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 17000,
+      "sampleCount": 29
+    },
+    {
+      "date": "20260615",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4500,
+      "sampleCount": 5
+    },
+    {
+      "date": "20260616",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 17300,
+      "sampleCount": 29
+    },
+    {
+      "date": "20260616",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "중도매",
+      "price": 4500,
+      "sampleCount": 3
+    },
+    {
+      "date": "20260617",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 17300,
+      "sampleCount": 28
+    },
+    {
+      "date": "20260618",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 20000,
+      "sampleCount": 16
+    },
+    {
+      "date": "20260619",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 20000,
+      "sampleCount": 17
+    },
+    {
+      "date": "20260622",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 17000,
+      "sampleCount": 25
+    },
+    {
+      "date": "20260623",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 20000,
+      "sampleCount": 17
+    },
+    {
+      "date": "20260624",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 20000,
+      "sampleCount": 16
+    },
+    {
+      "date": "20260625",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 20000,
+      "sampleCount": 16
+    },
+    {
+      "date": "20260626",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 20000,
+      "sampleCount": 15
+    },
+    {
+      "date": "20260629",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 20000,
+      "sampleCount": 15
+    },
+    {
+      "date": "20260630",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 20000,
+      "sampleCount": 15
+    },
+    {
+      "date": "20260701",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 20000,
+      "sampleCount": 13
+    },
+    {
+      "date": "20260702",
+      "name": "오렌지",
+      "variety": "네이블 미국",
+      "kind": "소매",
+      "price": 20000,
+      "sampleCount": 8
+    },
+    {
+      "date": "20260706",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 18700,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260706",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 4444,
+      "sampleCount": 6
+    },
+    {
+      "date": "20260707",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 18700,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260707",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 4444,
+      "sampleCount": 6
+    },
+    {
+      "date": "20260708",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 18700,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260708",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 4444,
+      "sampleCount": 6
+    },
+    {
+      "date": "20260709",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 18700,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260709",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 4444,
+      "sampleCount": 6
+    },
+    {
+      "date": "20260710",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 18700,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260710",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 4444,
+      "sampleCount": 6
+    },
+    {
+      "date": "20260713",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 18700,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260713",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 4533,
+      "sampleCount": 6
+    },
+    {
+      "date": "20260714",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 18700,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260714",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 4589,
+      "sampleCount": 6
+    },
+    {
+      "date": "20260715",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 18700,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260715",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 4694,
+      "sampleCount": 6
+    },
+    {
+      "date": "20260716",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 18700,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260716",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 4694,
+      "sampleCount": 6
+    },
+    {
+      "date": "20260720",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 18700,
+      "sampleCount": 12
+    },
+    {
+      "date": "20260720",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 4694,
+      "sampleCount": 6
+    },
+    {
+      "date": "20260721",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 18700,
+      "sampleCount": 14
+    },
+    {
+      "date": "20260721",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 4639,
+      "sampleCount": 6
+    },
+    {
+      "date": "20260722",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 18700,
+      "sampleCount": 14
+    },
+    {
+      "date": "20260722",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 4533,
+      "sampleCount": 6
+    },
+    {
+      "date": "20260723",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 15900,
+      "sampleCount": 18
+    },
+    {
+      "date": "20260723",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 4533,
+      "sampleCount": 6
+    },
+    {
+      "date": "20260724",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 15900,
+      "sampleCount": 18
+    },
+    {
+      "date": "20260724",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 4472,
+      "sampleCount": 8
+    },
+    {
+      "date": "20260727",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 15000,
+      "sampleCount": 19
+    },
+    {
+      "date": "20260727",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 4472,
+      "sampleCount": 8
+    },
+    {
+      "date": "20260728",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 15000,
+      "sampleCount": 19
+    },
+    {
+      "date": "20260728",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 4067,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260729",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 15000,
+      "sampleCount": 19
+    },
+    {
+      "date": "20260729",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 4067,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260730",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 14900,
+      "sampleCount": 20
+    },
+    {
+      "date": "20260730",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 4028,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260731",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 14200,
+      "sampleCount": 21
+    },
+    {
+      "date": "20260731",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 4028,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260803",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 12900,
+      "sampleCount": 23
+    },
+    {
+      "date": "20260803",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 4028,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260804",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 12900,
+      "sampleCount": 22
+    },
+    {
+      "date": "20260804",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3889,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260805",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 12900,
+      "sampleCount": 23
+    },
+    {
+      "date": "20260805",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3889,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260806",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 13700,
+      "sampleCount": 22
+    },
+    {
+      "date": "20260806",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3844,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260807",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 14400,
+      "sampleCount": 22
+    },
+    {
+      "date": "20260807",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3611,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260810",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 14400,
+      "sampleCount": 22
+    },
+    {
+      "date": "20260810",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3528,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260811",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 13700,
+      "sampleCount": 21
+    },
+    {
+      "date": "20260811",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3528,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260812",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 14400,
+      "sampleCount": 20
+    },
+    {
+      "date": "20260812",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3528,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260813",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 14400,
+      "sampleCount": 19
+    },
+    {
+      "date": "20260813",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3417,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260814",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 13700,
+      "sampleCount": 20
+    },
+    {
+      "date": "20260814",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3333,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260818",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 13300,
+      "sampleCount": 19
+    },
+    {
+      "date": "20260818",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3333,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260819",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 11200,
+      "sampleCount": 19
+    },
+    {
+      "date": "20260819",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3333,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260820",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 9970,
+      "sampleCount": 19
+    },
+    {
+      "date": "20260820",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3333,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260821",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 10400,
+      "sampleCount": 19
+    },
+    {
+      "date": "20260821",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3250,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260824",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 9800,
+      "sampleCount": 20
+    },
+    {
+      "date": "20260824",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3333,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260825",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 9800,
+      "sampleCount": 20
+    },
+    {
+      "date": "20260825",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3278,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260826",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 9900,
+      "sampleCount": 22
+    },
+    {
+      "date": "20260826",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3144,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260827",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 10400,
+      "sampleCount": 25
+    },
+    {
+      "date": "20260827",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3144,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260828",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 12400,
+      "sampleCount": 26
+    },
+    {
+      "date": "20260828",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3150,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260831",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 11100,
+      "sampleCount": 26
+    },
+    {
+      "date": "20260831",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3150,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260901",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 13100,
+      "sampleCount": 28
+    },
+    {
+      "date": "20260901",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3150,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260902",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 13100,
+      "sampleCount": 27
+    },
+    {
+      "date": "20260902",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3150,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260903",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 11900,
+      "sampleCount": 24
+    },
+    {
+      "date": "20260903",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3150,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260904",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 11900,
+      "sampleCount": 24
+    },
+    {
+      "date": "20260904",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3150,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260907",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 12400,
+      "sampleCount": 24
+    },
+    {
+      "date": "20260907",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3150,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260908",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 10400,
+      "sampleCount": 24
+    },
+    {
+      "date": "20260908",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3150,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260909",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 10400,
+      "sampleCount": 24
+    },
+    {
+      "date": "20260909",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3150,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260910",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 10400,
+      "sampleCount": 24
+    },
+    {
+      "date": "20260910",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3150,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260911",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 10400,
+      "sampleCount": 24
+    },
+    {
+      "date": "20260911",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3150,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260914",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 11900,
+      "sampleCount": 24
+    },
+    {
+      "date": "20260914",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3150,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260915",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 12400,
+      "sampleCount": 24
+    },
+    {
+      "date": "20260915",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3150,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260916",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 12400,
+      "sampleCount": 24
+    },
+    {
+      "date": "20260916",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3150,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260917",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 11700,
+      "sampleCount": 23
+    },
+    {
+      "date": "20260917",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3139,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260918",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 11700,
+      "sampleCount": 23
+    },
+    {
+      "date": "20260918",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3139,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260921",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 11700,
+      "sampleCount": 23
+    },
+    {
+      "date": "20260921",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3139,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260922",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 12400,
+      "sampleCount": 24
+    },
+    {
+      "date": "20260922",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3139,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260923",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 12400,
+      "sampleCount": 24
+    },
+    {
+      "date": "20260923",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3139,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260928",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 11700,
+      "sampleCount": 21
+    },
+    {
+      "date": "20260928",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3139,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260929",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 11400,
+      "sampleCount": 21
+    },
+    {
+      "date": "20260929",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3150,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260930",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 11400,
+      "sampleCount": 21
+    },
+    {
+      "date": "20260930",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3150,
+      "sampleCount": 9
+    },
+    {
+      "date": "20261001",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 12400,
+      "sampleCount": 20
+    },
+    {
+      "date": "20261001",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3150,
+      "sampleCount": 9
+    },
+    {
+      "date": "20261002",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 12400,
+      "sampleCount": 19
+    },
+    {
+      "date": "20261002",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3150,
+      "sampleCount": 9
+    },
+    {
+      "date": "20261006",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 12400,
+      "sampleCount": 21
+    },
+    {
+      "date": "20261006",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3167,
+      "sampleCount": 9
+    },
+    {
+      "date": "20261007",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 12400,
+      "sampleCount": 21
+    },
+    {
+      "date": "20261007",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3167,
+      "sampleCount": 9
+    },
+    {
+      "date": "20261008",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 13100,
+      "sampleCount": 30
+    },
+    {
+      "date": "20261008",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3167,
+      "sampleCount": 9
+    }
+  ],
+  "complete": true
+}

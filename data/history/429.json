@@ -1,0 +1,434 @@
+{
+  "itemCode": "429",
+  "source": "한국농수산식품유통공사 일별 도·소매 가격정보",
+  "basis": "지역/등급 합산하지 않고 품종별·거래유형별 1kg 환산가격 중간값",
+  "from": "20251010",
+  "to": "20261010",
+  "samples": [
+    {
+      "date": "20260310",
+      "name": "블루베리",
+      "variety": "블루베리",
+      "kind": "친환경농산물(신규)",
+      "price": 149000,
+      "sampleCount": 3
+    },
+    {
+      "date": "20260317",
+      "name": "블루베리",
+      "variety": "블루베리",
+      "kind": "친환경농산물(신규)",
+      "price": 149000,
+      "sampleCount": 5
+    },
+    {
+      "date": "20260324",
+      "name": "블루베리",
+      "variety": "블루베리",
+      "kind": "친환경농산물(신규)",
+      "price": 159000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260331",
+      "name": "블루베리",
+      "variety": "블루베리",
+      "kind": "친환경농산물(신규)",
+      "price": 149000,
+      "sampleCount": 12
+    },
+    {
+      "date": "20260407",
+      "name": "블루베리",
+      "variety": "블루베리",
+      "kind": "친환경농산물(신규)",
+      "price": 129000,
+      "sampleCount": 12
+    },
+    {
+      "date": "20260414",
+      "name": "블루베리",
+      "variety": "블루베리",
+      "kind": "친환경농산물(신규)",
+      "price": 113000,
+      "sampleCount": 12
+    },
+    {
+      "date": "20260421",
+      "name": "블루베리",
+      "variety": "블루베리",
+      "kind": "친환경농산물(신규)",
+      "price": 99000,
+      "sampleCount": 13
+    },
+    {
+      "date": "20260428",
+      "name": "블루베리",
+      "variety": "블루베리",
+      "kind": "친환경농산물(신규)",
+      "price": 94000,
+      "sampleCount": 12
+    },
+    {
+      "date": "20260504",
+      "name": "블루베리",
+      "variety": "블루베리",
+      "kind": "친환경농산물(신규)",
+      "price": 94000,
+      "sampleCount": 12
+    },
+    {
+      "date": "20260512",
+      "name": "블루베리",
+      "variety": "블루베리",
+      "kind": "친환경농산물(신규)",
+      "price": 64500,
+      "sampleCount": 13
+    },
+    {
+      "date": "20260519",
+      "name": "블루베리",
+      "variety": "블루베리",
+      "kind": "친환경농산물(신규)",
+      "price": 59900,
+      "sampleCount": 15
+    },
+    {
+      "date": "20260526",
+      "name": "블루베리",
+      "variety": "블루베리",
+      "kind": "친환경농산물(신규)",
+      "price": 61500,
+      "sampleCount": 15
+    },
+    {
+      "date": "20260602",
+      "name": "블루베리",
+      "variety": "블루베리",
+      "kind": "친환경농산물(신규)",
+      "price": 64500,
+      "sampleCount": 13
+    },
+    {
+      "date": "20260609",
+      "name": "블루베리",
+      "variety": "블루베리",
+      "kind": "친환경농산물(신규)",
+      "price": 62700,
+      "sampleCount": 17
+    },
+    {
+      "date": "20260616",
+      "name": "블루베리",
+      "variety": "블루베리",
+      "kind": "친환경농산물(신규)",
+      "price": 63800,
+      "sampleCount": 13
+    },
+    {
+      "date": "20260623",
+      "name": "블루베리",
+      "variety": "블루베리",
+      "kind": "친환경농산물(신규)",
+      "price": 49900,
+      "sampleCount": 17
+    },
+    {
+      "date": "20260630",
+      "name": "블루베리",
+      "variety": "블루베리",
+      "kind": "친환경농산물(신규)",
+      "price": 49500,
+      "sampleCount": 13
+    },
+    {
+      "date": "20260707",
+      "name": "블루베리",
+      "variety": "블루베리",
+      "kind": "친환경농산물(신규)",
+      "price": 49900,
+      "sampleCount": 18
+    },
+    {
+      "date": "20260714",
+      "name": "블루베리",
+      "variety": "블루베리",
+      "kind": "친환경농산물(신규)",
+      "price": 64500,
+      "sampleCount": 12
+    },
+    {
+      "date": "20260721",
+      "name": "블루베리",
+      "variety": "블루베리",
+      "kind": "친환경농산물(신규)",
+      "price": 64500,
+      "sampleCount": 7
+    },
+    {
+      "date": "20260728",
+      "name": "블루베리",
+      "variety": "블루베리",
+      "kind": "친환경농산물(신규)",
+      "price": 53000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260804",
+      "name": "블루베리",
+      "variety": "블루베리",
+      "kind": "친환경농산물(신규)",
+      "price": 49900,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260811",
+      "name": "블루베리",
+      "variety": "블루베리",
+      "kind": "친환경농산물(신규)",
+      "price": 64500,
+      "sampleCount": 8
+    },
+    {
+      "date": "20260818",
+      "name": "블루베리",
+      "variety": "블루베리",
+      "kind": "친환경농산물(신규)",
+      "price": 57400,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260825",
+      "name": "블루베리",
+      "variety": "블루베리",
+      "kind": "친환경농산물(신규)",
+      "price": 57400,
+      "sampleCount": 7
+    },
+    {
+      "date": "20260901",
+      "name": "블루베리",
+      "variety": "블루베리",
+      "kind": "친환경농산물(신규)",
+      "price": 64500,
+      "sampleCount": 5
+    },
+    {
+      "date": "20260901",
+      "name": "블루베리",
+      "variety": "수입(냉동)",
+      "kind": "소매",
+      "price": 11900,
+      "sampleCount": 28
+    },
+    {
+      "date": "20260902",
+      "name": "블루베리",
+      "variety": "수입(냉동)",
+      "kind": "소매",
+      "price": 11900,
+      "sampleCount": 28
+    },
+    {
+      "date": "20260903",
+      "name": "블루베리",
+      "variety": "수입(냉동)",
+      "kind": "소매",
+      "price": 11900,
+      "sampleCount": 28
+    },
+    {
+      "date": "20260904",
+      "name": "블루베리",
+      "variety": "수입(냉동)",
+      "kind": "소매",
+      "price": 11900,
+      "sampleCount": 28
+    },
+    {
+      "date": "20260907",
+      "name": "블루베리",
+      "variety": "수입(냉동)",
+      "kind": "소매",
+      "price": 11900,
+      "sampleCount": 28
+    },
+    {
+      "date": "20260908",
+      "name": "블루베리",
+      "variety": "블루베리",
+      "kind": "친환경농산물(신규)",
+      "price": 39900,
+      "sampleCount": 2
+    },
+    {
+      "date": "20260908",
+      "name": "블루베리",
+      "variety": "수입(냉동)",
+      "kind": "소매",
+      "price": 11900,
+      "sampleCount": 28
+    },
+    {
+      "date": "20260909",
+      "name": "블루베리",
+      "variety": "수입(냉동)",
+      "kind": "소매",
+      "price": 11900,
+      "sampleCount": 28
+    },
+    {
+      "date": "20260910",
+      "name": "블루베리",
+      "variety": "수입(냉동)",
+      "kind": "소매",
+      "price": 8900,
+      "sampleCount": 28
+    },
+    {
+      "date": "20260911",
+      "name": "블루베리",
+      "variety": "수입(냉동)",
+      "kind": "소매",
+      "price": 9900,
+      "sampleCount": 28
+    },
+    {
+      "date": "20260914",
+      "name": "블루베리",
+      "variety": "수입(냉동)",
+      "kind": "소매",
+      "price": 9900,
+      "sampleCount": 28
+    },
+    {
+      "date": "20260915",
+      "name": "블루베리",
+      "variety": "블루베리",
+      "kind": "친환경농산물(신규)",
+      "price": 140000,
+      "sampleCount": 2
+    },
+    {
+      "date": "20260915",
+      "name": "블루베리",
+      "variety": "수입(냉동)",
+      "kind": "소매",
+      "price": 9900,
+      "sampleCount": 28
+    },
+    {
+      "date": "20260916",
+      "name": "블루베리",
+      "variety": "수입(냉동)",
+      "kind": "소매",
+      "price": 9900,
+      "sampleCount": 28
+    },
+    {
+      "date": "20260917",
+      "name": "블루베리",
+      "variety": "수입(냉동)",
+      "kind": "소매",
+      "price": 11900,
+      "sampleCount": 27
+    },
+    {
+      "date": "20260918",
+      "name": "블루베리",
+      "variety": "수입(냉동)",
+      "kind": "소매",
+      "price": 11900,
+      "sampleCount": 27
+    },
+    {
+      "date": "20260921",
+      "name": "블루베리",
+      "variety": "수입(냉동)",
+      "kind": "소매",
+      "price": 11900,
+      "sampleCount": 28
+    },
+    {
+      "date": "20260922",
+      "name": "블루베리",
+      "variety": "수입(냉동)",
+      "kind": "소매",
+      "price": 11900,
+      "sampleCount": 28
+    },
+    {
+      "date": "20260923",
+      "name": "블루베리",
+      "variety": "수입(냉동)",
+      "kind": "소매",
+      "price": 11900,
+      "sampleCount": 28
+    },
+    {
+      "date": "20260928",
+      "name": "블루베리",
+      "variety": "수입(냉동)",
+      "kind": "소매",
+      "price": 11900,
+      "sampleCount": 28
+    },
+    {
+      "date": "20260929",
+      "name": "블루베리",
+      "variety": "수입(냉동)",
+      "kind": "소매",
+      "price": 11900,
+      "sampleCount": 28
+    },
+    {
+      "date": "20260930",
+      "name": "블루베리",
+      "variety": "수입(냉동)",
+      "kind": "소매",
+      "price": 11900,
+      "sampleCount": 28
+    },
+    {
+      "date": "20261001",
+      "name": "블루베리",
+      "variety": "수입(냉동)",
+      "kind": "소매",
+      "price": 11900,
+      "sampleCount": 28
+    },
+    {
+      "date": "20261002",
+      "name": "블루베리",
+      "variety": "수입(냉동)",
+      "kind": "소매",
+      "price": 11900,
+      "sampleCount": 28
+    },
+    {
+      "date": "20261006",
+      "name": "블루베리",
+      "variety": "수입(냉동)",
+      "kind": "소매",
+      "price": 11900,
+      "sampleCount": 28
+    },
+    {
+      "date": "20261007",
+      "name": "블루베리",
+      "variety": "수입(냉동)",
+      "kind": "소매",
+      "price": 11900,
+      "sampleCount": 28
+    },
+    {
+      "date": "20261008",
+      "name": "블루베리",
+      "variety": "수입(냉동)",
+      "kind": "소매",
+      "price": 11900,
+      "sampleCount": 28
+    }
+  ],
+  "complete": true
+}

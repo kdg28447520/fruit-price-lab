@@ -1,0 +1,5882 @@
+{
+  "itemCode": "414",
+  "source": "한국농수산식품유통공사 일별 도·소매 가격정보",
+  "basis": "지역/등급 합산하지 않고 품종별·거래유형별 1kg 환산가격 중간값",
+  "from": "20251010",
+  "to": "20261010",
+  "samples": [
+    {
+      "date": "20251010",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 9950,
+      "sampleCount": 38
+    },
+    {
+      "date": "20251010",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 8150,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251010",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 7200,
+      "sampleCount": 50
+    },
+    {
+      "date": "20251010",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 5000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251010",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 7440,
+      "sampleCount": 57
+    },
+    {
+      "date": "20251010",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 5800,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251010",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "친환경농산물(신규)",
+      "price": 10600,
+      "sampleCount": 1
+    },
+    {
+      "date": "20251010",
+      "name": "포도",
+      "variety": "MBA",
+      "kind": "소매",
+      "price": 5660,
+      "sampleCount": 36
+    },
+    {
+      "date": "20251010",
+      "name": "포도",
+      "variety": "MBA",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251013",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 10000,
+      "sampleCount": 34
+    },
+    {
+      "date": "20251013",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 8150,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251013",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6750,
+      "sampleCount": 49
+    },
+    {
+      "date": "20251013",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4665,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251013",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 7860,
+      "sampleCount": 56
+    },
+    {
+      "date": "20251013",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 5520,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251013",
+      "name": "포도",
+      "variety": "MBA",
+      "kind": "소매",
+      "price": 5990,
+      "sampleCount": 35
+    },
+    {
+      "date": "20251013",
+      "name": "포도",
+      "variety": "MBA",
+      "kind": "중도매",
+      "price": 3800,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251014",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 10000,
+      "sampleCount": 33
+    },
+    {
+      "date": "20251014",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 7800,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251014",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 7200,
+      "sampleCount": 49
+    },
+    {
+      "date": "20251014",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4600,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251014",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 7770,
+      "sampleCount": 57
+    },
+    {
+      "date": "20251014",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 6320,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251014",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "친환경농산물(신규)",
+      "price": 13200,
+      "sampleCount": 2
+    },
+    {
+      "date": "20251014",
+      "name": "포도",
+      "variety": "MBA",
+      "kind": "소매",
+      "price": 5990,
+      "sampleCount": 36
+    },
+    {
+      "date": "20251014",
+      "name": "포도",
+      "variety": "MBA",
+      "kind": "중도매",
+      "price": 4060,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251015",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 10000,
+      "sampleCount": 33
+    },
+    {
+      "date": "20251015",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 7800,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251015",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6750,
+      "sampleCount": 49
+    },
+    {
+      "date": "20251015",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4500,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251015",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 7860,
+      "sampleCount": 56
+    },
+    {
+      "date": "20251015",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 6220,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251015",
+      "name": "포도",
+      "variety": "MBA",
+      "kind": "소매",
+      "price": 5990,
+      "sampleCount": 36
+    },
+    {
+      "date": "20251015",
+      "name": "포도",
+      "variety": "MBA",
+      "kind": "중도매",
+      "price": 4060,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251016",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 11400,
+      "sampleCount": 34
+    },
+    {
+      "date": "20251016",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 7500,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251016",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6300,
+      "sampleCount": 49
+    },
+    {
+      "date": "20251016",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4300,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251016",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 7980,
+      "sampleCount": 54
+    },
+    {
+      "date": "20251016",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 6100,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251016",
+      "name": "포도",
+      "variety": "MBA",
+      "kind": "소매",
+      "price": 6140,
+      "sampleCount": 37
+    },
+    {
+      "date": "20251016",
+      "name": "포도",
+      "variety": "MBA",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251017",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 11400,
+      "sampleCount": 34
+    },
+    {
+      "date": "20251017",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 7500,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251017",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6250,
+      "sampleCount": 49
+    },
+    {
+      "date": "20251017",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4300,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251017",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 7980,
+      "sampleCount": 53
+    },
+    {
+      "date": "20251017",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 5400,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251017",
+      "name": "포도",
+      "variety": "MBA",
+      "kind": "소매",
+      "price": 6140,
+      "sampleCount": 37
+    },
+    {
+      "date": "20251017",
+      "name": "포도",
+      "variety": "MBA",
+      "kind": "중도매",
+      "price": 3880,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251020",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 11400,
+      "sampleCount": 35
+    },
+    {
+      "date": "20251020",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 7500,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251020",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6500,
+      "sampleCount": 49
+    },
+    {
+      "date": "20251020",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4200,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251020",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 7980,
+      "sampleCount": 50
+    },
+    {
+      "date": "20251020",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 5400,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251020",
+      "name": "포도",
+      "variety": "MBA",
+      "kind": "소매",
+      "price": 6140,
+      "sampleCount": 36
+    },
+    {
+      "date": "20251020",
+      "name": "포도",
+      "variety": "MBA",
+      "kind": "중도매",
+      "price": 3760,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251021",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 11800,
+      "sampleCount": 31
+    },
+    {
+      "date": "20251021",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 7500,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251021",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6500,
+      "sampleCount": 49
+    },
+    {
+      "date": "20251021",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4200,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251021",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 7580,
+      "sampleCount": 47
+    },
+    {
+      "date": "20251021",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 5660,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251021",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "친환경농산물(신규)",
+      "price": 10600,
+      "sampleCount": 2
+    },
+    {
+      "date": "20251021",
+      "name": "포도",
+      "variety": "MBA",
+      "kind": "소매",
+      "price": 6140,
+      "sampleCount": 34
+    },
+    {
+      "date": "20251021",
+      "name": "포도",
+      "variety": "MBA",
+      "kind": "중도매",
+      "price": 3760,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251022",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 12050,
+      "sampleCount": 28
+    },
+    {
+      "date": "20251022",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 7000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251022",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6500,
+      "sampleCount": 49
+    },
+    {
+      "date": "20251022",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4100,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251022",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 7980,
+      "sampleCount": 39
+    },
+    {
+      "date": "20251022",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 5660,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251022",
+      "name": "포도",
+      "variety": "MBA",
+      "kind": "소매",
+      "price": 6140,
+      "sampleCount": 34
+    },
+    {
+      "date": "20251022",
+      "name": "포도",
+      "variety": "MBA",
+      "kind": "중도매",
+      "price": 3540,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251023",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 10700,
+      "sampleCount": 22
+    },
+    {
+      "date": "20251023",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 7000,
+      "sampleCount": 8
+    },
+    {
+      "date": "20251023",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6450,
+      "sampleCount": 49
+    },
+    {
+      "date": "20251023",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4100,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251023",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 8000,
+      "sampleCount": 35
+    },
+    {
+      "date": "20251023",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 5400,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251023",
+      "name": "포도",
+      "variety": "MBA",
+      "kind": "소매",
+      "price": 6140,
+      "sampleCount": 31
+    },
+    {
+      "date": "20251023",
+      "name": "포도",
+      "variety": "MBA",
+      "kind": "중도매",
+      "price": 3440,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251024",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 10700,
+      "sampleCount": 22
+    },
+    {
+      "date": "20251024",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 7000,
+      "sampleCount": 6
+    },
+    {
+      "date": "20251024",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 5950,
+      "sampleCount": 49
+    },
+    {
+      "date": "20251024",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4100,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251024",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 8110,
+      "sampleCount": 33
+    },
+    {
+      "date": "20251024",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 5400,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251024",
+      "name": "포도",
+      "variety": "MBA",
+      "kind": "소매",
+      "price": 6140,
+      "sampleCount": 32
+    },
+    {
+      "date": "20251024",
+      "name": "포도",
+      "variety": "MBA",
+      "kind": "중도매",
+      "price": 3440,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251027",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 10600,
+      "sampleCount": 21
+    },
+    {
+      "date": "20251027",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 6800,
+      "sampleCount": 6
+    },
+    {
+      "date": "20251027",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 5950,
+      "sampleCount": 49
+    },
+    {
+      "date": "20251027",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251027",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 8650,
+      "sampleCount": 30
+    },
+    {
+      "date": "20251027",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 5400,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251027",
+      "name": "포도",
+      "variety": "MBA",
+      "kind": "소매",
+      "price": 6140,
+      "sampleCount": 31
+    },
+    {
+      "date": "20251027",
+      "name": "포도",
+      "variety": "MBA",
+      "kind": "중도매",
+      "price": 3440,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251028",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 10700,
+      "sampleCount": 20
+    },
+    {
+      "date": "20251028",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 6800,
+      "sampleCount": 6
+    },
+    {
+      "date": "20251028",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 5950,
+      "sampleCount": 48
+    },
+    {
+      "date": "20251028",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251028",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 8650,
+      "sampleCount": 29
+    },
+    {
+      "date": "20251028",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 5660,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251028",
+      "name": "포도",
+      "variety": "MBA",
+      "kind": "소매",
+      "price": 6140,
+      "sampleCount": 29
+    },
+    {
+      "date": "20251028",
+      "name": "포도",
+      "variety": "MBA",
+      "kind": "중도매",
+      "price": 3400,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251029",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 10700,
+      "sampleCount": 19
+    },
+    {
+      "date": "20251029",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 6800,
+      "sampleCount": 4
+    },
+    {
+      "date": "20251029",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 5950,
+      "sampleCount": 47
+    },
+    {
+      "date": "20251029",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251029",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 8660,
+      "sampleCount": 27
+    },
+    {
+      "date": "20251029",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 5660,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251029",
+      "name": "포도",
+      "variety": "MBA",
+      "kind": "소매",
+      "price": 6140,
+      "sampleCount": 29
+    },
+    {
+      "date": "20251029",
+      "name": "포도",
+      "variety": "MBA",
+      "kind": "중도매",
+      "price": 3440,
+      "sampleCount": 8
+    },
+    {
+      "date": "20251030",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 10700,
+      "sampleCount": 15
+    },
+    {
+      "date": "20251030",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 5150,
+      "sampleCount": 47
+    },
+    {
+      "date": "20251030",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 3915,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251030",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 8650,
+      "sampleCount": 25
+    },
+    {
+      "date": "20251030",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 5660,
+      "sampleCount": 6
+    },
+    {
+      "date": "20251030",
+      "name": "포도",
+      "variety": "MBA",
+      "kind": "소매",
+      "price": 5790,
+      "sampleCount": 25
+    },
+    {
+      "date": "20251030",
+      "name": "포도",
+      "variety": "MBA",
+      "kind": "중도매",
+      "price": 3400,
+      "sampleCount": 8
+    },
+    {
+      "date": "20251031",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 10700,
+      "sampleCount": 16
+    },
+    {
+      "date": "20251031",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 5150,
+      "sampleCount": 47
+    },
+    {
+      "date": "20251031",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4165,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251031",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 8660,
+      "sampleCount": 24
+    },
+    {
+      "date": "20251031",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 5660,
+      "sampleCount": 6
+    },
+    {
+      "date": "20251031",
+      "name": "포도",
+      "variety": "MBA",
+      "kind": "소매",
+      "price": 5790,
+      "sampleCount": 25
+    },
+    {
+      "date": "20251031",
+      "name": "포도",
+      "variety": "MBA",
+      "kind": "중도매",
+      "price": 3400,
+      "sampleCount": 8
+    },
+    {
+      "date": "20251103",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 9150,
+      "sampleCount": 16
+    },
+    {
+      "date": "20251103",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 5150,
+      "sampleCount": 47
+    },
+    {
+      "date": "20251103",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 3830,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251103",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 8660,
+      "sampleCount": 22
+    },
+    {
+      "date": "20251103",
+      "name": "포도",
+      "variety": "MBA",
+      "kind": "소매",
+      "price": 5790,
+      "sampleCount": 25
+    },
+    {
+      "date": "20251103",
+      "name": "포도",
+      "variety": "MBA",
+      "kind": "중도매",
+      "price": 3400,
+      "sampleCount": 6
+    },
+    {
+      "date": "20251104",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 10000,
+      "sampleCount": 16
+    },
+    {
+      "date": "20251104",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 5150,
+      "sampleCount": 47
+    },
+    {
+      "date": "20251104",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 3830,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251104",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 8660,
+      "sampleCount": 18
+    },
+    {
+      "date": "20251104",
+      "name": "포도",
+      "variety": "MBA",
+      "kind": "소매",
+      "price": 5790,
+      "sampleCount": 23
+    },
+    {
+      "date": "20251104",
+      "name": "포도",
+      "variety": "MBA",
+      "kind": "중도매",
+      "price": 3400,
+      "sampleCount": 6
+    },
+    {
+      "date": "20251105",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 10000,
+      "sampleCount": 16
+    },
+    {
+      "date": "20251105",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 5150,
+      "sampleCount": 47
+    },
+    {
+      "date": "20251105",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 3830,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251105",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 8660,
+      "sampleCount": 16
+    },
+    {
+      "date": "20251105",
+      "name": "포도",
+      "variety": "MBA",
+      "kind": "소매",
+      "price": 5790,
+      "sampleCount": 21
+    },
+    {
+      "date": "20251105",
+      "name": "포도",
+      "variety": "MBA",
+      "kind": "중도매",
+      "price": 3400,
+      "sampleCount": 6
+    },
+    {
+      "date": "20251106",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 9900,
+      "sampleCount": 15
+    },
+    {
+      "date": "20251106",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 5150,
+      "sampleCount": 47
+    },
+    {
+      "date": "20251106",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251106",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 8650,
+      "sampleCount": 14
+    },
+    {
+      "date": "20251106",
+      "name": "포도",
+      "variety": "MBA",
+      "kind": "소매",
+      "price": 5790,
+      "sampleCount": 21
+    },
+    {
+      "date": "20251106",
+      "name": "포도",
+      "variety": "MBA",
+      "kind": "중도매",
+      "price": 3160,
+      "sampleCount": 6
+    },
+    {
+      "date": "20251107",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 9900,
+      "sampleCount": 14
+    },
+    {
+      "date": "20251107",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 5150,
+      "sampleCount": 47
+    },
+    {
+      "date": "20251107",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251107",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 8650,
+      "sampleCount": 14
+    },
+    {
+      "date": "20251107",
+      "name": "포도",
+      "variety": "MBA",
+      "kind": "소매",
+      "price": 5790,
+      "sampleCount": 21
+    },
+    {
+      "date": "20251107",
+      "name": "포도",
+      "variety": "MBA",
+      "kind": "중도매",
+      "price": 3400,
+      "sampleCount": 4
+    },
+    {
+      "date": "20251110",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 9900,
+      "sampleCount": 14
+    },
+    {
+      "date": "20251110",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 5300,
+      "sampleCount": 47
+    },
+    {
+      "date": "20251110",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251110",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 8650,
+      "sampleCount": 14
+    },
+    {
+      "date": "20251110",
+      "name": "포도",
+      "variety": "MBA",
+      "kind": "소매",
+      "price": 5790,
+      "sampleCount": 18
+    },
+    {
+      "date": "20251110",
+      "name": "포도",
+      "variety": "MBA",
+      "kind": "중도매",
+      "price": 3400,
+      "sampleCount": 4
+    },
+    {
+      "date": "20251111",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 9900,
+      "sampleCount": 12
+    },
+    {
+      "date": "20251111",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 5300,
+      "sampleCount": 47
+    },
+    {
+      "date": "20251111",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 3830,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251111",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 8650,
+      "sampleCount": 13
+    },
+    {
+      "date": "20251111",
+      "name": "포도",
+      "variety": "MBA",
+      "kind": "소매",
+      "price": 5790,
+      "sampleCount": 15
+    },
+    {
+      "date": "20251111",
+      "name": "포도",
+      "variety": "MBA",
+      "kind": "중도매",
+      "price": 3400,
+      "sampleCount": 4
+    },
+    {
+      "date": "20251112",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 17650,
+      "sampleCount": 9
+    },
+    {
+      "date": "20251112",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 5300,
+      "sampleCount": 47
+    },
+    {
+      "date": "20251112",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 3830,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251112",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 8650,
+      "sampleCount": 13
+    },
+    {
+      "date": "20251112",
+      "name": "포도",
+      "variety": "MBA",
+      "kind": "소매",
+      "price": 6110,
+      "sampleCount": 12
+    },
+    {
+      "date": "20251113",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 5800,
+      "sampleCount": 46
+    },
+    {
+      "date": "20251113",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 3830,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251113",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 8660,
+      "sampleCount": 12
+    },
+    {
+      "date": "20251114",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 5800,
+      "sampleCount": 46
+    },
+    {
+      "date": "20251114",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 3830,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251117",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 5800,
+      "sampleCount": 45
+    },
+    {
+      "date": "20251117",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 3830,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251118",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 5800,
+      "sampleCount": 45
+    },
+    {
+      "date": "20251118",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 3830,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251119",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 5800,
+      "sampleCount": 45
+    },
+    {
+      "date": "20251119",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 3830,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251120",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 5300,
+      "sampleCount": 46
+    },
+    {
+      "date": "20251120",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 3900,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251121",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 5300,
+      "sampleCount": 46
+    },
+    {
+      "date": "20251121",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251124",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 5300,
+      "sampleCount": 46
+    },
+    {
+      "date": "20251124",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251125",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 5300,
+      "sampleCount": 46
+    },
+    {
+      "date": "20251125",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251126",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 5300,
+      "sampleCount": 46
+    },
+    {
+      "date": "20251126",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251127",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 5150,
+      "sampleCount": 45
+    },
+    {
+      "date": "20251127",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251128",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 5300,
+      "sampleCount": 45
+    },
+    {
+      "date": "20251128",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251201",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 5300,
+      "sampleCount": 45
+    },
+    {
+      "date": "20251201",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251202",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 5300,
+      "sampleCount": 45
+    },
+    {
+      "date": "20251202",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251203",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 5500,
+      "sampleCount": 45
+    },
+    {
+      "date": "20251203",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251204",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6300,
+      "sampleCount": 48
+    },
+    {
+      "date": "20251204",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251208",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6150,
+      "sampleCount": 48
+    },
+    {
+      "date": "20251208",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251209",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6350,
+      "sampleCount": 47
+    },
+    {
+      "date": "20251209",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251210",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6350,
+      "sampleCount": 46
+    },
+    {
+      "date": "20251210",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251211",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6350,
+      "sampleCount": 46
+    },
+    {
+      "date": "20251211",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251212",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6350,
+      "sampleCount": 44
+    },
+    {
+      "date": "20251212",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251215",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6650,
+      "sampleCount": 44
+    },
+    {
+      "date": "20251215",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251216",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6650,
+      "sampleCount": 44
+    },
+    {
+      "date": "20251216",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251217",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6650,
+      "sampleCount": 44
+    },
+    {
+      "date": "20251217",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251218",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6650,
+      "sampleCount": 44
+    },
+    {
+      "date": "20251218",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251219",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6350,
+      "sampleCount": 44
+    },
+    {
+      "date": "20251219",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251222",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6350,
+      "sampleCount": 44
+    },
+    {
+      "date": "20251222",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251223",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6350,
+      "sampleCount": 45
+    },
+    {
+      "date": "20251223",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251224",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6350,
+      "sampleCount": 46
+    },
+    {
+      "date": "20251224",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251226",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6900,
+      "sampleCount": 46
+    },
+    {
+      "date": "20251226",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251229",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6600,
+      "sampleCount": 46
+    },
+    {
+      "date": "20251229",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251230",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6600,
+      "sampleCount": 46
+    },
+    {
+      "date": "20251230",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 3830,
+      "sampleCount": 10
+    },
+    {
+      "date": "20251231",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6550,
+      "sampleCount": 46
+    },
+    {
+      "date": "20251231",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260102",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6450,
+      "sampleCount": 45
+    },
+    {
+      "date": "20260102",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260105",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6350,
+      "sampleCount": 44
+    },
+    {
+      "date": "20260105",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260106",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6350,
+      "sampleCount": 44
+    },
+    {
+      "date": "20260106",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260107",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6550,
+      "sampleCount": 44
+    },
+    {
+      "date": "20260107",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4080,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260108",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6600,
+      "sampleCount": 44
+    },
+    {
+      "date": "20260108",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4080,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260109",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6600,
+      "sampleCount": 44
+    },
+    {
+      "date": "20260109",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4080,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260112",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6600,
+      "sampleCount": 45
+    },
+    {
+      "date": "20260112",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260113",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6850,
+      "sampleCount": 45
+    },
+    {
+      "date": "20260113",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260114",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6850,
+      "sampleCount": 45
+    },
+    {
+      "date": "20260114",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260115",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6750,
+      "sampleCount": 46
+    },
+    {
+      "date": "20260115",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260116",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6750,
+      "sampleCount": 46
+    },
+    {
+      "date": "20260116",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4080,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260119",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6650,
+      "sampleCount": 46
+    },
+    {
+      "date": "20260119",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4080,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260120",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6750,
+      "sampleCount": 46
+    },
+    {
+      "date": "20260120",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260121",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6750,
+      "sampleCount": 46
+    },
+    {
+      "date": "20260121",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260122",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 7000,
+      "sampleCount": 46
+    },
+    {
+      "date": "20260122",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260123",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 7250,
+      "sampleCount": 46
+    },
+    {
+      "date": "20260123",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260126",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 7250,
+      "sampleCount": 46
+    },
+    {
+      "date": "20260126",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260127",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 7300,
+      "sampleCount": 46
+    },
+    {
+      "date": "20260127",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260128",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 7250,
+      "sampleCount": 46
+    },
+    {
+      "date": "20260128",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260129",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 7050,
+      "sampleCount": 45
+    },
+    {
+      "date": "20260129",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260130",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 7050,
+      "sampleCount": 46
+    },
+    {
+      "date": "20260130",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4100,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260202",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6800,
+      "sampleCount": 46
+    },
+    {
+      "date": "20260202",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4100,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260203",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6800,
+      "sampleCount": 46
+    },
+    {
+      "date": "20260203",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4100,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260204",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6800,
+      "sampleCount": 46
+    },
+    {
+      "date": "20260204",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260205",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6650,
+      "sampleCount": 45
+    },
+    {
+      "date": "20260205",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4250,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260206",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6750,
+      "sampleCount": 46
+    },
+    {
+      "date": "20260206",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260209",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 7000,
+      "sampleCount": 46
+    },
+    {
+      "date": "20260209",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4080,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260210",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6800,
+      "sampleCount": 45
+    },
+    {
+      "date": "20260210",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4080,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260211",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6900,
+      "sampleCount": 45
+    },
+    {
+      "date": "20260211",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4080,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260212",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 7000,
+      "sampleCount": 44
+    },
+    {
+      "date": "20260212",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4165,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260213",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 7000,
+      "sampleCount": 44
+    },
+    {
+      "date": "20260213",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4330,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260219",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 7000,
+      "sampleCount": 40
+    },
+    {
+      "date": "20260219",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4330,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260220",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 7000,
+      "sampleCount": 41
+    },
+    {
+      "date": "20260220",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4500,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260223",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 7300,
+      "sampleCount": 42
+    },
+    {
+      "date": "20260223",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4900,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260224",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 7300,
+      "sampleCount": 42
+    },
+    {
+      "date": "20260224",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4915,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260225",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 7300,
+      "sampleCount": 41
+    },
+    {
+      "date": "20260225",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 5150,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260226",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 8150,
+      "sampleCount": 40
+    },
+    {
+      "date": "20260226",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 5150,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260227",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 8150,
+      "sampleCount": 40
+    },
+    {
+      "date": "20260227",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 5000,
+      "sampleCount": 8
+    },
+    {
+      "date": "20260303",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 8150,
+      "sampleCount": 41
+    },
+    {
+      "date": "20260303",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 5250,
+      "sampleCount": 8
+    },
+    {
+      "date": "20260304",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 8350,
+      "sampleCount": 40
+    },
+    {
+      "date": "20260304",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 5250,
+      "sampleCount": 8
+    },
+    {
+      "date": "20260305",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 8350,
+      "sampleCount": 39
+    },
+    {
+      "date": "20260305",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 5250,
+      "sampleCount": 8
+    },
+    {
+      "date": "20260306",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 8350,
+      "sampleCount": 39
+    },
+    {
+      "date": "20260306",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 5250,
+      "sampleCount": 8
+    },
+    {
+      "date": "20260309",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 8350,
+      "sampleCount": 39
+    },
+    {
+      "date": "20260309",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 5300,
+      "sampleCount": 8
+    },
+    {
+      "date": "20260310",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 8350,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260310",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 5300,
+      "sampleCount": 8
+    },
+    {
+      "date": "20260311",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 8350,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260311",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 5300,
+      "sampleCount": 8
+    },
+    {
+      "date": "20260312",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 8500,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260312",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 5250,
+      "sampleCount": 8
+    },
+    {
+      "date": "20260313",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 8500,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260313",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 5250,
+      "sampleCount": 8
+    },
+    {
+      "date": "20260316",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 8500,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260316",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 5300,
+      "sampleCount": 8
+    },
+    {
+      "date": "20260317",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 8500,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260317",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 5250,
+      "sampleCount": 8
+    },
+    {
+      "date": "20260318",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 8500,
+      "sampleCount": 36
+    },
+    {
+      "date": "20260318",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 5250,
+      "sampleCount": 8
+    },
+    {
+      "date": "20260319",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 8650,
+      "sampleCount": 34
+    },
+    {
+      "date": "20260319",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 5250,
+      "sampleCount": 8
+    },
+    {
+      "date": "20260320",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 8650,
+      "sampleCount": 34
+    },
+    {
+      "date": "20260320",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 5250,
+      "sampleCount": 8
+    },
+    {
+      "date": "20260323",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 8650,
+      "sampleCount": 35
+    },
+    {
+      "date": "20260323",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 5400,
+      "sampleCount": 8
+    },
+    {
+      "date": "20260324",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 8300,
+      "sampleCount": 35
+    },
+    {
+      "date": "20260324",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 5800,
+      "sampleCount": 6
+    },
+    {
+      "date": "20260325",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 9000,
+      "sampleCount": 33
+    },
+    {
+      "date": "20260325",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 5700,
+      "sampleCount": 6
+    },
+    {
+      "date": "20260326",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 9250,
+      "sampleCount": 36
+    },
+    {
+      "date": "20260326",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 5900,
+      "sampleCount": 6
+    },
+    {
+      "date": "20260327",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 9250,
+      "sampleCount": 34
+    },
+    {
+      "date": "20260327",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 5900,
+      "sampleCount": 6
+    },
+    {
+      "date": "20260330",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 9300,
+      "sampleCount": 31
+    },
+    {
+      "date": "20260330",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 5700,
+      "sampleCount": 6
+    },
+    {
+      "date": "20260331",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 9300,
+      "sampleCount": 22
+    },
+    {
+      "date": "20260331",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 5700,
+      "sampleCount": 6
+    },
+    {
+      "date": "20260401",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 9250,
+      "sampleCount": 18
+    },
+    {
+      "date": "20260402",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6850,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260403",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6950,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260406",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6950,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260708",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 11150,
+      "sampleCount": 4
+    },
+    {
+      "date": "20260708",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 12150,
+      "sampleCount": 4
+    },
+    {
+      "date": "20260708",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 8820,
+      "sampleCount": 4
+    },
+    {
+      "date": "20260709",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 11000,
+      "sampleCount": 8
+    },
+    {
+      "date": "20260709",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 12150,
+      "sampleCount": 6
+    },
+    {
+      "date": "20260709",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 10100,
+      "sampleCount": 6
+    },
+    {
+      "date": "20260710",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 10500,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260710",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 12000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260710",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 10540,
+      "sampleCount": 6
+    },
+    {
+      "date": "20260713",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 10250,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260713",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 11700,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260713",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 10540,
+      "sampleCount": 6
+    },
+    {
+      "date": "20260714",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 14200,
+      "sampleCount": 25
+    },
+    {
+      "date": "20260714",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 10250,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260714",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 19300,
+      "sampleCount": 26
+    },
+    {
+      "date": "20260714",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 11000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260714",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 13200,
+      "sampleCount": 16
+    },
+    {
+      "date": "20260714",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 10200,
+      "sampleCount": 6
+    },
+    {
+      "date": "20260715",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 13250,
+      "sampleCount": 29
+    },
+    {
+      "date": "20260715",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 10000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260715",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 16000,
+      "sampleCount": 33
+    },
+    {
+      "date": "20260715",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 10800,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260715",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 13200,
+      "sampleCount": 29
+    },
+    {
+      "date": "20260715",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 10200,
+      "sampleCount": 6
+    },
+    {
+      "date": "20260716",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 11900,
+      "sampleCount": 35
+    },
+    {
+      "date": "20260716",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 9650,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260716",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 13950,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260716",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 10800,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260716",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 12300,
+      "sampleCount": 33
+    },
+    {
+      "date": "20260716",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 10400,
+      "sampleCount": 6
+    },
+    {
+      "date": "20260720",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 11900,
+      "sampleCount": 39
+    },
+    {
+      "date": "20260720",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 9500,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260720",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 13950,
+      "sampleCount": 41
+    },
+    {
+      "date": "20260720",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 10150,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260720",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 12300,
+      "sampleCount": 36
+    },
+    {
+      "date": "20260720",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 10260,
+      "sampleCount": 6
+    },
+    {
+      "date": "20260721",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 11900,
+      "sampleCount": 40
+    },
+    {
+      "date": "20260721",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 9500,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260721",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 14400,
+      "sampleCount": 44
+    },
+    {
+      "date": "20260721",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 9650,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260721",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 12300,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260721",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 8540,
+      "sampleCount": 7
+    },
+    {
+      "date": "20260722",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 11900,
+      "sampleCount": 40
+    },
+    {
+      "date": "20260722",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 9500,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260722",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 13950,
+      "sampleCount": 45
+    },
+    {
+      "date": "20260722",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 9650,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260722",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 12300,
+      "sampleCount": 39
+    },
+    {
+      "date": "20260722",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 10000,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260723",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 10850,
+      "sampleCount": 43
+    },
+    {
+      "date": "20260723",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 9500,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260723",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 13200,
+      "sampleCount": 45
+    },
+    {
+      "date": "20260723",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 9650,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260723",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 11000,
+      "sampleCount": 43
+    },
+    {
+      "date": "20260723",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 10000,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260724",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 10850,
+      "sampleCount": 43
+    },
+    {
+      "date": "20260724",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 9500,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260724",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 13000,
+      "sampleCount": 46
+    },
+    {
+      "date": "20260724",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 9500,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260724",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 10900,
+      "sampleCount": 44
+    },
+    {
+      "date": "20260724",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 9667,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260727",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 10850,
+      "sampleCount": 44
+    },
+    {
+      "date": "20260727",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 9500,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260727",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 12750,
+      "sampleCount": 47
+    },
+    {
+      "date": "20260727",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 9300,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260727",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 11000,
+      "sampleCount": 44
+    },
+    {
+      "date": "20260727",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 9667,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260728",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 10850,
+      "sampleCount": 44
+    },
+    {
+      "date": "20260728",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 9150,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260728",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 12000,
+      "sampleCount": 47
+    },
+    {
+      "date": "20260728",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 9000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260728",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 10900,
+      "sampleCount": 44
+    },
+    {
+      "date": "20260728",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 9200,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260729",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 10450,
+      "sampleCount": 46
+    },
+    {
+      "date": "20260729",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 9150,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260729",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 12000,
+      "sampleCount": 46
+    },
+    {
+      "date": "20260729",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 9000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260729",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 10500,
+      "sampleCount": 44
+    },
+    {
+      "date": "20260729",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 9200,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260730",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 9650,
+      "sampleCount": 44
+    },
+    {
+      "date": "20260730",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 8000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260730",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 11200,
+      "sampleCount": 45
+    },
+    {
+      "date": "20260730",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 9000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260730",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 9920,
+      "sampleCount": 46
+    },
+    {
+      "date": "20260730",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 8800,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260731",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 9650,
+      "sampleCount": 44
+    },
+    {
+      "date": "20260731",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 8000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260731",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 11200,
+      "sampleCount": 45
+    },
+    {
+      "date": "20260731",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 8500,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260731",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 9880,
+      "sampleCount": 45
+    },
+    {
+      "date": "20260731",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 8800,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260803",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 8950,
+      "sampleCount": 44
+    },
+    {
+      "date": "20260803",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 7500,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260803",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 11200,
+      "sampleCount": 47
+    },
+    {
+      "date": "20260803",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 8000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260803",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 9520,
+      "sampleCount": 47
+    },
+    {
+      "date": "20260803",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 8667,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260804",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 8950,
+      "sampleCount": 45
+    },
+    {
+      "date": "20260804",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 7500,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260804",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 11200,
+      "sampleCount": 47
+    },
+    {
+      "date": "20260804",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 8000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260804",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 9520,
+      "sampleCount": 49
+    },
+    {
+      "date": "20260804",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 8433,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260805",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 8950,
+      "sampleCount": 45
+    },
+    {
+      "date": "20260805",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 7500,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260805",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 11200,
+      "sampleCount": 49
+    },
+    {
+      "date": "20260805",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 8000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260805",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 9520,
+      "sampleCount": 50
+    },
+    {
+      "date": "20260805",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 8433,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260806",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 8950,
+      "sampleCount": 45
+    },
+    {
+      "date": "20260806",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 8000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260806",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 11500,
+      "sampleCount": 48
+    },
+    {
+      "date": "20260806",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 8000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260806",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 8850,
+      "sampleCount": 51
+    },
+    {
+      "date": "20260806",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 8433,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260807",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 8950,
+      "sampleCount": 45
+    },
+    {
+      "date": "20260807",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 8000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260807",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 11200,
+      "sampleCount": 49
+    },
+    {
+      "date": "20260807",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 8150,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260807",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 8850,
+      "sampleCount": 51
+    },
+    {
+      "date": "20260807",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 8667,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260810",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 8950,
+      "sampleCount": 45
+    },
+    {
+      "date": "20260810",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 8050,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260810",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 11150,
+      "sampleCount": 49
+    },
+    {
+      "date": "20260810",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 8150,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260810",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 8850,
+      "sampleCount": 52
+    },
+    {
+      "date": "20260810",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 8533,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260811",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 8950,
+      "sampleCount": 46
+    },
+    {
+      "date": "20260811",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 8250,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260811",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 11000,
+      "sampleCount": 49
+    },
+    {
+      "date": "20260811",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 8250,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260811",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 8850,
+      "sampleCount": 52
+    },
+    {
+      "date": "20260811",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 8433,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260811",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "친환경농산물(신규)",
+      "price": 12900,
+      "sampleCount": 3
+    },
+    {
+      "date": "20260812",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 8950,
+      "sampleCount": 46
+    },
+    {
+      "date": "20260812",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 8250,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260812",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 10800,
+      "sampleCount": 48
+    },
+    {
+      "date": "20260812",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 8250,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260812",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 8850,
+      "sampleCount": 52
+    },
+    {
+      "date": "20260812",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 8433,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260813",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 8500,
+      "sampleCount": 46
+    },
+    {
+      "date": "20260813",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 8300,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260813",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 9200,
+      "sampleCount": 50
+    },
+    {
+      "date": "20260813",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 7800,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260813",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 8640,
+      "sampleCount": 54
+    },
+    {
+      "date": "20260813",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 7533,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260814",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 8500,
+      "sampleCount": 48
+    },
+    {
+      "date": "20260814",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 7900,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260814",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 9000,
+      "sampleCount": 50
+    },
+    {
+      "date": "20260814",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 7800,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260814",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 8640,
+      "sampleCount": 54
+    },
+    {
+      "date": "20260814",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 7733,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260818",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 8500,
+      "sampleCount": 48
+    },
+    {
+      "date": "20260818",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 7650,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260818",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 9100,
+      "sampleCount": 50
+    },
+    {
+      "date": "20260818",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 7500,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260818",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 8640,
+      "sampleCount": 54
+    },
+    {
+      "date": "20260818",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 7733,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260818",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "친환경농산물(신규)",
+      "price": 14500,
+      "sampleCount": 5
+    },
+    {
+      "date": "20260819",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 8500,
+      "sampleCount": 49
+    },
+    {
+      "date": "20260819",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 8300,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260819",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 9100,
+      "sampleCount": 50
+    },
+    {
+      "date": "20260819",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 7500,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260819",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 8640,
+      "sampleCount": 54
+    },
+    {
+      "date": "20260819",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 7533,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260820",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 8500,
+      "sampleCount": 49
+    },
+    {
+      "date": "20260820",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 8500,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260820",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 8450,
+      "sampleCount": 50
+    },
+    {
+      "date": "20260820",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 7300,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260820",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 7990,
+      "sampleCount": 53
+    },
+    {
+      "date": "20260820",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 7433,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260821",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 8500,
+      "sampleCount": 48
+    },
+    {
+      "date": "20260821",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 8200,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260821",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 8950,
+      "sampleCount": 50
+    },
+    {
+      "date": "20260821",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 7300,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260821",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 7990,
+      "sampleCount": 53
+    },
+    {
+      "date": "20260821",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 7433,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260824",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 8500,
+      "sampleCount": 48
+    },
+    {
+      "date": "20260824",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 8200,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260824",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 8450,
+      "sampleCount": 50
+    },
+    {
+      "date": "20260824",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 7300,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260824",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 7990,
+      "sampleCount": 57
+    },
+    {
+      "date": "20260824",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 7000,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260825",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 8500,
+      "sampleCount": 48
+    },
+    {
+      "date": "20260825",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 8150,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260825",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 8950,
+      "sampleCount": 50
+    },
+    {
+      "date": "20260825",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 7000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260825",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 7990,
+      "sampleCount": 56
+    },
+    {
+      "date": "20260825",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 6667,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260825",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "친환경농산물(신규)",
+      "price": 14400,
+      "sampleCount": 8
+    },
+    {
+      "date": "20260826",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 8500,
+      "sampleCount": 48
+    },
+    {
+      "date": "20260826",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 7650,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260826",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 8500,
+      "sampleCount": 50
+    },
+    {
+      "date": "20260826",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 6700,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260826",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 7990,
+      "sampleCount": 57
+    },
+    {
+      "date": "20260826",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 6667,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260827",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 8500,
+      "sampleCount": 46
+    },
+    {
+      "date": "20260827",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 7150,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260827",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 7950,
+      "sampleCount": 50
+    },
+    {
+      "date": "20260827",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 6700,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260827",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 7330,
+      "sampleCount": 57
+    },
+    {
+      "date": "20260827",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 6667,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260828",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 8500,
+      "sampleCount": 47
+    },
+    {
+      "date": "20260828",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 7150,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260828",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 7950,
+      "sampleCount": 50
+    },
+    {
+      "date": "20260828",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 6400,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260828",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 7300,
+      "sampleCount": 57
+    },
+    {
+      "date": "20260828",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 6600,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260831",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 8500,
+      "sampleCount": 47
+    },
+    {
+      "date": "20260831",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 7650,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260831",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 7950,
+      "sampleCount": 50
+    },
+    {
+      "date": "20260831",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 6100,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260831",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 7300,
+      "sampleCount": 58
+    },
+    {
+      "date": "20260831",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 6467,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260901",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 8500,
+      "sampleCount": 48
+    },
+    {
+      "date": "20260901",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 7500,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260901",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 7950,
+      "sampleCount": 50
+    },
+    {
+      "date": "20260901",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 6100,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260901",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 7430,
+      "sampleCount": 58
+    },
+    {
+      "date": "20260901",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 6467,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260901",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "친환경농산물(신규)",
+      "price": 11300,
+      "sampleCount": 8
+    },
+    {
+      "date": "20260902",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 8500,
+      "sampleCount": 47
+    },
+    {
+      "date": "20260902",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 7500,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260902",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 7950,
+      "sampleCount": 50
+    },
+    {
+      "date": "20260902",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 5750,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260902",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 7330,
+      "sampleCount": 59
+    },
+    {
+      "date": "20260902",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 6133,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260903",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 9300,
+      "sampleCount": 47
+    },
+    {
+      "date": "20260903",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 7500,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260903",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 7250,
+      "sampleCount": 50
+    },
+    {
+      "date": "20260903",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 5750,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260903",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 6660,
+      "sampleCount": 58
+    },
+    {
+      "date": "20260903",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 6133,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260904",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 9300,
+      "sampleCount": 47
+    },
+    {
+      "date": "20260904",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 7500,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260904",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 7250,
+      "sampleCount": 50
+    },
+    {
+      "date": "20260904",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 5750,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260904",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 6610,
+      "sampleCount": 61
+    },
+    {
+      "date": "20260904",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 6133,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260907",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 9400,
+      "sampleCount": 46
+    },
+    {
+      "date": "20260907",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 7150,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260907",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 7250,
+      "sampleCount": 50
+    },
+    {
+      "date": "20260907",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 5550,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260907",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 7000,
+      "sampleCount": 60
+    },
+    {
+      "date": "20260907",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 6400,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260908",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 9400,
+      "sampleCount": 47
+    },
+    {
+      "date": "20260908",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 7150,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260908",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 7250,
+      "sampleCount": 50
+    },
+    {
+      "date": "20260908",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 5500,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260908",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 7000,
+      "sampleCount": 59
+    },
+    {
+      "date": "20260908",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 6400,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260908",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "친환경농산물(신규)",
+      "price": 10500,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260909",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 9400,
+      "sampleCount": 46
+    },
+    {
+      "date": "20260909",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 7150,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260909",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 7250,
+      "sampleCount": 50
+    },
+    {
+      "date": "20260909",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 5500,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260909",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 7080,
+      "sampleCount": 58
+    },
+    {
+      "date": "20260909",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 6400,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260910",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 9650,
+      "sampleCount": 44
+    },
+    {
+      "date": "20260910",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 7000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260910",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 7200,
+      "sampleCount": 50
+    },
+    {
+      "date": "20260910",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 5500,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260910",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 6830,
+      "sampleCount": 58
+    },
+    {
+      "date": "20260910",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 6400,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260911",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 9250,
+      "sampleCount": 44
+    },
+    {
+      "date": "20260911",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 6800,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260911",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 7200,
+      "sampleCount": 50
+    },
+    {
+      "date": "20260911",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 5500,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260911",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 6660,
+      "sampleCount": 57
+    },
+    {
+      "date": "20260911",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 6200,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260914",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 9150,
+      "sampleCount": 44
+    },
+    {
+      "date": "20260914",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 6800,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260914",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 7200,
+      "sampleCount": 50
+    },
+    {
+      "date": "20260914",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 5300,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260914",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 6750,
+      "sampleCount": 57
+    },
+    {
+      "date": "20260914",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 6200,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260915",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 9150,
+      "sampleCount": 45
+    },
+    {
+      "date": "20260915",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 6800,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260915",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 7200,
+      "sampleCount": 49
+    },
+    {
+      "date": "20260915",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 5350,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260915",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 6830,
+      "sampleCount": 56
+    },
+    {
+      "date": "20260915",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 6200,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260915",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "친환경농산물(신규)",
+      "price": 11300,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260916",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 8950,
+      "sampleCount": 45
+    },
+    {
+      "date": "20260916",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 6800,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260916",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6950,
+      "sampleCount": 48
+    },
+    {
+      "date": "20260916",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 5350,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260916",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 6660,
+      "sampleCount": 54
+    },
+    {
+      "date": "20260916",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 5867,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260917",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 9150,
+      "sampleCount": 42
+    },
+    {
+      "date": "20260917",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 6800,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260917",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6500,
+      "sampleCount": 49
+    },
+    {
+      "date": "20260917",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 5150,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260917",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 6830,
+      "sampleCount": 55
+    },
+    {
+      "date": "20260917",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 5867,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260918",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 8950,
+      "sampleCount": 43
+    },
+    {
+      "date": "20260918",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 6800,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260918",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6500,
+      "sampleCount": 48
+    },
+    {
+      "date": "20260918",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 5250,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260918",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 6970,
+      "sampleCount": 55
+    },
+    {
+      "date": "20260918",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 5867,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260921",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 8950,
+      "sampleCount": 41
+    },
+    {
+      "date": "20260921",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 6800,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260921",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6500,
+      "sampleCount": 48
+    },
+    {
+      "date": "20260921",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 5150,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260921",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 6660,
+      "sampleCount": 56
+    },
+    {
+      "date": "20260921",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 5333,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260922",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 8950,
+      "sampleCount": 41
+    },
+    {
+      "date": "20260922",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 6800,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260922",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6500,
+      "sampleCount": 48
+    },
+    {
+      "date": "20260922",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4750,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260922",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 6650,
+      "sampleCount": 54
+    },
+    {
+      "date": "20260922",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 5333,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260922",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "친환경농산물(신규)",
+      "price": 16000,
+      "sampleCount": 5
+    },
+    {
+      "date": "20260923",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 9150,
+      "sampleCount": 42
+    },
+    {
+      "date": "20260923",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 6800,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260923",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6500,
+      "sampleCount": 48
+    },
+    {
+      "date": "20260923",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4830,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260923",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 6660,
+      "sampleCount": 54
+    },
+    {
+      "date": "20260923",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 6067,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260928",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 9250,
+      "sampleCount": 36
+    },
+    {
+      "date": "20260928",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 6650,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260928",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6450,
+      "sampleCount": 48
+    },
+    {
+      "date": "20260928",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4750,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260928",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 7330,
+      "sampleCount": 45
+    },
+    {
+      "date": "20260928",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 6067,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260929",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 9250,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260929",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 6650,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260929",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6450,
+      "sampleCount": 48
+    },
+    {
+      "date": "20260929",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4665,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260929",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 7460,
+      "sampleCount": 45
+    },
+    {
+      "date": "20260929",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 6133,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260929",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "친환경농산물(신규)",
+      "price": 14400,
+      "sampleCount": 5
+    },
+    {
+      "date": "20260930",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 9250,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260930",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 6650,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260930",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 6400,
+      "sampleCount": 47
+    },
+    {
+      "date": "20260930",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4875,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260930",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 7460,
+      "sampleCount": 44
+    },
+    {
+      "date": "20260930",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 6133,
+      "sampleCount": 9
+    },
+    {
+      "date": "20261001",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 9900,
+      "sampleCount": 33
+    },
+    {
+      "date": "20261001",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 6300,
+      "sampleCount": 10
+    },
+    {
+      "date": "20261001",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 5900,
+      "sampleCount": 47
+    },
+    {
+      "date": "20261001",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4665,
+      "sampleCount": 10
+    },
+    {
+      "date": "20261001",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 7950,
+      "sampleCount": 46
+    },
+    {
+      "date": "20261001",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 6133,
+      "sampleCount": 9
+    },
+    {
+      "date": "20261002",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 9900,
+      "sampleCount": 33
+    },
+    {
+      "date": "20261002",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 6300,
+      "sampleCount": 10
+    },
+    {
+      "date": "20261002",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 5900,
+      "sampleCount": 47
+    },
+    {
+      "date": "20261002",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4665,
+      "sampleCount": 10
+    },
+    {
+      "date": "20261002",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 7950,
+      "sampleCount": 47
+    },
+    {
+      "date": "20261002",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 5433,
+      "sampleCount": 9
+    },
+    {
+      "date": "20261006",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 9650,
+      "sampleCount": 34
+    },
+    {
+      "date": "20261006",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 6300,
+      "sampleCount": 10
+    },
+    {
+      "date": "20261006",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 5950,
+      "sampleCount": 47
+    },
+    {
+      "date": "20261006",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4500,
+      "sampleCount": 10
+    },
+    {
+      "date": "20261006",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 7990,
+      "sampleCount": 46
+    },
+    {
+      "date": "20261006",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 5333,
+      "sampleCount": 9
+    },
+    {
+      "date": "20261006",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "친환경농산물(신규)",
+      "price": 12000,
+      "sampleCount": 5
+    },
+    {
+      "date": "20261007",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 9650,
+      "sampleCount": 34
+    },
+    {
+      "date": "20261007",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 6300,
+      "sampleCount": 10
+    },
+    {
+      "date": "20261007",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 5950,
+      "sampleCount": 47
+    },
+    {
+      "date": "20261007",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4500,
+      "sampleCount": 10
+    },
+    {
+      "date": "20261007",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 7990,
+      "sampleCount": 46
+    },
+    {
+      "date": "20261007",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 5333,
+      "sampleCount": 9
+    },
+    {
+      "date": "20261008",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 9450,
+      "sampleCount": 26
+    },
+    {
+      "date": "20261008",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 6300,
+      "sampleCount": 10
+    },
+    {
+      "date": "20261008",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 5950,
+      "sampleCount": 45
+    },
+    {
+      "date": "20261008",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4375,
+      "sampleCount": 10
+    },
+    {
+      "date": "20261008",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 7660,
+      "sampleCount": 45
+    },
+    {
+      "date": "20261008",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 5333,
+      "sampleCount": 9
+    }
+  ],
+  "complete": true
+}

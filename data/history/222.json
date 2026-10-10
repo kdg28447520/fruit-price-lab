@@ -1,0 +1,2274 @@
+{
+  "itemCode": "222",
+  "source": "한국농수산식품유통공사 일별 도·소매 가격정보",
+  "basis": "지역/등급 합산하지 않고 품종별·거래유형별 1kg 환산가격 중간값",
+  "from": "20251010",
+  "to": "20261010",
+  "samples": [
+    {
+      "date": "20260303",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 24500,
+      "sampleCount": 51
+    },
+    {
+      "date": "20260303",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 8400,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260303",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "친환경농산물(신규)",
+      "price": 16400,
+      "sampleCount": 4
+    },
+    {
+      "date": "20260304",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 24500,
+      "sampleCount": 64
+    },
+    {
+      "date": "20260304",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 8330,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260305",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 25900,
+      "sampleCount": 65
+    },
+    {
+      "date": "20260305",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 8530,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260306",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 25900,
+      "sampleCount": 65
+    },
+    {
+      "date": "20260306",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 8530,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260309",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 26300,
+      "sampleCount": 64
+    },
+    {
+      "date": "20260309",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 8530,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260310",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 26600,
+      "sampleCount": 67
+    },
+    {
+      "date": "20260310",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 8140,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260310",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "친환경농산물(신규)",
+      "price": 14500,
+      "sampleCount": 3
+    },
+    {
+      "date": "20260311",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 26600,
+      "sampleCount": 69
+    },
+    {
+      "date": "20260311",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 8000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260312",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 24500,
+      "sampleCount": 74
+    },
+    {
+      "date": "20260312",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 7440,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260313",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 24500,
+      "sampleCount": 73
+    },
+    {
+      "date": "20260313",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 7460,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260316",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 24900,
+      "sampleCount": 70
+    },
+    {
+      "date": "20260316",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 7400,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260317",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 24700,
+      "sampleCount": 73
+    },
+    {
+      "date": "20260317",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 7300,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260317",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "친환경농산물(신규)",
+      "price": 14500,
+      "sampleCount": 3
+    },
+    {
+      "date": "20260318",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 24700,
+      "sampleCount": 72
+    },
+    {
+      "date": "20260318",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 7300,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260319",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 23300,
+      "sampleCount": 81
+    },
+    {
+      "date": "20260319",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 7300,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260320",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 21600,
+      "sampleCount": 83
+    },
+    {
+      "date": "20260320",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 7300,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260323",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 22800,
+      "sampleCount": 82
+    },
+    {
+      "date": "20260323",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 7600,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260324",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 23300,
+      "sampleCount": 84
+    },
+    {
+      "date": "20260324",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 7600,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260324",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "친환경농산물(신규)",
+      "price": 14500,
+      "sampleCount": 4
+    },
+    {
+      "date": "20260325",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 22100,
+      "sampleCount": 84
+    },
+    {
+      "date": "20260325",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 7760,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260326",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 23900,
+      "sampleCount": 80
+    },
+    {
+      "date": "20260326",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 7800,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260327",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 22400,
+      "sampleCount": 82
+    },
+    {
+      "date": "20260327",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 8330,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260330",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 23900,
+      "sampleCount": 81
+    },
+    {
+      "date": "20260330",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 8460,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260331",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 23900,
+      "sampleCount": 81
+    },
+    {
+      "date": "20260331",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 9000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260331",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "친환경농산물(신규)",
+      "price": 12500,
+      "sampleCount": 3
+    },
+    {
+      "date": "20260401",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 22100,
+      "sampleCount": 85
+    },
+    {
+      "date": "20260401",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 9000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260402",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 23100,
+      "sampleCount": 77
+    },
+    {
+      "date": "20260402",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 9000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260403",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 23100,
+      "sampleCount": 77
+    },
+    {
+      "date": "20260403",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 8900,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260406",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 23100,
+      "sampleCount": 78
+    },
+    {
+      "date": "20260406",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 8200,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260407",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 22500,
+      "sampleCount": 80
+    },
+    {
+      "date": "20260407",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 8200,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260407",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "친환경농산물(신규)",
+      "price": 14500,
+      "sampleCount": 4
+    },
+    {
+      "date": "20260408",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 21600,
+      "sampleCount": 81
+    },
+    {
+      "date": "20260408",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 8000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260409",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 20000,
+      "sampleCount": 87
+    },
+    {
+      "date": "20260409",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 7460,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260410",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 20000,
+      "sampleCount": 86
+    },
+    {
+      "date": "20260410",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 7460,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260413",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 21300,
+      "sampleCount": 86
+    },
+    {
+      "date": "20260413",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 7460,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260414",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 21000,
+      "sampleCount": 86
+    },
+    {
+      "date": "20260414",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 6900,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260414",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "친환경농산물(신규)",
+      "price": 14500,
+      "sampleCount": 4
+    },
+    {
+      "date": "20260415",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 21000,
+      "sampleCount": 86
+    },
+    {
+      "date": "20260415",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 6900,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260416",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 19900,
+      "sampleCount": 75
+    },
+    {
+      "date": "20260416",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 6600,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260417",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 19800,
+      "sampleCount": 75
+    },
+    {
+      "date": "20260417",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 6600,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260420",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 19800,
+      "sampleCount": 75
+    },
+    {
+      "date": "20260420",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 6600,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260421",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 19800,
+      "sampleCount": 75
+    },
+    {
+      "date": "20260421",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 6540,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260421",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "친환경농산물(신규)",
+      "price": 11300,
+      "sampleCount": 3
+    },
+    {
+      "date": "20260422",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 19800,
+      "sampleCount": 81
+    },
+    {
+      "date": "20260422",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 6130,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260423",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 19900,
+      "sampleCount": 90
+    },
+    {
+      "date": "20260423",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 6010,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260424",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 19000,
+      "sampleCount": 90
+    },
+    {
+      "date": "20260424",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 6000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260427",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 18800,
+      "sampleCount": 90
+    },
+    {
+      "date": "20260427",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 6000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260428",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 19800,
+      "sampleCount": 90
+    },
+    {
+      "date": "20260428",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 6600,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260428",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "친환경농산물(신규)",
+      "price": 13300,
+      "sampleCount": 5
+    },
+    {
+      "date": "20260429",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 19800,
+      "sampleCount": 90
+    },
+    {
+      "date": "20260429",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 6660,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260430",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 19800,
+      "sampleCount": 86
+    },
+    {
+      "date": "20260430",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 6660,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260504",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 19100,
+      "sampleCount": 85
+    },
+    {
+      "date": "20260504",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 6660,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260504",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "친환경농산물(신규)",
+      "price": 13300,
+      "sampleCount": 6
+    },
+    {
+      "date": "20260506",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 18300,
+      "sampleCount": 88
+    },
+    {
+      "date": "20260506",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 5500,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260507",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 18700,
+      "sampleCount": 89
+    },
+    {
+      "date": "20260507",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 4730,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260508",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 18700,
+      "sampleCount": 89
+    },
+    {
+      "date": "20260508",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 4530,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260511",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 17400,
+      "sampleCount": 85
+    },
+    {
+      "date": "20260511",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 4450,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260512",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 16900,
+      "sampleCount": 85
+    },
+    {
+      "date": "20260512",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 4450,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260512",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "친환경농산물(신규)",
+      "price": 13000,
+      "sampleCount": 4
+    },
+    {
+      "date": "20260513",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 16900,
+      "sampleCount": 85
+    },
+    {
+      "date": "20260513",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 3900,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260514",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 16600,
+      "sampleCount": 81
+    },
+    {
+      "date": "20260514",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260515",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 16600,
+      "sampleCount": 80
+    },
+    {
+      "date": "20260515",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260518",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 15500,
+      "sampleCount": 85
+    },
+    {
+      "date": "20260518",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 3880,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260519",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 15500,
+      "sampleCount": 85
+    },
+    {
+      "date": "20260519",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260519",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "친환경농산물(신규)",
+      "price": 12400,
+      "sampleCount": 8
+    },
+    {
+      "date": "20260520",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 15500,
+      "sampleCount": 86
+    },
+    {
+      "date": "20260520",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 4250,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260521",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 16600,
+      "sampleCount": 87
+    },
+    {
+      "date": "20260521",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 4250,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260522",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 16600,
+      "sampleCount": 87
+    },
+    {
+      "date": "20260522",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 4250,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260526",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 16500,
+      "sampleCount": 87
+    },
+    {
+      "date": "20260526",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 4500,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260526",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "친환경농산물(신규)",
+      "price": 11200,
+      "sampleCount": 4
+    },
+    {
+      "date": "20260527",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 15900,
+      "sampleCount": 87
+    },
+    {
+      "date": "20260527",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 4600,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260528",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 15900,
+      "sampleCount": 84
+    },
+    {
+      "date": "20260528",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 4630,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260529",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 15900,
+      "sampleCount": 84
+    },
+    {
+      "date": "20260529",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 4600,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260601",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 17200,
+      "sampleCount": 81
+    },
+    {
+      "date": "20260601",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 4380,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260602",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 17400,
+      "sampleCount": 85
+    },
+    {
+      "date": "20260602",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 4380,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260602",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "친환경농산물(신규)",
+      "price": 10400,
+      "sampleCount": 4
+    },
+    {
+      "date": "20260604",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 13900,
+      "sampleCount": 86
+    },
+    {
+      "date": "20260604",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 3800,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260605",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 13600,
+      "sampleCount": 85
+    },
+    {
+      "date": "20260605",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 3800,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260608",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 14900,
+      "sampleCount": 85
+    },
+    {
+      "date": "20260608",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 3710,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260609",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 14200,
+      "sampleCount": 84
+    },
+    {
+      "date": "20260609",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 3680,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260609",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "친환경농산물(신규)",
+      "price": 9990,
+      "sampleCount": 5
+    },
+    {
+      "date": "20260610",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 14200,
+      "sampleCount": 84
+    },
+    {
+      "date": "20260610",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 3640,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260611",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 13800,
+      "sampleCount": 82
+    },
+    {
+      "date": "20260611",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 3530,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260612",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 13800,
+      "sampleCount": 82
+    },
+    {
+      "date": "20260612",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 3530,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260615",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 13800,
+      "sampleCount": 82
+    },
+    {
+      "date": "20260615",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 3460,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260616",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 13800,
+      "sampleCount": 81
+    },
+    {
+      "date": "20260616",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 3300,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260616",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "친환경농산물(신규)",
+      "price": 10300,
+      "sampleCount": 5
+    },
+    {
+      "date": "20260617",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 13800,
+      "sampleCount": 81
+    },
+    {
+      "date": "20260617",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 3360,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260618",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 15000,
+      "sampleCount": 81
+    },
+    {
+      "date": "20260618",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 3360,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260619",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 15900,
+      "sampleCount": 82
+    },
+    {
+      "date": "20260619",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 3380,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260622",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 15800,
+      "sampleCount": 82
+    },
+    {
+      "date": "20260622",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 3210,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260623",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 14900,
+      "sampleCount": 81
+    },
+    {
+      "date": "20260623",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 3300,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260623",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "친환경농산물(신규)",
+      "price": 7980,
+      "sampleCount": 5
+    },
+    {
+      "date": "20260624",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 15500,
+      "sampleCount": 82
+    },
+    {
+      "date": "20260624",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 3300,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260625",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 14200,
+      "sampleCount": 78
+    },
+    {
+      "date": "20260625",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 3300,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260626",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 14200,
+      "sampleCount": 78
+    },
+    {
+      "date": "20260626",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 3300,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260629",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 14100,
+      "sampleCount": 78
+    },
+    {
+      "date": "20260629",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 3260,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260630",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 13900,
+      "sampleCount": 77
+    },
+    {
+      "date": "20260630",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 3260,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260630",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "친환경농산물(신규)",
+      "price": 10400,
+      "sampleCount": 4
+    },
+    {
+      "date": "20260701",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 13900,
+      "sampleCount": 76
+    },
+    {
+      "date": "20260701",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 3230,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260702",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 12400,
+      "sampleCount": 76
+    },
+    {
+      "date": "20260702",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 3100,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260703",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 12400,
+      "sampleCount": 75
+    },
+    {
+      "date": "20260703",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 2980,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260706",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 12100,
+      "sampleCount": 74
+    },
+    {
+      "date": "20260706",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 2960,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260707",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 11900,
+      "sampleCount": 75
+    },
+    {
+      "date": "20260707",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 2630,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260707",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "친환경농산물(신규)",
+      "price": 7790,
+      "sampleCount": 4
+    },
+    {
+      "date": "20260708",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 11900,
+      "sampleCount": 75
+    },
+    {
+      "date": "20260708",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 2630,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260709",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 11000,
+      "sampleCount": 70
+    },
+    {
+      "date": "20260709",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 2420,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260710",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 11000,
+      "sampleCount": 70
+    },
+    {
+      "date": "20260710",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 2480,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260713",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 10800,
+      "sampleCount": 69
+    },
+    {
+      "date": "20260713",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 2460,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260714",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 11000,
+      "sampleCount": 68
+    },
+    {
+      "date": "20260714",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 2500,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260714",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "친환경농산물(신규)",
+      "price": 5360,
+      "sampleCount": 2
+    },
+    {
+      "date": "20260715",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 10900,
+      "sampleCount": 68
+    },
+    {
+      "date": "20260715",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 2510,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260716",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 10700,
+      "sampleCount": 68
+    },
+    {
+      "date": "20260716",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 2500,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260720",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 11000,
+      "sampleCount": 73
+    },
+    {
+      "date": "20260720",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 2510,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260721",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 11000,
+      "sampleCount": 74
+    },
+    {
+      "date": "20260721",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 2510,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260721",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "친환경농산물(신규)",
+      "price": 6560,
+      "sampleCount": 5
+    },
+    {
+      "date": "20260722",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 11000,
+      "sampleCount": 76
+    },
+    {
+      "date": "20260722",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 2510,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260723",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 12300,
+      "sampleCount": 76
+    },
+    {
+      "date": "20260723",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 2610,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260724",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 11500,
+      "sampleCount": 78
+    },
+    {
+      "date": "20260724",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 2510,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260727",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 11500,
+      "sampleCount": 77
+    },
+    {
+      "date": "20260727",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 2510,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260728",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 12300,
+      "sampleCount": 77
+    },
+    {
+      "date": "20260728",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 2540,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260728",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "친환경농산물(신규)",
+      "price": 7590,
+      "sampleCount": 4
+    },
+    {
+      "date": "20260729",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 11600,
+      "sampleCount": 78
+    },
+    {
+      "date": "20260729",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 2660,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260730",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 11300,
+      "sampleCount": 77
+    },
+    {
+      "date": "20260730",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 2810,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260731",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 11400,
+      "sampleCount": 79
+    },
+    {
+      "date": "20260731",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 2860,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260803",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 12100,
+      "sampleCount": 77
+    },
+    {
+      "date": "20260803",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 3130,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260804",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 12100,
+      "sampleCount": 78
+    },
+    {
+      "date": "20260804",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 3380,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260804",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "친환경농산물(신규)",
+      "price": 10800,
+      "sampleCount": 4
+    },
+    {
+      "date": "20260805",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 12500,
+      "sampleCount": 77
+    },
+    {
+      "date": "20260805",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 3400,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260806",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 14100,
+      "sampleCount": 71
+    },
+    {
+      "date": "20260806",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 3500,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260807",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 14400,
+      "sampleCount": 70
+    },
+    {
+      "date": "20260807",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 3600,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260810",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 14100,
+      "sampleCount": 71
+    },
+    {
+      "date": "20260810",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 3800,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260811",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 14700,
+      "sampleCount": 69
+    },
+    {
+      "date": "20260811",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 3930,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260812",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 14900,
+      "sampleCount": 67
+    },
+    {
+      "date": "20260812",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 3930,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260813",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 15400,
+      "sampleCount": 67
+    },
+    {
+      "date": "20260813",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 4200,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260814",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 15800,
+      "sampleCount": 66
+    },
+    {
+      "date": "20260814",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 4330,
+      "sampleCount": 10
+    },
+    {
+      "date": "20260818",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 15800,
+      "sampleCount": 66
+    },
+    {
+      "date": "20260818",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 4000,
+      "sampleCount": 9
+    },
+    {
+      "date": "20260819",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 15500,
+      "sampleCount": 57
+    },
+    {
+      "date": "20260819",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 4360,
+      "sampleCount": 6
+    },
+    {
+      "date": "20260820",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 15800,
+      "sampleCount": 52
+    },
+    {
+      "date": "20260820",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 4360,
+      "sampleCount": 6
+    },
+    {
+      "date": "20260821",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 15800,
+      "sampleCount": 53
+    },
+    {
+      "date": "20260821",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 4810,
+      "sampleCount": 4
+    },
+    {
+      "date": "20260824",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 15100,
+      "sampleCount": 48
+    },
+    {
+      "date": "20260824",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "중도매",
+      "price": 4560,
+      "sampleCount": 4
+    },
+    {
+      "date": "20260825",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 15100,
+      "sampleCount": 44
+    },
+    {
+      "date": "20260826",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 15100,
+      "sampleCount": 41
+    },
+    {
+      "date": "20260827",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 12800,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260828",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 12800,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260831",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 12800,
+      "sampleCount": 37
+    },
+    {
+      "date": "20260901",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 12800,
+      "sampleCount": 39
+    },
+    {
+      "date": "20260902",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 14500,
+      "sampleCount": 38
+    },
+    {
+      "date": "20260903",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 14500,
+      "sampleCount": 33
+    },
+    {
+      "date": "20260904",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 14500,
+      "sampleCount": 32
+    },
+    {
+      "date": "20260907",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 15300,
+      "sampleCount": 29
+    },
+    {
+      "date": "20260908",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 15300,
+      "sampleCount": 30
+    },
+    {
+      "date": "20260909",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 15300,
+      "sampleCount": 30
+    },
+    {
+      "date": "20260910",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 13500,
+      "sampleCount": 29
+    },
+    {
+      "date": "20260911",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 13300,
+      "sampleCount": 33
+    },
+    {
+      "date": "20260914",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 12800,
+      "sampleCount": 33
+    },
+    {
+      "date": "20260915",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 12800,
+      "sampleCount": 33
+    },
+    {
+      "date": "20260916",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 13300,
+      "sampleCount": 34
+    },
+    {
+      "date": "20260917",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 13900,
+      "sampleCount": 33
+    },
+    {
+      "date": "20260918",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 14200,
+      "sampleCount": 31
+    },
+    {
+      "date": "20260921",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 12800,
+      "sampleCount": 26
+    },
+    {
+      "date": "20260922",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 12800,
+      "sampleCount": 29
+    },
+    {
+      "date": "20260923",
+      "name": "참외",
+      "variety": "참외",
+      "kind": "소매",
+      "price": 13300,
+      "sampleCount": 28
+    }
+  ],
+  "complete": true
+}
