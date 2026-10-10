@@ -33,8 +33,8 @@ jobs:
             git config user.email "github-actions[bot]@users.noreply.github.com"
             git add data/ui-check-report.json
             if ! git diff --cached --quiet; then
-              git pull --rebase
               git commit -m "qa: save fruit laboratory UI smoke tests"
+              git pull --rebase
               git push
             fi
           fi
