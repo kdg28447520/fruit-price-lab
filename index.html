@@ -65,7 +65,7 @@ const fallbackUrl=entry=>entry?'https://commons.wikimedia.org/wiki/Special:FileP
 const filePage=entry=>entry?'https://commons.wikimedia.org/wiki/File:'+encodeURIComponent(entry[0].replaceAll(' ','_')):'';
 const number=(vals)=>{const arr=vals.filter(Number.isFinite).slice().sort((a,b)=>a-b);return arr.length?arr[Math.floor(arr.length/2)]:null};
 const LABEL={사과:'🍎',배:'🍐',감귤:'🍊',포도:'🍇',딸기:'🍓',수박:'🍉',복숭아:'🍑',참외:'🍈'};
-let prices=[],history=[],annualHistory=[],annualReady=false,annualPending=false,annualCache={},catalog={},variantSummaries=[],surveyDate='',fruit='',variety='',region='전체';
+let prices=[],history=[],annualHistory=[],annualReady=false,annualPending=false,annualCache={},yearIndex={items:[]},catalog={},variantSummaries=[],surveyDate='',fruit='',variety='',region='전체';
 function pic(entry,cls,label){
  if(!entry)return '<span class="photo-fallback">해당 과일의 실물 사진 준비 중</span>';
  return '<img class="'+cls+'" src="'+fileUrl(entry)+'" data-photo-fallback="'+html(fallbackUrl(entry))+'" alt="'+html(label)+' 실물 사진" loading="lazy" decoding="async" referrerpolicy="no-referrer">';
@@ -83,13 +83,19 @@ document.addEventListener('error',function(e){
 },true);
 function groups(name){return prices.filter(x=>x.name===name)}
 function catalogEntry(name){return Object.values(catalog).find(c=>c.name===name)}
-function types(rows,name){return [...new Set(rows.filter(r=>r.name===name&&Number(r.pricePerKg)>0).map(r=>r.variety||'미분류'))].sort((a,b)=>a.localeCompare(b,'ko'))}
+function yearFruit(name){return (yearIndex.items||[]).find(x=>x.name===name)}
+function yearVariety(name,v){return yearFruit(name)?.varieties?.find(x=>x.name===v)}
+function types(rows,name){return [...new Set([...rows.filter(r=>r.name===name&&Number(r.pricePerKg)>0).map(r=>r.variety||'미분류'),...(yearFruit(name)?.varieties||[]).filter(v=>Object.values(v.kinds||{}).some(k=>Number(k.price)>0)).map(v=>v.name)])].sort((a,b)=>a.localeCompare(b,'ko'))}
 function observedVariety(name,v,kind){return variantSummaries.filter(r=>r.name===name&&(r.variety||'미분류')===v&&(!kind||(r.kind||'').includes(kind))).sort((a,b)=>b.date.localeCompare(a.date))[0]||null}
-function priceInfo(name,v,kind){const x=prices.filter(r=>r.name===name&&(r.variety||'미분류')===v&&(r.kind||'').includes(kind)&&Number(r.pricePerKg)>0);const p=number(x.map(r=>Number(r.pricePerKg)));if(p!==null)return {price:p,date:surveyDate||x[0].date,count:x.length};const last=observedVariety(name,v,kind);return last?{price:last.price,date:last.date,count:last.sampleCount}:null}
+function priceInfo(name,v,kind){const x=prices.filter(r=>r.name===name&&(r.variety||'미분류')===v&&(r.kind||'').includes(kind)&&Number(r.pricePerKg)>0);const p=number(x.map(r=>Number(r.pricePerKg)));if(p!==null)return {price:p,date:surveyDate||x[0].date,count:x.length};const annual=yearVariety(name,v);
+ const yearly=Object.entries(annual?.kinds||{}).filter(([k,x])=>k.includes(kind)&&x?.date&&Number(x.price)>0).map(([k,x])=>({price:Number(x.price),date:x.date,count:x.sampleCount||annual.observedDays||0,kind:k}));
+ const recent=observedVariety(name,v,kind);
+ if(recent?.date&&Number(recent.price)>0)yearly.push({price:recent.price,date:recent.date,count:recent.sampleCount});
+ yearly.sort((a,b)=>b.date.localeCompare(a.date));return yearly[0]||null}
 function figure(rows,kind){return number(rows.filter(x=>(x.kind||'').includes(kind)).map(x=>Number(x.pricePerKg)).filter(x=>x>0))}
 function selectFruit(name,scroll){fruit=name;variety='';region='전체';renderFruits();renderVarieties();loadAnnualPrices(name);if(scroll)$('varietySection').scrollIntoView({behavior:'smooth',block:'start'})}
 async function loadAnnualPrices(name){
- const code=(groups(name).find(r=>/^\d{3}$/.test(String(r.itemCode||'')))||{}).itemCode;
+ const code=yearFruit(name)?.itemCode||(groups(name).find(r=>/^\d{3}$/.test(String(r.itemCode||'')))||{}).itemCode;
  annualHistory=[];annualReady=false;annualPending=!!code;
  if(!code){drawTrend();return}
  if(Object.prototype.hasOwnProperty.call(annualCache,code)){
@@ -108,12 +114,17 @@ async function loadAnnualPrices(name){
  }
 }
 function renderFruits(){
-const names=[...new Set(prices.filter(x=>Number(x.pricePerKg)>0).map(x=>x.name))];
+const names=[...new Set([...prices.filter(x=>Number(x.pricePerKg)>0).map(x=>x.name),...(yearIndex.items||[]).filter(x=>x.varieties?.length).map(x=>x.name)])];
 const priority=['사과','배','감귤','포도','딸기','복숭아','수박','참외','자두','바나나','파인애플','오렌지','레몬','참다래','체리','블루베리','단감','망고'];
 names.sort((a,b)=>{let aa=priority.indexOf(a),bb=priority.indexOf(b);return (aa<0?999:aa)-(bb<0?999:bb)||a.localeCompare(b,'ko')});
 $('fruitGrid').innerHTML=names.map(name=>{
-const rows=groups(name),mid=figure(rows,'중도매'),retail=figure(rows,'소매'),photo=PHOTO[name],shown=mid!==null?mid:retail;
-return '<button type="button" class="fruit-card '+(fruit===name?'active':'')+'" data-fruit="'+html(name)+'"><div class="photo">'+pic(photo,'',name)+'</div><div class="fruit-body"><div class="fruit-title">'+html(name)+'</div><p class="fruit-count">조사 품종 '+types(rows,name).length+'종</p><div class="small-tag">품종 선택하기 →</div><div class="fruit-price">'+(shown===null?'':' '+(mid!==null?'중도매 ':'소매 ')+fmt(shown))+'</div><div class="mini">1kg 환산 중간값</div></div></button>';
+const rows=groups(name),mid=figure(rows,'중도매'),retail=figure(rows,'소매'),photo=PHOTO[name];
+const snapshots=(yearFruit(name)?.varieties||[]).flatMap(v=>Object.entries(v.kinds||{}).map(([kind,p])=>({...p,kind,variety:v.name}))).filter(x=>Number(x.price)>0).sort((a,b)=>b.date.localeCompare(a.date));
+const old=snapshots[0],shown=mid!==null?mid:retail!==null?retail:Number(old?.price)||null;
+const shownKind=mid!==null?'중도매':retail!==null?'소매':old?.kind||'';
+const shownDay=(mid!==null||retail!==null)?surveyDate:old?.date||'';
+
+return '<button type="button" class="fruit-card '+(fruit===name?'active':'')+'" data-fruit="'+html(name)+'"><div class="photo">'+pic(photo,'',name)+'</div><div class="fruit-body"><div class="fruit-title">'+html(name)+'</div><p class="fruit-count">조사 품종 '+types(rows,name).length+'종</p><div class="small-tag">품종 선택하기 →</div><div class="fruit-price">'+(shown===null?'':html(shownKind)+' '+fmt(shown))+'</div><div class="mini">1kg 환산 중간값 · 조사일 '+html(shownDay)+'</div></div></button>';
 }).join('')||'<p>조회 가능한 품목이 없습니다.</p>';
 $('fruitGrid').querySelectorAll('[data-fruit]').forEach(b=>b.onclick=()=>selectFruit(b.dataset.fruit,true))
 }
@@ -193,9 +204,10 @@ async function load(){
 const st=$('status');
 try{
 try{const catalogResponse=await fetch('/data/fruit-varieties.json',{cache:'no-store'});if(catalogResponse.ok)catalog=(await catalogResponse.json()).items||{}}catch(_){catalog={}}
+try{const resp=await fetch('/data/year-index.json',{cache:'no-store'});if(resp.ok){const parsed=await resp.json();yearIndex=parsed&&Array.isArray(parsed.items)?parsed:{items:[]}}}catch(_){yearIndex={items:[]}}
 const r=await fetch('/api/prices',{cache:'no-store'});const data=await r.json();if(!r.ok||!data.live)throw Error(data.message||'API 요청 실패');
 prices=Array.isArray(data.items)?data.items:[];history=Array.isArray(data.history)?data.history:[];variantSummaries=Array.isArray(data.varietySummaries)?data.varietySummaries:[];surveyDate=data.date||'';if(!prices.length)throw Error('조회된 과일 시세가 없습니다');
-st.innerHTML='<span class="dot"></span> 기준 조사일 '+html(data.date)+' · 실측 '+prices.length+'건 · 조사 품종 '+new Set(prices.filter(x=>Number(x.pricePerKg)>0).map(x=>x.name+'|'+x.variety)).size+'종';renderFruits();selectFruit(prices.some(x=>x.name==='사과')?'사과':prices[0].name,false);
+st.innerHTML='<span class="dot"></span> 기준 조사일 '+html(data.date)+' · 최근 '+prices.length+'건 / 1년간 가격 관측 품종 '+(yearIndex.varietyCount||new Set(prices.filter(x=>Number(x.pricePerKg)>0).map(x=>x.name+'|'+x.variety)).size)+'종';renderFruits();selectFruit(prices.some(x=>x.name==='사과')?'사과':prices[0].name,false);
 }catch(e){st.innerHTML='시세 수신 오류 · 잠시 후 다시 시도';$('fruitGrid').innerHTML='<p class="sub">'+html(e.message)+'<br>실제 시세가 반환되지 않아 임의의 가격은 표시하지 않습니다.</p>';}
 }
 renderCalendar();renderCredits();calc();load();
