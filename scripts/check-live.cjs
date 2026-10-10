@@ -17,6 +17,11 @@ async function probe(name,path,validate){
 }
 (async()=>{
  await probe('Homepage delivers HTML','/',(r,b)=>r.headers.get('content-type')?.includes('text/html')&&b.toString('utf8').includes('제철과일')&&b.toString('utf8').includes('data-tab="prices"'));
+ await probe('robots.txt public and sitemap declared','/robots.txt',(r,b)=>{const t=b.toString('utf8');return r.status===200&&/User-agent:\s*\*/i.test(t)&&/Allow:\s*\//i.test(t)&&t.includes('/sitemap.xml')});
+ await probe('sitemap.xml includes one canonical root with daily frequency','/sitemap.xml',(r,b)=>{const t=b.toString('utf8');return r.status===200&&(t.match(/<loc>/g)||[]).length===1&&t.includes('<changefreq>daily</changefreq>')&&t.includes(base+'/')});
+ await probe('favicon.svg is accessible','/favicon.svg',(r,b)=>r.status===200&&b.toString('utf8').includes('<svg')&&b.length>200);
+ await probe('1200x630 OG JPEG loads for chat previews','/og-image.jpg',(r,b)=>r.status===200&&b[0]===255&&b[1]===216&&b.length>10000&&b.length<5000000);
+ await probe('HTML contains Open Graph, canonical, favicon and latest-date renderer','/',(r,b)=>{const t=b.toString('utf8');const head=t.slice(0,t.indexOf('</head>')+7);return ['og:title','og:description','og:type','og:url','og:image','og:image:width','og:image:height','rel="canonical"','rel="icon"'].every(v=>head.includes(v))&&head.includes(base+'/og-image.jpg')&&t.includes('formatSurveyDate(data.date)')&&t.includes('formatCheckedAt(data.checkedAt)')});
  await probe('Apple photo delivers real JPEG','/photos/fruit-apple.jpg',(r,b)=>r.headers.get('content-type')?.includes('image/')&&b[0]===255&&b[1]===216);
  await probe('Pear photo delivers real JPEG','/photos/fruit-pear.jpg',(r,b)=>r.headers.get('content-type')?.includes('image/')&&b[0]===255&&b[1]===216);
  await probe('Shine Muscat variety photo delivers JPEG','/photos/variety-shine-muscat.jpg',(r,b)=>r.headers.get('content-type')?.includes('image/')&&b[0]===255&&b[1]===216);
