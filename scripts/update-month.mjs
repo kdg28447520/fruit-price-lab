@@ -4,7 +4,7 @@ const base='https://fruit-price-lab-kdg2844-8355s-projects.vercel.app/api/archiv
 const today=new Date(Date.now()+9*3600000),year=today.getUTCFullYear(),month=today.getUTCMonth()+1;
 const months=[String(year)+String(month).padStart(2,'0')];
 if(today.getUTCDate()<=3){let pmonth=month-1,pyear=year;if(!pmonth){pmonth=12;pyear--}months.push(String(pyear)+String(pmonth).padStart(2,'0'))}
-const boundary=new Date(today.getTime()-365*86400000).toISOString().slice(0,10).replaceAll('-');
+const boundary=new Date(today.getTime()-365*86400000).toISOString().slice(0,10).replaceAll('-','');
 const limit=350;
 let requestCount=0,updatedFiles=0;
 async function get(code,month,page){if(++requestCount>limit)throw Error('Daily request safety limit exceeded');const url=base+'?item='+code+'&month='+month+'&page='+page;for(let i=0;i<3;i++){try{const r=await fetch(url,{signal:AbortSignal.timeout(30000),headers:{'User-Agent':'FruitPriceLabHistoryMaintenance/1.0'}});const json=await r.json();if(!r.ok||!json.ok)throw Error(json.error||'HTTP '+r.status);return json}catch(e){if(i===2)throw Error(code+' '+month+' '+page+': '+e.message);await new Promise(resolve=>setTimeout(resolve,(i+1)*1000))}}}
