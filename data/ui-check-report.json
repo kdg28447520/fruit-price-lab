@@ -1,7 +1,7 @@
 {
-  "testedAt": "2026-10-10T08:32:50.616Z",
-  "total": 24,
-  "passed": 24,
+  "testedAt": "2026-10-10T08:35:27.430Z",
+  "total": 25,
+  "passed": 25,
   "failed": 0,
   "fruitCategories": 20,
   "variantClicks": 34,
@@ -81,6 +81,10 @@
     },
     {
       "name": "One-year chart period switches",
+      "passed": true
+    },
+    {
+      "name": "Historic Fuji graph has multiple dated observations",
       "passed": true
     },
     {
