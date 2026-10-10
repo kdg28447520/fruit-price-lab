@@ -1,0 +1,32 @@
+name: Sync licensed fruit photos
+on:
+  push:
+    branches: [main]
+    paths: ['data/photos-manifest.json']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: licensed-fruit-photo-sync
+  cancel-in-progress: false
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '22'
+      - run: node scripts/sync-photos.mjs
+      - name: Commit downloaded licensed images
+        if: always()
+        run: |
+          git config user.name "fruit-photo-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add photos/ data/photo-sync-status.json
+          if ! git diff --cached --quiet; then
+            git commit -m "assets: store licensed real fruit photos locally"
+            git push
+          fi
