@@ -1,8 +1,8 @@
 {
-  "testedAt": "2026-10-10T14:52:05.401Z",
-  "total": 42,
-  "passed": 40,
-  "failed": 2,
+  "testedAt": "2026-10-10T14:53:19.396Z",
+  "total": 46,
+  "passed": 46,
+  "failed": 0,
   "fruitCategories": 20,
   "variantClicks": 34,
   "photoAssets": 26,
@@ -88,9 +88,16 @@
       "passed": true
     },
     {
-      "name": "Four sourcing signal filters present",
-      "passed": false,
-      "detail": ""
+      "name": "Five sourcing signal filters present",
+      "passed": true
+    },
+    {
+      "name": "Naver relative search data shown when API responds",
+      "passed": true
+    },
+    {
+      "name": "Search data is explicitly not order volume",
+      "passed": true
     },
     {
       "name": "Sourcing signal all filters cards",
@@ -125,9 +132,16 @@
       "passed": true
     },
     {
+      "name": "Sourcing signal opportunity filters cards",
+      "passed": true
+    },
+    {
+      "name": "Sourcing signal opportunity has pressed state",
+      "passed": true
+    },
+    {
       "name": "Sourcing badges clarify signals and data caveats",
-      "passed": false,
-      "detail": ""
+      "passed": true
     },
     {
       "name": "Sourcing opens actual fruit variety price details",
