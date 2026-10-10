@@ -7,6 +7,8 @@ const yearly=JSON.parse(fs.readFileSync('data/year-index.json','utf8'));
 const history=JSON.parse(fs.readFileSync('data/history.json','utf8'));
 const manifest=JSON.parse(fs.readFileSync('data/photos-manifest.json','utf8'));
 const summaries=latest.items.map(r=>({name:r.name,variety:r.variety,date:r.date,kind:r.kind,price:r.pricePerKg,sampleCount:1}));
+const archiveCutoff=new Date(Date.now()-46*86400000).toISOString().slice(0,10).replaceAll('-','');
+const sourcingHistory=fs.readdirSync('data/history').filter(name=>/^\d{3}\.json$/.test(name)).flatMap(name=>JSON.parse(fs.readFileSync('data/history/'+name,'utf8')).samples||[]).filter(x=>x.kind?.includes('중도매')&&x.date>=archiveCutoff&&Number(x.price)>0);
 const logs=[],results=[];
 const vc=new VirtualConsole();vc.on('jsdomError',e=>logs.push(e.message));vc.on('error',e=>logs.push(e));
 function pass(name,condition,detail=''){results.push({name,passed:!!condition,detail:!condition?detail:undefined});}
@@ -15,6 +17,7 @@ const dom=new JSDOM(html,{url:'https://fruit-price-lab.example.test/',runScripts
  window.fetch=async function(url){
    if(String(url).startsWith('/data/fruit-varieties.json'))return {ok:true,json:async()=>catalog};
    if(String(url).startsWith('/data/year-index.json'))return {ok:true,json:async()=>yearly};
+   if(String(url).startsWith('/data/sourcing-history.json'))return {ok:true,json:async()=>({samples:sourcingHistory})};
    if(String(url).startsWith('/api/prices'))return {ok:true,json:async()=>({live:true,...latest,history:history.samples,varietySummaries:summaries})};
    if(String(url).startsWith('/data/history/')){
  const code=String(url).split('/').at(-1).split('.')[0];
@@ -66,7 +69,21 @@ const wait=ms=>new Promise(resolve=>setTimeout(resolve,ms));
  pass('Fuji full-year price retained',doc.querySelector('#detailName')?.textContent?.includes('후지'));
  const kind=doc.querySelector('#kindSelect');kind.value='소매';kind.dispatchEvent(new dom.window.Event('change',{bubbles:true}));
  pass('Wholesaler/retail chart switch',doc.querySelector('#trendInfo').textContent.length>5);
- for(const tab of ['prices','seller','calendar']){doc.querySelector('[data-tab="'+tab+'"]').click();pass(tab+' menu tab',doc.querySelector('#'+tab)?.classList.contains('on'))}
+ for(const tab of ['prices','sourcing','seller','calendar']){doc.querySelector('[data-tab="'+tab+'"]').click();pass(tab+' menu tab',doc.querySelector('#'+tab)?.classList.contains('on'))}
+ const tops=[...doc.querySelectorAll('.sourcing-card')];
+ const seenFruit=new Set(latest.items.filter(x=>x.kind==='중도매'&&Number(x.pricePerKg)>0).map(x=>x.name));
+ const staleAge=Math.floor((Date.now()+9*3600000)/86400000)-Math.floor(Date.UTC(+latest.date.slice(0,4),+latest.date.slice(4,6)-1,+latest.date.slice(6,8))/86400000);
+ const shouldRank=staleAge>=-2&&staleAge<=7;
+ pass('Sourcing TOP 10 uses observed wholesale fruits',shouldRank?tops.length===Math.min(10,seenFruit.size):tops.length===0,'ranked='+tops.length+' observed='+seenFruit.size+' staleAge='+staleAge);
+ pass('Sourcing candidates show surveyed 1kg median',!shouldRank||tops.every(x=>x.textContent.includes('중도매 1kg 참고가')&&x.textContent.includes('원')));
+ pass('Sourcing data source supports historical comparisons',!shouldRank||sourcingHistory.length>0&&tops.some(x=>!x.textContent.includes('비교자료 부족')));
+ if(shouldRank&&tops.length){
+  tops[0].querySelector('[data-sourcing-view]')?.click();
+  pass('Sourcing opens actual fruit variety price details',!doc.querySelector('#detailSection')?.hidden&&doc.querySelector('#prices')?.classList.contains('on'));
+  doc.querySelector('[data-tab="sourcing"]').click();
+  doc.querySelector('.sourcing-card [data-sourcing-margin]')?.click();
+  pass('Sourcing margin button opens calculator',doc.querySelector('#seller')?.classList.contains('on'));
+ }
  doc.querySelector('#sale').value='24000';doc.querySelector('#sale').dispatchEvent(new dom.window.Event('input',{bubbles:true}));
  pass('Profit margin calculator',doc.querySelector('#profit')?.textContent.includes('원')&&doc.querySelector('#details')?.textContent.includes('손익분기'));
  pass('12 calendar months',doc.querySelectorAll('[data-month]').length===12);
