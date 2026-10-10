@@ -23,10 +23,10 @@ for(const name of ['fruit-varieties.json','year-index.json','latest.json']){
 const historyDir=path.join('data','history');
 const archiveCutoff=new Date(Date.now()-46*86400000).toISOString().slice(0,10).replaceAll('-','');
 const byKey=new Map();
-for(const file of fs.readdirSync(historyDir).filter(x=>/^\\d{3}\\.json$/.test(x))){
+for(const file of fs.readdirSync(historyDir).filter(x=>/^\d{3}\.json$/.test(x))){
  const doc=JSON.parse(fs.readFileSync(path.join(historyDir,file),'utf8'));
  for(const item of doc.samples||[]){
-  if(!item||!/^20\\d{6}$/.test(String(item.date||''))||item.date<archiveCutoff||!(Number(item.price)>0))continue;
+  if(!item||!/^20\d{6}$/.test(String(item.date||''))||item.date<archiveCutoff||!(Number(item.price)>0))continue;
   if(!(String(item.kind||'')).includes('중도매')||!item.name||!item.variety)continue;
   const key=[item.date,item.name,item.variety].join('|');
   const existing=byKey.get(key);
