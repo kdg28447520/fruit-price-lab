@@ -1,8 +1,8 @@
 {
-  "testedAt": "2026-10-10T08:32:19.277Z",
-  "total": 23,
-  "passed": 21,
-  "failed": 2,
+  "testedAt": "2026-10-10T08:32:50.616Z",
+  "total": 24,
+  "passed": 24,
+  "failed": 0,
   "fruitCategories": 20,
   "variantClicks": 34,
   "photoAssets": 26,
@@ -17,8 +17,7 @@
     },
     {
       "name": "Official price status",
-      "passed": false,
-      "detail": "status= 기준 조사일 20261008 · 최근 862건 / 1년간 가격 관측 품종 34종"
+      "passed": true
     },
     {
       "name": "Photo credits visible",
@@ -37,16 +36,19 @@
       "passed": true
     },
     {
+      "name": "Region selector initialized",
+      "passed": true
+    },
+    {
+      "name": "Region switch filters rows",
+      "passed": true
+    },
+    {
       "name": "Fuji older 1-year price displayed",
       "passed": true
     },
     {
-      "name": "Region selector initialized",
-      "passed": false,
-      "detail": ""
-    },
-    {
-      "name": "Region switch filters rows",
+      "name": "Fuji full-year price retained",
       "passed": true
     },
     {
