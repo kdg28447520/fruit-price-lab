@@ -19,12 +19,17 @@ jobs:
         with:
           node-version: '22'
       - run: node scripts/collect-prices.mjs
+      - name: Update current monthly fruit archive (real observed data only)
+        run: node scripts/update-month.mjs
+      - name: Build rolling 365-day fruit variety index
+        run: node scripts/build-year-index.mjs
       - name: Commit public observations
         run: |
           git config user.name "fruit-price-bot"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/history.json data/latest.json
+          git add data/history.json data/latest.json data/history/ data/year-index.json
           if ! git diff --cached --quiet; then
-            git commit -m "data: update official fruit price snapshots"
+            git commit -m "data: update daily and yearly fruit prices"
+            git pull --rebase
             git push
           fi
