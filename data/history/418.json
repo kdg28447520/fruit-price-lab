@@ -2,25 +2,9 @@
   "itemCode": "418",
   "source": "한국농수산식품유통공사 일별 도·소매 가격정보",
   "basis": "품종·거래유형별 시장/지역 1kg 환산가격 중간값",
-  "from": "20251013",
-  "to": "20261013",
+  "from": "20251014",
+  "to": "20261014",
   "samples": [
-    {
-      "date": "20251013",
-      "name": "바나나",
-      "variety": "수입",
-      "kind": "소매",
-      "price": 3000,
-      "sampleCount": 66
-    },
-    {
-      "date": "20251013",
-      "name": "바나나",
-      "variety": "수입",
-      "kind": "중도매",
-      "price": 2462,
-      "sampleCount": 10
-    },
     {
       "date": "20251014",
       "name": "바나나",
@@ -3903,6 +3887,22 @@
     },
     {
       "date": "20261012",
+      "name": "바나나",
+      "variety": "수입",
+      "kind": "중도매",
+      "price": 2308,
+      "sampleCount": 10
+    },
+    {
+      "date": "20261013",
+      "name": "바나나",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 3260,
+      "sampleCount": 54
+    },
+    {
+      "date": "20261013",
       "name": "바나나",
       "variety": "수입",
       "kind": "중도매",
