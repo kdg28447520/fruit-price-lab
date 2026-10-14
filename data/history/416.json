@@ -2,25 +2,9 @@
   "itemCode": "416",
   "source": "한국농수산식품유통공사 일별 도·소매 가격정보",
   "basis": "품종·거래유형별 시장/지역 1kg 환산가격 중간값",
-  "from": "20251014",
-  "to": "20261014",
+  "from": "20251015",
+  "to": "20261015",
   "samples": [
-    {
-      "date": "20251014",
-      "name": "단감",
-      "variety": "부유",
-      "kind": "소매",
-      "price": 8800,
-      "sampleCount": 76
-    },
-    {
-      "date": "20251014",
-      "name": "단감",
-      "variety": "부유",
-      "kind": "중도매",
-      "price": 3760,
-      "sampleCount": 10
-    },
     {
       "date": "20251015",
       "name": "단감",
@@ -1436,6 +1420,14 @@
       "kind": "소매",
       "price": 6540,
       "sampleCount": 38
+    },
+    {
+      "date": "20261014",
+      "name": "단감",
+      "variety": "부유",
+      "kind": "소매",
+      "price": 6280,
+      "sampleCount": 37
     }
   ],
   "complete": true
