@@ -2,73 +2,9 @@
   "itemCode": "414",
   "source": "한국농수산식품유통공사 일별 도·소매 가격정보",
   "basis": "품종·거래유형별 시장/지역 1kg 환산가격 중간값",
-  "from": "20251016",
-  "to": "20261016",
+  "from": "20251017",
+  "to": "20261017",
   "samples": [
-    {
-      "date": "20251016",
-      "name": "포도",
-      "variety": "거봉",
-      "kind": "소매",
-      "price": 11400,
-      "sampleCount": 34
-    },
-    {
-      "date": "20251016",
-      "name": "포도",
-      "variety": "거봉",
-      "kind": "중도매",
-      "price": 7500,
-      "sampleCount": 10
-    },
-    {
-      "date": "20251016",
-      "name": "포도",
-      "variety": "샤인머스켓",
-      "kind": "소매",
-      "price": 6300,
-      "sampleCount": 49
-    },
-    {
-      "date": "20251016",
-      "name": "포도",
-      "variety": "샤인머스켓",
-      "kind": "중도매",
-      "price": 4300,
-      "sampleCount": 10
-    },
-    {
-      "date": "20251016",
-      "name": "포도",
-      "variety": "캠벨얼리",
-      "kind": "소매",
-      "price": 7980,
-      "sampleCount": 54
-    },
-    {
-      "date": "20251016",
-      "name": "포도",
-      "variety": "캠벨얼리",
-      "kind": "중도매",
-      "price": 6100,
-      "sampleCount": 10
-    },
-    {
-      "date": "20251016",
-      "name": "포도",
-      "variety": "MBA",
-      "kind": "소매",
-      "price": 6140,
-      "sampleCount": 37
-    },
-    {
-      "date": "20251016",
-      "name": "포도",
-      "variety": "MBA",
-      "kind": "중도매",
-      "price": 4000,
-      "sampleCount": 10
-    },
     {
       "date": "20251017",
       "name": "포도",
