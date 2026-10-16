@@ -3188,6 +3188,22 @@
       "kind": "중도매",
       "price": 3056,
       "sampleCount": 9
+    },
+    {
+      "date": "20261016",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "소매",
+      "price": 12400,
+      "sampleCount": 22
+    },
+    {
+      "date": "20261016",
+      "name": "오렌지",
+      "variety": "네이블 호주",
+      "kind": "중도매",
+      "price": 3056,
+      "sampleCount": 9
     }
   ],
   "complete": true

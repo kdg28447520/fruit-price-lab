@@ -3988,6 +3988,22 @@
       "kind": "중도매",
       "price": 3163,
       "sampleCount": 10
+    },
+    {
+      "date": "20261016",
+      "name": "멜론",
+      "variety": "멜론",
+      "kind": "소매",
+      "price": 9980,
+      "sampleCount": 45
+    },
+    {
+      "date": "20261016",
+      "name": "멜론",
+      "variety": "멜론",
+      "kind": "중도매",
+      "price": 3163,
+      "sampleCount": 10
     }
   ],
   "complete": true

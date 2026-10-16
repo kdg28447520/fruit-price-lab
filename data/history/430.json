@@ -1948,6 +1948,14 @@
       "kind": "소매",
       "price": 1980,
       "sampleCount": 35
+    },
+    {
+      "date": "20261016",
+      "name": "아보카도",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 1980,
+      "sampleCount": 35
     }
   ],
   "complete": true

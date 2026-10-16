@@ -6260,6 +6260,30 @@
       "kind": "소매",
       "price": 7970,
       "sampleCount": 18
+    },
+    {
+      "date": "20261016",
+      "name": "방울토마토",
+      "variety": "대추방울토마토",
+      "kind": "소매",
+      "price": 8660,
+      "sampleCount": 50
+    },
+    {
+      "date": "20261016",
+      "name": "방울토마토",
+      "variety": "대추방울토마토",
+      "kind": "중도매",
+      "price": 6433,
+      "sampleCount": 10
+    },
+    {
+      "date": "20261016",
+      "name": "방울토마토",
+      "variety": "방울토마토",
+      "kind": "소매",
+      "price": 7970,
+      "sampleCount": 18
     }
   ],
   "complete": true

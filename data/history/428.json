@@ -3884,6 +3884,22 @@
       "kind": "중도매",
       "price": 14000,
       "sampleCount": 4
+    },
+    {
+      "date": "20261016",
+      "name": "망고",
+      "variety": "수입",
+      "kind": "소매",
+      "price": 6490,
+      "sampleCount": 25
+    },
+    {
+      "date": "20261016",
+      "name": "망고",
+      "variety": "수입",
+      "kind": "중도매",
+      "price": 14000,
+      "sampleCount": 4
     }
   ],
   "complete": true

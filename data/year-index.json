@@ -5,48 +5,48 @@
     "from": "20251017",
     "to": "20261017"
   },
-  "generatedAt": "2026-10-16T18:45:06.447Z",
+  "generatedAt": "2026-10-16T23:27:23.968Z",
   "itemCount": 20,
   "varietyCount": 34,
-  "totalObservedGroupDays": 8124,
+  "totalObservedGroupDays": 8163,
   "items": [
     {
       "name": "감귤",
       "itemCode": "415",
-      "latestDate": "20261015",
-      "observedDays": 171,
+      "latestDate": "20261016",
+      "observedDays": 172,
       "varieties": [
         {
           "name": "노지",
-          "latestDate": "20261015",
-          "observedDays": 95,
-          "records": 185,
+          "latestDate": "20261016",
+          "observedDays": 96,
+          "records": 187,
           "kinds": {
             "중도매": {
-              "date": "20261015",
+              "date": "20261016",
               "price": 3060,
               "sampleCount": 10
             },
             "소매": {
-              "date": "20261015",
-              "price": 2810,
-              "sampleCount": 61
+              "date": "20261016",
+              "price": 3240,
+              "sampleCount": 77
             }
           }
         },
         {
           "name": "시설",
-          "latestDate": "20261015",
-          "observedDays": 120,
-          "records": 231,
+          "latestDate": "20261016",
+          "observedDays": 121,
+          "records": 233,
           "kinds": {
             "소매": {
-              "date": "20261015",
-              "price": 5640,
-              "sampleCount": 74
+              "date": "20261016",
+              "price": 4630,
+              "sampleCount": 73
             },
             "중도매": {
-              "date": "20261015",
+              "date": "20261016",
               "price": 6000,
               "sampleCount": 8
             }
@@ -70,24 +70,24 @@
     {
       "name": "단감",
       "itemCode": "416",
-      "latestDate": "20261015",
-      "observedDays": 121,
+      "latestDate": "20261016",
+      "observedDays": 122,
       "varieties": [
         {
           "name": "부유",
-          "latestDate": "20261015",
-          "observedDays": 121,
-          "records": 175,
+          "latestDate": "20261016",
+          "observedDays": 122,
+          "records": 180,
           "kinds": {
             "소매": {
-              "date": "20261015",
-              "price": 6250,
-              "sampleCount": 43
+              "date": "20261016",
+              "price": 6650,
+              "sampleCount": 44
             },
             "중도매": {
-              "date": "20251231",
-              "price": 3160,
-              "sampleCount": 10
+              "date": "20261016",
+              "price": 4350,
+              "sampleCount": 8
             },
             "친환경농산물(신규)": {
               "date": "20251104",
@@ -137,22 +137,22 @@
     {
       "name": "레몬",
       "itemCode": "424",
-      "latestDate": "20261015",
-      "observedDays": 243,
+      "latestDate": "20261016",
+      "observedDays": 244,
       "varieties": [
         {
           "name": "수입",
-          "latestDate": "20261015",
-          "observedDays": 243,
-          "records": 486,
+          "latestDate": "20261016",
+          "observedDays": 244,
+          "records": 488,
           "kinds": {
             "소매": {
-              "date": "20261015",
+              "date": "20261016",
               "price": 7130,
               "sampleCount": 53
             },
             "중도매": {
-              "date": "20261015",
+              "date": "20261016",
               "price": 3176,
               "sampleCount": 10
             }
@@ -163,22 +163,22 @@
     {
       "name": "망고",
       "itemCode": "428",
-      "latestDate": "20261015",
-      "observedDays": 243,
+      "latestDate": "20261016",
+      "observedDays": 244,
       "varieties": [
         {
           "name": "수입",
-          "latestDate": "20261015",
-          "observedDays": 243,
-          "records": 485,
+          "latestDate": "20261016",
+          "observedDays": 244,
+          "records": 487,
           "kinds": {
             "소매": {
-              "date": "20261015",
+              "date": "20261016",
               "price": 6490,
               "sampleCount": 25
             },
             "중도매": {
-              "date": "20261015",
+              "date": "20261016",
               "price": 14000,
               "sampleCount": 4
             }
@@ -189,22 +189,22 @@
     {
       "name": "멜론",
       "itemCode": "257",
-      "latestDate": "20261015",
-      "observedDays": 243,
+      "latestDate": "20261016",
+      "observedDays": 244,
       "varieties": [
         {
           "name": "멜론",
-          "latestDate": "20261015",
-          "observedDays": 243,
-          "records": 498,
+          "latestDate": "20261016",
+          "observedDays": 244,
+          "records": 500,
           "kinds": {
             "소매": {
-              "date": "20261015",
+              "date": "20261016",
               "price": 9980,
               "sampleCount": 45
             },
             "중도매": {
-              "date": "20261015",
+              "date": "20261016",
               "price": 3163,
               "sampleCount": 10
             },
@@ -220,22 +220,22 @@
     {
       "name": "바나나",
       "itemCode": "418",
-      "latestDate": "20261015",
-      "observedDays": 243,
+      "latestDate": "20261016",
+      "observedDays": 244,
       "varieties": [
         {
           "name": "수입",
-          "latestDate": "20261015",
-          "observedDays": 243,
-          "records": 486,
+          "latestDate": "20261016",
+          "observedDays": 244,
+          "records": 488,
           "kinds": {
             "소매": {
-              "date": "20261015",
+              "date": "20261016",
               "price": 3300,
               "sampleCount": 54
             },
             "중도매": {
-              "date": "20261015",
+              "date": "20261016",
               "price": 2308,
               "sampleCount": 10
             }
@@ -246,22 +246,22 @@
     {
       "name": "방울토마토",
       "itemCode": "422",
-      "latestDate": "20261015",
-      "observedDays": 243,
+      "latestDate": "20261016",
+      "observedDays": 244,
       "varieties": [
         {
           "name": "대추방울토마토",
-          "latestDate": "20261015",
-          "observedDays": 243,
-          "records": 486,
+          "latestDate": "20261016",
+          "observedDays": 244,
+          "records": 488,
           "kinds": {
             "소매": {
-              "date": "20261015",
-              "price": 9660,
+              "date": "20261016",
+              "price": 8660,
               "sampleCount": 50
             },
             "중도매": {
-              "date": "20261015",
+              "date": "20261016",
               "price": 6433,
               "sampleCount": 10
             }
@@ -269,12 +269,12 @@
         },
         {
           "name": "방울토마토",
-          "latestDate": "20261015",
-          "observedDays": 243,
-          "records": 296,
+          "latestDate": "20261016",
+          "observedDays": 244,
+          "records": 297,
           "kinds": {
             "소매": {
-              "date": "20261015",
+              "date": "20261016",
               "price": 7970,
               "sampleCount": 18
             },
@@ -295,22 +295,22 @@
     {
       "name": "배",
       "itemCode": "412",
-      "latestDate": "20261015",
-      "observedDays": 243,
+      "latestDate": "20261016",
+      "observedDays": 244,
       "varieties": [
         {
           "name": "신고",
-          "latestDate": "20261015",
-          "observedDays": 235,
-          "records": 474,
+          "latestDate": "20261016",
+          "observedDays": 236,
+          "records": 476,
           "kinds": {
             "소매": {
-              "date": "20261015",
+              "date": "20261016",
               "price": 19900,
-              "sampleCount": 79
+              "sampleCount": 80
             },
             "중도매": {
-              "date": "20261015",
+              "date": "20261016",
               "price": 3213,
               "sampleCount": 10
             },
@@ -370,17 +370,17 @@
     {
       "name": "블루베리",
       "itemCode": "429",
-      "latestDate": "20261015",
-      "observedDays": 54,
+      "latestDate": "20261016",
+      "observedDays": 55,
       "varieties": [
         {
           "name": "수입(냉동)",
-          "latestDate": "20261015",
-          "observedDays": 29,
-          "records": 29,
+          "latestDate": "20261016",
+          "observedDays": 30,
+          "records": 30,
           "kinds": {
             "소매": {
-              "date": "20261015",
+              "date": "20261016",
               "price": 11900,
               "sampleCount": 28
             }
@@ -404,14 +404,14 @@
     {
       "name": "사과",
       "itemCode": "411",
-      "latestDate": "20261015",
-      "observedDays": 243,
+      "latestDate": "20261016",
+      "observedDays": 244,
       "varieties": [
         {
           "name": "시나노골드",
-          "latestDate": "20261015",
-          "observedDays": 4,
-          "records": 4,
+          "latestDate": "20261016",
+          "observedDays": 5,
+          "records": 5,
           "kinds": {
             "중도매": {
               "date": "20260911",
@@ -419,25 +419,25 @@
               "sampleCount": 2
             },
             "소매": {
-              "date": "20261015",
+              "date": "20261016",
               "price": 20500,
-              "sampleCount": 27
+              "sampleCount": 31
             }
           }
         },
         {
           "name": "홍로",
-          "latestDate": "20261015",
-          "observedDays": 63,
-          "records": 105,
+          "latestDate": "20261016",
+          "observedDays": 64,
+          "records": 107,
           "kinds": {
             "소매": {
-              "date": "20261015",
-              "price": 17100,
-              "sampleCount": 90
+              "date": "20261016",
+              "price": 16600,
+              "sampleCount": 91
             },
             "중도매": {
-              "date": "20261015",
+              "date": "20261016",
               "price": 4500,
               "sampleCount": 6
             }
@@ -489,22 +489,22 @@
     {
       "name": "수박",
       "itemCode": "221",
-      "latestDate": "20261015",
-      "observedDays": 243,
+      "latestDate": "20261016",
+      "observedDays": 244,
       "varieties": [
         {
           "name": "수박",
-          "latestDate": "20261015",
-          "observedDays": 243,
-          "records": 493,
+          "latestDate": "20261016",
+          "observedDays": 244,
+          "records": 495,
           "kinds": {
             "소매": {
-              "date": "20261015",
+              "date": "20261016",
               "price": 20000,
               "sampleCount": 30
             },
             "중도매": {
-              "date": "20261015",
+              "date": "20261016",
               "price": 16300,
               "sampleCount": 10
             },
@@ -520,17 +520,17 @@
     {
       "name": "아보카도",
       "itemCode": "430",
-      "latestDate": "20261015",
-      "observedDays": 243,
+      "latestDate": "20261016",
+      "observedDays": 244,
       "varieties": [
         {
           "name": "수입",
-          "latestDate": "20261015",
-          "observedDays": 243,
-          "records": 243,
+          "latestDate": "20261016",
+          "observedDays": 244,
+          "records": 244,
           "kinds": {
             "소매": {
-              "date": "20261015",
+              "date": "20261016",
               "price": 1980,
               "sampleCount": 35
             }
@@ -541,22 +541,22 @@
     {
       "name": "오렌지",
       "itemCode": "421",
-      "latestDate": "20261015",
-      "observedDays": 213,
+      "latestDate": "20261016",
+      "observedDays": 214,
       "varieties": [
         {
           "name": "네이블 호주",
-          "latestDate": "20261015",
-          "observedDays": 96,
-          "records": 192,
+          "latestDate": "20261016",
+          "observedDays": 97,
+          "records": 194,
           "kinds": {
             "소매": {
-              "date": "20261015",
+              "date": "20261016",
               "price": 12400,
               "sampleCount": 22
             },
             "중도매": {
-              "date": "20261015",
+              "date": "20261016",
               "price": 3056,
               "sampleCount": 9
             }
@@ -699,22 +699,22 @@
     {
       "name": "파인애플",
       "itemCode": "420",
-      "latestDate": "20261015",
-      "observedDays": 243,
+      "latestDate": "20261016",
+      "observedDays": 244,
       "varieties": [
         {
           "name": "수입",
-          "latestDate": "20261015",
-          "observedDays": 243,
-          "records": 486,
+          "latestDate": "20261016",
+          "observedDays": 244,
+          "records": 488,
           "kinds": {
             "소매": {
-              "date": "20261015",
-              "price": 6990,
-              "sampleCount": 35
+              "date": "20261016",
+              "price": 7000,
+              "sampleCount": 34
             },
             "중도매": {
-              "date": "20261015",
+              "date": "20261016",
               "price": 3250,
               "sampleCount": 8
             }
@@ -725,22 +725,22 @@
     {
       "name": "포도",
       "itemCode": "414",
-      "latestDate": "20261015",
-      "observedDays": 181,
+      "latestDate": "20261016",
+      "observedDays": 182,
       "varieties": [
         {
           "name": "거봉",
-          "latestDate": "20261015",
-          "observedDays": 85,
-          "records": 156,
+          "latestDate": "20261016",
+          "observedDays": 86,
+          "records": 158,
           "kinds": {
             "소매": {
-              "date": "20261015",
-              "price": 9000,
-              "sampleCount": 26
+              "date": "20261016",
+              "price": 8950,
+              "sampleCount": 29
             },
             "중도매": {
-              "date": "20261015",
+              "date": "20261016",
               "price": 6000,
               "sampleCount": 8
             }
@@ -748,17 +748,17 @@
         },
         {
           "name": "샤인머스켓",
-          "latestDate": "20261015",
-          "observedDays": 181,
-          "records": 354,
+          "latestDate": "20261016",
+          "observedDays": 182,
+          "records": 356,
           "kinds": {
             "소매": {
-              "date": "20261015",
+              "date": "20261016",
               "price": 5000,
               "sampleCount": 44
             },
             "중도매": {
-              "date": "20261015",
+              "date": "20261016",
               "price": 4330,
               "sampleCount": 10
             }
@@ -766,17 +766,17 @@
         },
         {
           "name": "캠벨얼리",
-          "latestDate": "20261015",
-          "observedDays": 86,
-          "records": 170,
+          "latestDate": "20261016",
+          "observedDays": 87,
+          "records": 172,
           "kinds": {
             "소매": {
-              "date": "20261015",
+              "date": "20261016",
               "price": 7660,
               "sampleCount": 46
             },
             "중도매": {
-              "date": "20261015",
+              "date": "20261016",
               "price": 5533,
               "sampleCount": 8
             },

@@ -1390,6 +1390,14 @@
       "sampleCount": 38
     },
     {
+      "date": "20261013",
+      "name": "단감",
+      "variety": "부유",
+      "kind": "중도매",
+      "price": 4500,
+      "sampleCount": 8
+    },
+    {
       "date": "20261014",
       "name": "단감",
       "variety": "부유",
@@ -1398,12 +1406,44 @@
       "sampleCount": 37
     },
     {
+      "date": "20261014",
+      "name": "단감",
+      "variety": "부유",
+      "kind": "중도매",
+      "price": 4350,
+      "sampleCount": 8
+    },
+    {
       "date": "20261015",
       "name": "단감",
       "variety": "부유",
       "kind": "소매",
       "price": 6250,
       "sampleCount": 43
+    },
+    {
+      "date": "20261015",
+      "name": "단감",
+      "variety": "부유",
+      "kind": "중도매",
+      "price": 4350,
+      "sampleCount": 8
+    },
+    {
+      "date": "20261016",
+      "name": "단감",
+      "variety": "부유",
+      "kind": "소매",
+      "price": 6650,
+      "sampleCount": 44
+    },
+    {
+      "date": "20261016",
+      "name": "단감",
+      "variety": "부유",
+      "kind": "중도매",
+      "price": 4350,
+      "sampleCount": 8
     }
   ],
   "complete": true

@@ -5740,6 +5740,54 @@
       "kind": "중도매",
       "price": 5533,
       "sampleCount": 8
+    },
+    {
+      "date": "20261016",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "소매",
+      "price": 8950,
+      "sampleCount": 29
+    },
+    {
+      "date": "20261016",
+      "name": "포도",
+      "variety": "거봉",
+      "kind": "중도매",
+      "price": 6000,
+      "sampleCount": 8
+    },
+    {
+      "date": "20261016",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "소매",
+      "price": 5000,
+      "sampleCount": 44
+    },
+    {
+      "date": "20261016",
+      "name": "포도",
+      "variety": "샤인머스켓",
+      "kind": "중도매",
+      "price": 4330,
+      "sampleCount": 10
+    },
+    {
+      "date": "20261016",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "소매",
+      "price": 7660,
+      "sampleCount": 46
+    },
+    {
+      "date": "20261016",
+      "name": "포도",
+      "variety": "캠벨얼리",
+      "kind": "중도매",
+      "price": 5533,
+      "sampleCount": 8
     }
   ],
   "complete": true

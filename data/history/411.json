@@ -4812,6 +4812,30 @@
       "kind": "중도매",
       "price": 4500,
       "sampleCount": 6
+    },
+    {
+      "date": "20261016",
+      "name": "사과",
+      "variety": "시나노골드",
+      "kind": "소매",
+      "price": 20500,
+      "sampleCount": 31
+    },
+    {
+      "date": "20261016",
+      "name": "사과",
+      "variety": "홍로",
+      "kind": "소매",
+      "price": 16600,
+      "sampleCount": 91
+    },
+    {
+      "date": "20261016",
+      "name": "사과",
+      "variety": "홍로",
+      "kind": "중도매",
+      "price": 4500,
+      "sampleCount": 6
     }
   ],
   "complete": true

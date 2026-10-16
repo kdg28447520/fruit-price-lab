@@ -3532,6 +3532,38 @@
       "kind": "중도매",
       "price": 6000,
       "sampleCount": 8
+    },
+    {
+      "date": "20261016",
+      "name": "감귤",
+      "variety": "노지",
+      "kind": "소매",
+      "price": 3240,
+      "sampleCount": 77
+    },
+    {
+      "date": "20261016",
+      "name": "감귤",
+      "variety": "노지",
+      "kind": "중도매",
+      "price": 3060,
+      "sampleCount": 10
+    },
+    {
+      "date": "20261016",
+      "name": "감귤",
+      "variety": "시설",
+      "kind": "소매",
+      "price": 4630,
+      "sampleCount": 73
+    },
+    {
+      "date": "20261016",
+      "name": "감귤",
+      "variety": "시설",
+      "kind": "중도매",
+      "price": 6000,
+      "sampleCount": 8
     }
   ],
   "complete": true

@@ -3948,6 +3948,22 @@
       "kind": "중도매",
       "price": 16300,
       "sampleCount": 10
+    },
+    {
+      "date": "20261016",
+      "name": "수박",
+      "variety": "수박",
+      "kind": "소매",
+      "price": 20000,
+      "sampleCount": 30
+    },
+    {
+      "date": "20261016",
+      "name": "수박",
+      "variety": "수박",
+      "kind": "중도매",
+      "price": 16300,
+      "sampleCount": 10
     }
   ],
   "complete": true

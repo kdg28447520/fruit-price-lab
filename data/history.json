@@ -902,8 +902,197 @@
       "kind": "소매",
       "price": 6800,
       "sampleCount": 116
+    },
+    {
+      "date": "20261016",
+      "name": "감귤",
+      "kind": "중도매",
+      "price": 3860,
+      "sampleCount": 18
+    },
+    {
+      "date": "20261016",
+      "name": "감귤",
+      "kind": "소매",
+      "price": 3770,
+      "sampleCount": 150
+    },
+    {
+      "date": "20261016",
+      "name": "단감",
+      "kind": "중도매",
+      "price": 4350,
+      "sampleCount": 8
+    },
+    {
+      "date": "20261016",
+      "name": "단감",
+      "kind": "소매",
+      "price": 6650,
+      "sampleCount": 44
+    },
+    {
+      "date": "20261016",
+      "name": "레몬",
+      "kind": "소매",
+      "price": 7130,
+      "sampleCount": 53
+    },
+    {
+      "date": "20261016",
+      "name": "레몬",
+      "kind": "중도매",
+      "price": 3176,
+      "sampleCount": 10
+    },
+    {
+      "date": "20261016",
+      "name": "망고",
+      "kind": "중도매",
+      "price": 14000,
+      "sampleCount": 4
+    },
+    {
+      "date": "20261016",
+      "name": "망고",
+      "kind": "소매",
+      "price": 6490,
+      "sampleCount": 25
+    },
+    {
+      "date": "20261016",
+      "name": "멜론",
+      "kind": "중도매",
+      "price": 3163,
+      "sampleCount": 10
+    },
+    {
+      "date": "20261016",
+      "name": "멜론",
+      "kind": "소매",
+      "price": 9980,
+      "sampleCount": 45
+    },
+    {
+      "date": "20261016",
+      "name": "바나나",
+      "kind": "중도매",
+      "price": 2308,
+      "sampleCount": 10
+    },
+    {
+      "date": "20261016",
+      "name": "바나나",
+      "kind": "소매",
+      "price": 3300,
+      "sampleCount": 54
+    },
+    {
+      "date": "20261016",
+      "name": "방울토마토",
+      "kind": "소매",
+      "price": 8660,
+      "sampleCount": 68
+    },
+    {
+      "date": "20261016",
+      "name": "방울토마토",
+      "kind": "중도매",
+      "price": 6433,
+      "sampleCount": 10
+    },
+    {
+      "date": "20261016",
+      "name": "배",
+      "kind": "중도매",
+      "price": 3213,
+      "sampleCount": 10
+    },
+    {
+      "date": "20261016",
+      "name": "배",
+      "kind": "소매",
+      "price": 19900,
+      "sampleCount": 80
+    },
+    {
+      "date": "20261016",
+      "name": "블루베리",
+      "kind": "소매",
+      "price": 11900,
+      "sampleCount": 28
+    },
+    {
+      "date": "20261016",
+      "name": "사과",
+      "kind": "중도매",
+      "price": 4500,
+      "sampleCount": 6
+    },
+    {
+      "date": "20261016",
+      "name": "사과",
+      "kind": "소매",
+      "price": 17900,
+      "sampleCount": 122
+    },
+    {
+      "date": "20261016",
+      "name": "수박",
+      "kind": "중도매",
+      "price": 16300,
+      "sampleCount": 10
+    },
+    {
+      "date": "20261016",
+      "name": "수박",
+      "kind": "소매",
+      "price": 20000,
+      "sampleCount": 30
+    },
+    {
+      "date": "20261016",
+      "name": "오렌지",
+      "kind": "중도매",
+      "price": 3056,
+      "sampleCount": 9
+    },
+    {
+      "date": "20261016",
+      "name": "오렌지",
+      "kind": "소매",
+      "price": 12400,
+      "sampleCount": 22
+    },
+    {
+      "date": "20261016",
+      "name": "파인애플",
+      "kind": "중도매",
+      "price": 3250,
+      "sampleCount": 8
+    },
+    {
+      "date": "20261016",
+      "name": "파인애플",
+      "kind": "소매",
+      "price": 7000,
+      "sampleCount": 34
+    },
+    {
+      "date": "20261016",
+      "name": "포도",
+      "kind": "중도매",
+      "price": 5150,
+      "sampleCount": 26
+    },
+    {
+      "date": "20261016",
+      "name": "포도",
+      "kind": "소매",
+      "price": 7930,
+      "sampleCount": 87
     }
   ],
   "source": "aT public API, price-per-kilogram median by fruit and wholesale/retail type",
-  "lastCollectedAt": "2026-10-16T18:44:34.091Z"
+  "lastCollectedAt": "2026-10-16T23:27:01.766Z"
 }

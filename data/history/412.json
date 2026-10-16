@@ -4316,6 +4316,22 @@
       "kind": "중도매",
       "price": 3213,
       "sampleCount": 10
+    },
+    {
+      "date": "20261016",
+      "name": "배",
+      "variety": "신고",
+      "kind": "소매",
+      "price": 19900,
+      "sampleCount": 80
+    },
+    {
+      "date": "20261016",
+      "name": "배",
+      "variety": "신고",
+      "kind": "중도매",
+      "price": 3213,
+      "sampleCount": 10
     }
   ],
   "complete": true
