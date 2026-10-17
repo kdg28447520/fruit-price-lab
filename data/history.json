@@ -1089,10 +1089,10 @@
       "date": "20261016",
       "name": "포도",
       "kind": "소매",
-      "price": 7930,
-      "sampleCount": 87
+      "price": 7000,
+      "sampleCount": 119
     }
   ],
   "source": "aT public API, price-per-kilogram median by fruit and wholesale/retail type",
-  "lastCollectedAt": "2026-10-17T12:53:42.303Z"
+  "lastCollectedAt": "2026-10-17T17:50:22.855Z"
 }
