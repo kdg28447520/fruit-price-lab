@@ -2,10 +2,10 @@
   "source": "한국농수산식품유통공사(aT) 공식 일별 도·소매 가격정보",
   "basis": "지역/시장별 1kg 환산 실측값을 날짜·품종·거래유형 단위로 묶어 중간값 적용",
   "range": {
-    "from": "20251018",
-    "to": "20261018"
+    "from": "20251019",
+    "to": "20261019"
   },
-  "generatedAt": "2026-10-18T13:10:04.835Z",
+  "generatedAt": "2026-10-18T18:00:16.982Z",
   "itemCount": 20,
   "varietyCount": 34,
   "totalObservedGroupDays": 8126,
